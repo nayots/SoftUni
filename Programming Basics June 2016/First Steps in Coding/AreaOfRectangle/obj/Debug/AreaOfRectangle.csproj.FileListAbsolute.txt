@@ -3,3 +3,4 @@ C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics
 C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\AreaOfRectangle\bin\Debug\AreaOfRectangle.pdb
 C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\AreaOfRectangle\obj\Debug\AreaOfRectangle.exe
 C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\AreaOfRectangle\obj\Debug\AreaOfRectangle.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\AreaOfRectangle\obj\Debug\AreaOfRectangle.csprojResolveAssemblyReference.cache
