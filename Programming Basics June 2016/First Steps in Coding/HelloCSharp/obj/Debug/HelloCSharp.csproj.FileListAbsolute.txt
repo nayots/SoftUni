@@ -1,0 +1,9 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\HelloCSharp\bin\Debug\HelloCSharp.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\HelloCSharp\bin\Debug\HelloCSharp.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\HelloCSharp\bin\Debug\HelloCSharp.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\HelloCSharp\obj\Debug\HelloCSharp.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\HelloCSharp\bin\Debug\HelloCSharp.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\HelloCSharp\obj\Debug\HelloCSharp.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\HelloCSharp\obj\Debug\HelloCSharp.pdb

@@ -1,0 +1,18 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\bin\Debug\Sumator.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\bin\Debug\Sumator.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\bin\Debug\Sumator.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\obj\Debug\Sumator.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\obj\Debug\Sumator.Sumator.resources
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\obj\Debug\Sumator.Properties.Resources.resources
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\obj\Debug\Sumator.csproj.GenerateResource.Cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\obj\Debug\Sumator.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\HelloCSharp\Sumator\obj\Debug\Sumator.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\bin\Debug\Sumator.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\obj\Debug\Sumator.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\obj\Debug\Sumator.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\bin\Debug\Sumator.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\bin\Debug\Sumator.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\obj\Debug\Sumator.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\obj\Debug\Sumator.Sumator.resources
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\obj\Debug\Sumator.Properties.Resources.resources
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\Sumator\obj\Debug\Sumator.csproj.GenerateResource.Cache
