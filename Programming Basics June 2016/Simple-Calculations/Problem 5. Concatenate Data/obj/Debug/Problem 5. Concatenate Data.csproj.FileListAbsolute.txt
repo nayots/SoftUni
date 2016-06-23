@@ -1,0 +1,5 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 5. Concatenate Data\bin\Debug\Problem_5.Concatenate_Data.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 5. Concatenate Data\bin\Debug\Problem_5.Concatenate_Data.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 5. Concatenate Data\bin\Debug\Problem_5.Concatenate_Data.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 5. Concatenate Data\obj\Debug\Problem_5.Concatenate_Data.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 5. Concatenate Data\obj\Debug\Problem_5.Concatenate_Data.pdb

@@ -1,0 +1,5 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 15. 1000 DAB\bin\Debug\Problem 15. 1000 DAB.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 15. 1000 DAB\bin\Debug\Problem 15. 1000 DAB.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 15. 1000 DAB\bin\Debug\Problem 15. 1000 DAB.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 15. 1000 DAB\obj\Debug\Problem 15. 1000 DAB.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 15. 1000 DAB\obj\Debug\Problem 15. 1000 DAB.pdb

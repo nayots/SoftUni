@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 2. Square_Area\bin\Debug\Problem_2.Square_Area.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 2. Square_Area\bin\Debug\Problem_2.Square_Area.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 2. Square_Area\bin\Debug\Problem_2.Square_Area.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 2. Square_Area\obj\Debug\Problem 2. Square_Area.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 2. Square_Area\obj\Debug\Problem_2.Square_Area.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 2. Square_Area\obj\Debug\Problem_2.Square_Area.pdb
