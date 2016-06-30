@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\TimePlusMinutes\bin\Debug\TimePlusMinutes.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\TimePlusMinutes\bin\Debug\TimePlusMinutes.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\TimePlusMinutes\bin\Debug\TimePlusMinutes.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\TimePlusMinutes\obj\Debug\TimePlusMinutes.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\TimePlusMinutes\obj\Debug\TimePlusMinutes.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\TimePlusMinutes\obj\Debug\TimePlusMinutes.pdb

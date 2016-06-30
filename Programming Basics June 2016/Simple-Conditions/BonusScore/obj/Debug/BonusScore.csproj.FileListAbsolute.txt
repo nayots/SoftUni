@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\BonusScore\bin\Debug\BonusScore.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\BonusScore\bin\Debug\BonusScore.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\BonusScore\bin\Debug\BonusScore.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\BonusScore\obj\Debug\BonusScore.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\BonusScore\obj\Debug\BonusScore.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Conditions\BonusScore\obj\Debug\BonusScore.pdb
