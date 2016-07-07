@@ -1,0 +1,5 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Cinema\bin\Debug\Cinema.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Cinema\bin\Debug\Cinema.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Cinema\bin\Debug\Cinema.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Cinema\obj\Debug\Cinema.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Cinema\obj\Debug\Cinema.pdb

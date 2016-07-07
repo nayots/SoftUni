@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Volleyball\bin\Debug\Volleyball.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Volleyball\bin\Debug\Volleyball.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Volleyball\bin\Debug\Volleyball.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Volleyball\obj\Debug\Volleyball.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Volleyball\obj\Debug\Volleyball.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Volleyball\obj\Debug\Volleyball.pdb

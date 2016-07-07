@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Point in the Figure\bin\Debug\Point in the Figure.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Point in the Figure\bin\Debug\Point in the Figure.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Point in the Figure\bin\Debug\Point in the Figure.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Point in the Figure\obj\Debug\Point in the Figure.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Point in the Figure\obj\Debug\Point in the Figure.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Point in the Figure\obj\Debug\Point in the Figure.pdb
