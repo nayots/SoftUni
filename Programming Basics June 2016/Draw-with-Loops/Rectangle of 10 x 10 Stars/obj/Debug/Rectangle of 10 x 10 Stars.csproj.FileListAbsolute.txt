@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of 10 x 10 Stars\bin\Debug\Rectangle of 10 x 10 Stars.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of 10 x 10 Stars\bin\Debug\Rectangle of 10 x 10 Stars.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of 10 x 10 Stars\bin\Debug\Rectangle of 10 x 10 Stars.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of 10 x 10 Stars\obj\Debug\Rectangle of 10 x 10 Stars.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of 10 x 10 Stars\obj\Debug\Rectangle of 10 x 10 Stars.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of 10 x 10 Stars\obj\Debug\Rectangle of 10 x 10 Stars.pdb
