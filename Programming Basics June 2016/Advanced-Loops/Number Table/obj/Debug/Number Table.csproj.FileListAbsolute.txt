@@ -1,0 +1,5 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Table\bin\Debug\Number Table.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Table\bin\Debug\Number Table.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Table\bin\Debug\Number Table.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Table\obj\Debug\Number Table.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Table\obj\Debug\Number Table.pdb

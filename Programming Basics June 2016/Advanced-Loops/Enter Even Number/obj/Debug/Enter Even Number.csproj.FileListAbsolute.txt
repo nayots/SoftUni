@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Enter Even Number\bin\Debug\Enter Even Number.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Enter Even Number\bin\Debug\Enter Even Number.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Enter Even Number\bin\Debug\Enter Even Number.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Enter Even Number\obj\Debug\Enter Even Number.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Enter Even Number\obj\Debug\Enter Even Number.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Enter Even Number\obj\Debug\Enter Even Number.pdb

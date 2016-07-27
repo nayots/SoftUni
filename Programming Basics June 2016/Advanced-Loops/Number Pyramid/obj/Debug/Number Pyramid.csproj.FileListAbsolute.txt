@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Pyramid\bin\Debug\Number Pyramid.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Pyramid\bin\Debug\Number Pyramid.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Pyramid\bin\Debug\Number Pyramid.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Pyramid\obj\Debug\Number Pyramid.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Pyramid\obj\Debug\Number Pyramid.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Number Pyramid\obj\Debug\Number Pyramid.pdb
