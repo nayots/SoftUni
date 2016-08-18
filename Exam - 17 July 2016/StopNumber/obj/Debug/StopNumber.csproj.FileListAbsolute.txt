@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\StopNumber\bin\Debug\StopNumber.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\StopNumber\bin\Debug\StopNumber.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\StopNumber\bin\Debug\StopNumber.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\StopNumber\obj\Debug\StopNumber.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\StopNumber\obj\Debug\StopNumber.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\StopNumber\obj\Debug\StopNumber.pdb
