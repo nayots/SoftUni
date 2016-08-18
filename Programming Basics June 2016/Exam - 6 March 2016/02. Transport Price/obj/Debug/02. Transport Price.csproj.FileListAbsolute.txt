@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\02. Transport Price\bin\Debug\_02.Transport_Price.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\02. Transport Price\bin\Debug\_02.Transport_Price.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\02. Transport Price\bin\Debug\_02.Transport_Price.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\02. Transport Price\obj\Debug\02. Transport Price.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\02. Transport Price\obj\Debug\_02.Transport_Price.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\02. Transport Price\obj\Debug\_02.Transport_Price.pdb
