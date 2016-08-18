@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\01. Training Lab\bin\Debug\_01.Training_Lab.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\01. Training Lab\bin\Debug\_01.Training_Lab.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\01. Training Lab\bin\Debug\_01.Training_Lab.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\01. Training Lab\obj\Debug\01. Training Lab.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\01. Training Lab\obj\Debug\_01.Training_Lab.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\01. Training Lab\obj\Debug\_01.Training_Lab.pdb
