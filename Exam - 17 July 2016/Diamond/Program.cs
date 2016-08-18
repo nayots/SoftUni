@@ -14,11 +14,11 @@ class Diamond
                 {
                     Console.Write("*");
                 }
-                else if (col == n - row || col == ((6 * n) - 1) - row)//  //
+                else if (col == n - row || col == ((6 * n) - 1) - row)//  // lines
                 {
                     Console.Write("*");
                 }
-                else if (col == ((5 * n) - n) + row-1 || col == row - n)//  \\
+                else if (col == ((5 * n) - n) + row-1 || col == row - n)//  \\ lines
                 {
                     Console.Write("*");
                 }

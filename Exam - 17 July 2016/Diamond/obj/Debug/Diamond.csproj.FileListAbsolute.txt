@@ -4,3 +4,9 @@ C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\Diamon
 C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\Diamond\obj\Debug\Diamond.csprojResolveAssemblyReference.cache
 C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\Diamond\obj\Debug\Diamond.exe
 C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\Diamond\obj\Debug\Diamond.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 17 July 2016\Diamond\bin\Debug\Diamond.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 17 July 2016\Diamond\obj\Debug\Diamond.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 17 July 2016\Diamond\obj\Debug\Diamond.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 17 July 2016\Diamond\bin\Debug\Diamond.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 17 July 2016\Diamond\bin\Debug\Diamond.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 17 July 2016\Diamond\obj\Debug\Diamond.csprojResolveAssemblyReference.cache
