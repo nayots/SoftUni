@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\MatchTickets\bin\Debug\MatchTickets.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\MatchTickets\bin\Debug\MatchTickets.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\MatchTickets\bin\Debug\MatchTickets.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\MatchTickets\obj\Debug\MatchTickets.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\MatchTickets\obj\Debug\MatchTickets.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\Exam - 17 July 2016\MatchTickets\obj\Debug\MatchTickets.pdb
