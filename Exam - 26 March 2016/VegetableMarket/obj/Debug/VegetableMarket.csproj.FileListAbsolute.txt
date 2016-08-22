@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\VegetableMarket\bin\Debug\VegetableMarket.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\VegetableMarket\bin\Debug\VegetableMarket.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\VegetableMarket\bin\Debug\VegetableMarket.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\VegetableMarket\obj\Debug\VegetableMarket.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\VegetableMarket\obj\Debug\VegetableMarket.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\VegetableMarket\obj\Debug\VegetableMarket.pdb
