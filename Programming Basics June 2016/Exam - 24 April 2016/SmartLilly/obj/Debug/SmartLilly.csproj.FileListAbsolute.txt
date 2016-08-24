@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SmartLilly\bin\Debug\SmartLilly.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SmartLilly\bin\Debug\SmartLilly.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SmartLilly\bin\Debug\SmartLilly.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SmartLilly\obj\Debug\SmartLilly.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SmartLilly\obj\Debug\SmartLilly.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SmartLilly\obj\Debug\SmartLilly.pdb
