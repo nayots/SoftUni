@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\DailyWinnings\bin\Debug\DailyWinnings.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\DailyWinnings\bin\Debug\DailyWinnings.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\DailyWinnings\bin\Debug\DailyWinnings.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\DailyWinnings\obj\Debug\DailyWinnings.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\DailyWinnings\obj\Debug\DailyWinnings.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\DailyWinnings\obj\Debug\DailyWinnings.pdb

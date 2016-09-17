@@ -1,0 +1,6 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Hospital\bin\Debug\Hospital.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Hospital\bin\Debug\Hospital.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Hospital\bin\Debug\Hospital.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Hospital\obj\Debug\Hospital.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Hospital\obj\Debug\Hospital.pdb

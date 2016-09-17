@@ -1,0 +1,5 @@
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Digits\bin\Debug\Digits.exe.config
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Digits\bin\Debug\Digits.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Digits\bin\Debug\Digits.pdb
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Digits\obj\Debug\Digits.exe
+C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\Digits\obj\Debug\Digits.pdb
