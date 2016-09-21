@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\Trip\bin\Debug\Trip.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\Trip\bin\Debug\Trip.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\Trip\bin\Debug\Trip.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\Trip\obj\Debug\Trip.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\Trip\obj\Debug\Trip.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\Trip\obj\Debug\Trip.pdb

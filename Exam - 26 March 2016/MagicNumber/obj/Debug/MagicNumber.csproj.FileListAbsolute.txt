@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\MagicNumber\bin\Debug\MagicNumber.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\MagicNumber\bin\Debug\MagicNumber.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\MagicNumber\bin\Debug\MagicNumber.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\MagicNumber\obj\Debug\MagicNumber.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\MagicNumber\obj\Debug\MagicNumber.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Exam - 26 March 2016\MagicNumber\obj\Debug\MagicNumber.pdb
