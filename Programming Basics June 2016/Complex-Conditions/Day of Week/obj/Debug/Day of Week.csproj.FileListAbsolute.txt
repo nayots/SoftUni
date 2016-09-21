@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Day of Week\bin\Debug\Day of Week.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Day of Week\bin\Debug\Day of Week.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Day of Week\bin\Debug\Day of Week.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Day of Week\obj\Debug\Day of Week.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Day of Week\obj\Debug\Day of Week.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Complex-Conditions\Day of Week\obj\Debug\Day of Week.pdb

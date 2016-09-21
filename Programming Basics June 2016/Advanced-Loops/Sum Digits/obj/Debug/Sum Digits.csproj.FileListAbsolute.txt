@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Sum Digits\bin\Debug\Sum Digits.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Sum Digits\bin\Debug\Sum Digits.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Sum Digits\bin\Debug\Sum Digits.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Sum Digits\obj\Debug\Sum Digits.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Sum Digits\obj\Debug\Sum Digits.pdb

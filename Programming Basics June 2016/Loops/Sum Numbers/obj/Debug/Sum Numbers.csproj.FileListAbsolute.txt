@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Sum Numbers\bin\Debug\Sum Numbers.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Sum Numbers\bin\Debug\Sum Numbers.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Sum Numbers\bin\Debug\Sum Numbers.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Sum Numbers\obj\Debug\Sum Numbers.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Sum Numbers\obj\Debug\Sum Numbers.pdb

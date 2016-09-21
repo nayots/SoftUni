@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 14. Currency Converter\bin\Debug\Problem_14.Currency_Converter.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 14. Currency Converter\bin\Debug\Problem_14.Currency_Converter.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 14. Currency Converter\bin\Debug\Problem_14.Currency_Converter.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 14. Currency Converter\obj\Debug\Problem 14. Currency Converter.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 14. Currency Converter\obj\Debug\Problem_14.Currency_Converter.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 14. Currency Converter\obj\Debug\Problem_14.Currency_Converter.pdb

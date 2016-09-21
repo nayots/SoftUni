@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Numbers1-3\bin\Debug\Numbers1-3.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Numbers1-3\bin\Debug\Numbers1-3.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Numbers1-3\bin\Debug\Numbers1-3.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Numbers1-3\obj\Debug\Numbers1-3.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Numbers1-3\obj\Debug\Numbers1-3.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Advanced-Loops\Numbers1-3\obj\Debug\Numbers1-3.pdb

@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\04. Histogram\bin\Debug\_04.Histogram.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\04. Histogram\bin\Debug\_04.Histogram.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\04. Histogram\bin\Debug\_04.Histogram.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\04. Histogram\obj\Debug\_04.Histogram.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\04. Histogram\obj\Debug\_04.Histogram.pdb

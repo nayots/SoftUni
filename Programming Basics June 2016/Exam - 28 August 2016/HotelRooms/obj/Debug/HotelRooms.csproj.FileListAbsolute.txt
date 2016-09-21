@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\HotelRooms\bin\Debug\HotelRooms.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\HotelRooms\bin\Debug\HotelRooms.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\HotelRooms\bin\Debug\HotelRooms.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\HotelRooms\obj\Debug\HotelRooms.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\HotelRooms\obj\Debug\HotelRooms.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 28 August 2016\HotelRooms\obj\Debug\HotelRooms.pdb

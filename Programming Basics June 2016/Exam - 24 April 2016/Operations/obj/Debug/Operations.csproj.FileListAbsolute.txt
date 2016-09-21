@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\Operations\bin\Debug\Operations.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\Operations\bin\Debug\Operations.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\Operations\bin\Debug\Operations.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\Operations\obj\Debug\Operations.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\Operations\obj\Debug\Operations.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\Operations\obj\Debug\Operations.pdb

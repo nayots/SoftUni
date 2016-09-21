@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 4. Greeting\bin\Debug\Problem_4.Greeting.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 4. Greeting\bin\Debug\Problem_4.Greeting.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 4. Greeting\bin\Debug\Problem_4.Greeting.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 4. Greeting\obj\Debug\Problem_4.Greeting.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Simple-Calculations\Problem 4. Greeting\obj\Debug\Problem_4.Greeting.pdb

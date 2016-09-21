@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Odd Even Position\bin\Debug\Odd Even Position.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Odd Even Position\bin\Debug\Odd Even Position.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Odd Even Position\bin\Debug\Odd Even Position.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Odd Even Position\obj\Debug\Odd Even Position.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Odd Even Position\obj\Debug\Odd Even Position.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Odd Even Position\obj\Debug\Odd Even Position.pdb

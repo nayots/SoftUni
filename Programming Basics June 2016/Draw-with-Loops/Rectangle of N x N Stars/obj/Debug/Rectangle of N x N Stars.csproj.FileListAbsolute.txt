@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of N x N Stars\bin\Debug\Rectangle of N x N Stars.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of N x N Stars\bin\Debug\Rectangle of N x N Stars.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of N x N Stars\bin\Debug\Rectangle of N x N Stars.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of N x N Stars\obj\Debug\Rectangle of N x N Stars.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Rectangle of N x N Stars\obj\Debug\Rectangle of N x N Stars.pdb

@@ -1,6 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Numbers from 1 to 100\bin\Debug\Numbers from 1 to 100.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Numbers from 1 to 100\bin\Debug\Numbers from 1 to 100.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Numbers from 1 to 100\bin\Debug\Numbers from 1 to 100.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Numbers from 1 to 100\obj\Debug\Numbers from 1 to 100.csprojResolveAssemblyReference.cache
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Numbers from 1 to 100\obj\Debug\Numbers from 1 to 100.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Loops\Numbers from 1 to 100\obj\Debug\Numbers from 1 to 100.pdb

@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\SquareOfStars\bin\Debug\SquareOfStars.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\SquareOfStars\bin\Debug\SquareOfStars.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\SquareOfStars\bin\Debug\SquareOfStars.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\SquareOfStars\obj\Debug\SquareOfStars.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\First Steps in Coding\SquareOfStars\obj\Debug\SquareOfStars.pdb

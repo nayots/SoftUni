@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\05. Draw Fort\bin\Debug\_05.Draw_Fort.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\05. Draw Fort\bin\Debug\_05.Draw_Fort.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\05. Draw Fort\bin\Debug\_05.Draw_Fort.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\05. Draw Fort\obj\Debug\_05.Draw_Fort.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 6 March 2016\05. Draw Fort\obj\Debug\_05.Draw_Fort.pdb

@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SpecialNumbers\bin\Debug\SpecialNumbers.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SpecialNumbers\bin\Debug\SpecialNumbers.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SpecialNumbers\bin\Debug\SpecialNumbers.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SpecialNumbers\obj\Debug\SpecialNumbers.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Exam - 24 April 2016\SpecialNumbers\obj\Debug\SpecialNumbers.pdb

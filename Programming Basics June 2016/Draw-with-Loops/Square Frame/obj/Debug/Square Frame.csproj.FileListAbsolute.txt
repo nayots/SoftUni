@@ -1,5 +1,0 @@
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Square Frame\bin\Debug\Square Frame.exe.config
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Square Frame\bin\Debug\Square Frame.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Square Frame\bin\Debug\Square Frame.pdb
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Square Frame\obj\Debug\Square Frame.exe
-C:\Users\Stoyan\Documents\Visual Studio 2015\Projects\SoftUni\Programming Basics June 2016\Draw-with-Loops\Square Frame\obj\Debug\Square Frame.pdb
