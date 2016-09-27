@@ -11,7 +11,7 @@ namespace DifferentIntegersSize
             string userNumber = Console.ReadLine();
             BigInteger parsedNumber = BigInteger.Parse(userNumber);
 
-            if (parsedNumber > long.MaxValue)
+            if (parsedNumber > long.MaxValue || parsedNumber < long.MinValue)
             {
                 Console.WriteLine($"{userNumber} can't fit in any type");
             }
