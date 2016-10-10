@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 //11. Dragon Army
 namespace DragonArmy
 {
@@ -22,7 +21,6 @@ namespace DragonArmy
 
         private static void PrintResults(Dictionary<string, Dictionary<string, int[]>> dragonData)
         {
-
             foreach (var type in dragonData)//{Type}::({damage}/{health}/{armor})
             {
                 double avDmg = type.Value.Select(x => x.Value[0]).Average();
