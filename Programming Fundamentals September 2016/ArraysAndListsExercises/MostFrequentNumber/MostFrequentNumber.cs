@@ -39,7 +39,7 @@ namespace MostFrequentNumber
                     highestCount = pair.Value;
                 }
             }
-            Console.WriteLine(mostCommonValue);         
+            Console.WriteLine(mostCommonValue);       
         }
     }
 }
