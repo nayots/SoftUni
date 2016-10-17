@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaThePhotographer", "TheaThePhotographer\TheaThePhotographer.csproj", "{8300E5DF-9689-439A-AC38-25AF4A904CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrophonTheGrumpyCat", "TrophonTheGrumpyCat\TrophonTheGrumpyCat.csproj", "{8C0B42F6-0DF4-4FD2-96EB-D3DA33BAAD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{32EF80F4-DEF3-4C38-8D36-DC6CFF84FC49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8300E5DF-9689-439A-AC38-25AF4A904CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8300E5DF-9689-439A-AC38-25AF4A904CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8300E5DF-9689-439A-AC38-25AF4A904CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8300E5DF-9689-439A-AC38-25AF4A904CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0B42F6-0DF4-4FD2-96EB-D3DA33BAAD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0B42F6-0DF4-4FD2-96EB-D3DA33BAAD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0B42F6-0DF4-4FD2-96EB-D3DA33BAAD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0B42F6-0DF4-4FD2-96EB-D3DA33BAAD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EF80F4-DEF3-4C38-8D36-DC6CFF84FC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EF80F4-DEF3-4C38-8D36-DC6CFF84FC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EF80F4-DEF3-4C38-8D36-DC6CFF84FC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EF80F4-DEF3-4C38-8D36-DC6CFF84FC49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
