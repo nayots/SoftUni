@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateUsernames", "Valida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryMess", "QueryMess\QueryMess.csproj", "{AE4A3860-31C3-4C16-B83D-6FDFE5086735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseYourChainsBuddy", "UseYourChainsBuddy\UseYourChainsBuddy.csproj", "{BE68052D-5F0D-4943-A3A8-54B7987094A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{AE4A3860-31C3-4C16-B83D-6FDFE5086735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE4A3860-31C3-4C16-B83D-6FDFE5086735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE4A3860-31C3-4C16-B83D-6FDFE5086735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE68052D-5F0D-4943-A3A8-54B7987094A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE68052D-5F0D-4943-A3A8-54B7987094A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE68052D-5F0D-4943-A3A8-54B7987094A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE68052D-5F0D-4943-A3A8-54B7987094A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
