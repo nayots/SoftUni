@@ -1,2 +1,2 @@
 # SoftUni
-All things SoftUni!!!
+All things SoftUni!
