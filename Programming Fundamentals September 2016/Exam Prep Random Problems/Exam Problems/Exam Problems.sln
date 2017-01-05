@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSupplies", "WaterSuppl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeSupplies", "CoffeeSupplies\CoffeeSupplies.csproj", "{D5371C69-17BB-41C6-A519-ABE00A36EFA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayModifier", "Array Modifier\ArrayModifier.csproj", "{34C10423-95CB-4C8D-BD0C-8DCEAD77DFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pop_Aggregation", "Pop_Aggregation\Pop_Aggregation.csproj", "{B06FED53-BD12-4EAA-BF2E-F443CF77568E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D5371C69-17BB-41C6-A519-ABE00A36EFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5371C69-17BB-41C6-A519-ABE00A36EFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5371C69-17BB-41C6-A519-ABE00A36EFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C10423-95CB-4C8D-BD0C-8DCEAD77DFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C10423-95CB-4C8D-BD0C-8DCEAD77DFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C10423-95CB-4C8D-BD0C-8DCEAD77DFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C10423-95CB-4C8D-BD0C-8DCEAD77DFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06FED53-BD12-4EAA-BF2E-F443CF77568E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06FED53-BD12-4EAA-BF2E-F443CF77568E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06FED53-BD12-4EAA-BF2E-F443CF77568E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06FED53-BD12-4EAA-BF2E-F443CF77568E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
