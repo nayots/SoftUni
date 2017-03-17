@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShopSystemQueries", "BookShopSystemQueries\BookShopSystemQueries.csproj", "{583D1165-4536-4843-8ED7-A402A495AB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniQueries", "SoftUniQueries\SoftUniQueries.csproj", "{57961A6D-2052-4E99-BCCC-16F8BA1C4640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GringottsQueries", "GringottsQueries\GringottsQueries.csproj", "{CA4CDFF3-1096-41A3-A98C-97327198F3B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{583D1165-4536-4843-8ED7-A402A495AB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583D1165-4536-4843-8ED7-A402A495AB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583D1165-4536-4843-8ED7-A402A495AB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583D1165-4536-4843-8ED7-A402A495AB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57961A6D-2052-4E99-BCCC-16F8BA1C4640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57961A6D-2052-4E99-BCCC-16F8BA1C4640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57961A6D-2052-4E99-BCCC-16F8BA1C4640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57961A6D-2052-4E99-BCCC-16F8BA1C4640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4CDFF3-1096-41A3-A98C-97327198F3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4CDFF3-1096-41A3-A98C-97327198F3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4CDFF3-1096-41A3-A98C-97327198F3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4CDFF3-1096-41A3-A98C-97327198F3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
