@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <customer full-name="Lino Subia" bought-cars="8" spent-money="46917.51" />
+  <customer full-name="Taina Achenbach" bought-cars="6" spent-money="36789.61" />
+  <customer full-name="Garret Capron" bought-cars="5" spent-money="33895.21" />
+  <customer full-name="Rico Peer" bought-cars="6" spent-money="31501.14" />
+  <customer full-name="Audrea Cardinal" bought-cars="7" spent-money="27469.75" />
+  <customer full-name="Marcelle Griego" bought-cars="5" spent-money="26406.29" />
+  <customer full-name="Donnetta Soliz" bought-cars="4" spent-money="23792.20" />
+  <customer full-name="Cinthia Lasala" bought-cars="4" spent-money="23580.87" />
+  <customer full-name="Johnette Derryberry" bought-cars="3" spent-money="23412.27" />
+  <customer full-name="Francis Mckim" bought-cars="4" spent-money="19662.61" />
+  <customer full-name="Oren Perlman" bought-cars="4" spent-money="19219.44" />
+  <customer full-name="Nisha Markwell" bought-cars="5" spent-money="19114.53" />
+  <customer full-name="Kristian Engberg" bought-cars="4" spent-money="18211.49" />
+  <customer full-name="Emmitt Benally" bought-cars="5" spent-money="17915.60" />
+  <customer full-name="Carole Witman" bought-cars="2" spent-money="16901.50" />
+  <customer full-name="Zada Attwood" bought-cars="2" spent-money="14953.41" />
+  <customer full-name="Teddy Hobby" bought-cars="2" spent-money="13902.63" />
+  <customer full-name="Rema Revelle" bought-cars="4" spent-money="12349.26" />
+  <customer full-name="Louann Holzworth" bought-cars="2" spent-money="11319.11" />
+  <customer full-name="Hai Everton" bought-cars="3" spent-money="11208.12" />
+  <customer full-name="Sylvie Mcelravy" bought-cars="2" spent-money="10442.91" />
+  <customer full-name="Brett Brickley" bought-cars="2" spent-money="9134.41" />
+  <customer full-name="Carri Knapik" bought-cars="1" spent-money="7875.86" />
+  <customer full-name="Jimmy Grossi" bought-cars="2" spent-money="7459.61" />
+  <customer full-name="Daniele Zarate" bought-cars="2" spent-money="7384.48" />
+  <customer full-name="Yvonne Mccalla" bought-cars="2" spent-money="7338.74" />
+  <customer full-name="Natalie Poli" bought-cars="2" spent-money="7333.18" />
+  <customer full-name="Hipolito Lamoreaux" bought-cars="1" spent-money="4981.48" />
+  <customer full-name="Faustina Burgher" bought-cars="1" spent-money="2922.19" />
+</customers>

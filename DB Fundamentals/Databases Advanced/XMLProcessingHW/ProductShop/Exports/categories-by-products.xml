@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <category name="Garden">
+    <products-count>34</products-count>
+    <average-price>692.486176</average-price>
+    <total-revenue>23544.53</total-revenue>
+  </category>
+  <category name="Business">
+    <products-count>33</products-count>
+    <average-price>763.411818</average-price>
+    <total-revenue>25192.59</total-revenue>
+  </category>
+  <category name="Electronics">
+    <products-count>30</products-count>
+    <average-price>815.356666</average-price>
+    <total-revenue>24460.70</total-revenue>
+  </category>
+  <category name="Sports">
+    <products-count>29</products-count>
+    <average-price>677.771379</average-price>
+    <total-revenue>19655.37</total-revenue>
+  </category>
+  <category name="Fashion">
+    <products-count>28</products-count>
+    <average-price>824.041428</average-price>
+    <total-revenue>23073.16</total-revenue>
+  </category>
+  <category name="Weapons">
+    <products-count>27</products-count>
+    <average-price>765.582592</average-price>
+    <total-revenue>20670.73</total-revenue>
+  </category>
+  <category name="Drugs">
+    <products-count>26</products-count>
+    <average-price>766.297307</average-price>
+    <total-revenue>19923.73</total-revenue>
+  </category>
+  <category name="For Children">
+    <products-count>25</products-count>
+    <average-price>777.109600</average-price>
+    <total-revenue>19427.74</total-revenue>
+  </category>
+  <category name="Autoparts">
+    <products-count>22</products-count>
+    <average-price>787.559090</average-price>
+    <total-revenue>17326.30</total-revenue>
+  </category>
+  <category name="Adult">
+    <products-count>20</products-count>
+    <average-price>1000.380500</average-price>
+    <total-revenue>20007.61</total-revenue>
+  </category>
+  <category name="Other">
+    <products-count>0</products-count>
+    <average-price xsi:nil="true" />
+    <total-revenue xsi:nil="true" />
+  </category>
+</categories>

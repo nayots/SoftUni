@@ -1,0 +1,66 @@
+<students>
+	<student>
+		<name>Ivan Ivanov</name>
+		<gender>Male</gender>
+		<birthDate>1999/12/23</birthDate>
+		<phoneNumber>0888888888</phoneNumber>
+		<email>ivan.ivanov@abv.bg</email>
+		<university>SoftUni</university>
+		<speciality>C#Web</speciality>
+		<facultyNumber>12312412</facultyNumber>
+		<exams>
+			<exam>
+				<name>Programming Basics</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>6.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Basics2</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>5.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Basics3</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>5.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Basics4</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>4.0</grade>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Ivan Petrov</name>
+		<gender>Male</gender>
+		<birthDate>1998/12/23</birthDate>
+		<phoneNumber>0888888888</phoneNumber>
+		<email>ivan.petrov@abv.bg</email>
+		<university>SoftUni</university>
+		<speciality>C#Web</speciality>
+		<facultyNumber>12312411</facultyNumber>
+		<exams>
+			<exam>
+				<name>Programming Basics</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>6.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Basics2</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>5.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Basics3</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>5.0</grade>
+			</exam>
+			<exam>
+				<name>Programming Basics4</name>
+				<dateTaken>2017/01/01</dateTaken>
+				<grade>4.0</grade>
+			</exam>
+		</exams>
+	</student>
+</students>
