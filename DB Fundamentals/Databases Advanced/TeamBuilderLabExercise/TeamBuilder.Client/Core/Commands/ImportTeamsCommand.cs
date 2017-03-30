@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TeamBuilder.Services;
+
+namespace TeamBuilder.Client.Core.Commands
+{
+    public class ImportTeamsCommand
+    {
+        private readonly TeamService teamService;
+        public ImportTeamsCommand(TeamService teamService)
+        {
+            this.teamService = teamService;
+        }
+
+        public string Execute(string[] data)
+        {
+            if (data.Count() != 1)
+            {
+                throw new FormatException("Invalid arguments count!");
+            }
+
+            string filePath = data[0];
+
+            if (!File.Exists(filePath))
+            {
+                throw new FileNotFoundException($"Path {filePath} is not valid!");
+            }
+
+
+            int importedTeamsCount = 0;
+            try
+            {
+                importedTeamsCount = teamService.ImportTeams(filePath);
+            }
+            catch (Exception)
+            {
+                throw new FormatException("Invalid Xml format!");
+            }
+
+
+            string result = $"You have successfully imported {importedTeamsCount} teams!";
+            return result;
+        }
+    }
+}

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<teams>
+  <team>
+    <name>Stracke Inc</name>
+    <acronym>UNI</acronym>
+    <description>Morbi vestibulum.</description>
+	<creator-id>81</creator-id>
+  </team>
+  <team>
+    <name>Walter-Nader</name>
+    <acronym>INV</acronym>
+    <description>Praesent blandit lacinia erat.</description>
+	<creator-id>100</creator-id>
+  </team>
+  <team>
+    <name>Dooley and Sons</name>
+    <acronym>FUL</acronym>
+    <description>Phasellus in felis.</description>
+	<creator-id>99</creator-id>
+  </team>
+  <team>
+    <name>Smith Inc</name>
+    <acronym>OBJ</acronym>
+    <description>Aliquam.</description>
+	<creator-id>90</creator-id>
+  </team>
+  <team>
+    <name>Cruickshank Inc</name>
+    <acronym>UNI</acronym>
+    <description>Aliquam non mauris.</description>
+	<creator-id>65</creator-id>
+  </team>
+  <team>
+    <name>Deckow, Larson and Sporer</name>
+    <acronym>SER</acronym>
+    <description>Suspendisse lectus.</description>
+	<creator-id>41</creator-id>
+  </team>
+  <team>
+    <name>Grady, Wolff and Parisian</name>
+    <acronym>OPT</acronym>
+    <description>Mauris sit amet eros.</description>
+	<creator-id>19</creator-id>
+  </team>
+  <team>
+    <name>Strosin and Sons</name>
+    <acronym>VIR</acronym>
+    <description>Donec dapibus.</description>
+	<creator-id>33</creator-id>
+  </team>
+  <team>
+    <name>Gorczany-Cormier</name>
+    <acronym>INT</acronym>
+    <description>Nullam lacus at turpis.</description>
+	<creator-id>3</creator-id>
+  </team>
+  <team>
+    <name>Larkin and Reichel</name>
+    <acronym>PRO</acronym>
+    <description>Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.</description>
+	<creator-id>1</creator-id>
+  </team>
+  <team>
+    <name>Klocko and Borer</name>
+    <acronym>NON</acronym>
+    <description>Dtrices vel, augue.</description>
+	<creator-id>1</creator-id>
+  </team>
+  <team>
+    <name>Blick and Sons</name>
+    <acronym>BSS</acronym>
+    <description>Nam dui.</description>
+	<creator-id>24</creator-id>
+  </team>
+  <team>
+    <name>Osinski, Kemmer and Johns</name>
+    <acronym>CLI</acronym>
+    <description>Nunc rhoncus dui vel sem.</description>
+	<creator-id>55</creator-id>
+  </team>
+  <team>
+    <name>Reinger-Legros</name>
+    <acronym>INF</acronym>
+    <description>In congue.</description>
+	<creator-id>1</creator-id>
+  </team>
+  <team>
+    <name>Fay Inc</name>
+    <acronym>EXP</acronym>
+    <description>Proin eu mi.</description>
+	<creator-id>73</creator-id>
+  </team>
+  <team>
+    <name>Orn-Rosenbaum</name>
+    <acronym>OPT</acronym>
+    <description>Vestibulums est.</description>
+	<creator-id>61</creator-id>
+  </team>
+  <team>
+    <name>Bosco and Klocko</name>
+    <acronym>PRO</acronym>
+    <description>Nulla facilisi.</description>
+	<creator-id>30</creator-id>
+  </team>
+  <team>
+    <name>Bashirian Inc</name>
+    <acronym>LOG</acronym>
+    <description>Sed vel enim sit.</description>
+	<creator-id>10</creator-id>
+  </team>
+  <team>
+    <name>Reinger and Sons</name>
+    <acronym>DE-</acronym>
+    <description>Nulla ac enim.</description>
+	<creator-id>10</creator-id>
+  </team>
+  <team>
+    <name>Zboncak-Hettinger</name>
+    <acronym>DAT</acronym>
+    <description>Aliquam non mauris.</description>
+	<creator-id>11</creator-id>
+  </team>
+  <team>
+    <name>Renner Group</name>
+    <acronym>MIG</acronym>
+    <description>Nulla suscipit ligula in lacus.</description>
+	<creator-id>22</creator-id>
+  </team>
+  <team>
+    <name> Haag and Crooks</name>
+    <acronym>PRO</acronym>
+    <description>Proin eu mi.</description>
+	<creator-id>39</creator-id>
+  </team>
+  <team>
+    <name>Fay-DuBuque</name>
+    <acronym>OBJ</acronym>
+    <description>Etiam pretium iaculis justo.</description>
+	<creator-id>72</creator-id>
+  </team>
+  <team>
+    <name>McGlynn, Price</name>
+    <acronym>FOR</acronym>
+    <description>Mauris sit amet eros.</description>
+	<creator-id>3</creator-id>
+  </team>
+  <team>
+    <name>Torp-Klein</name>
+    <acronym>FUT</acronym>
+    <description>Aliquam non mauris.</description>
+	<creator-id>9</creator-id>
+  </team>
+  <team>
+    <name>Rowe, Bruen and Dooley</name>
+    <acronym>MON</acronym>
+    <description>Quisque porta volutpat erat.</description>
+	<creator-id>18</creator-id>
+  </team>
+  <team>
+    <name>Runoir, W Heller</name>
+    <acronym>ACT</acronym>
+    <description>Nulla tellus.</description>
+	<creator-id>54</creator-id>
+  </team>
+  <team>
+    <name>Ledner Inc</name>
+    <acronym>GLO</acronym>
+    <description>Aenean lectus.</description>
+	<creator-id>82</creator-id>
+  </team>
+  <team>
+    <name>Schuppe-Volkman</name>
+    <acronym>HEL</acronym>
+    <description>Integer a nibh.</description>
+	<creator-id>12</creator-id>
+  </team>
+  <team>
+    <name>Schimmel-Gerlach</name>
+    <acronym>FAC</acronym>
+    <description>Nulla ac enim.</description>
+	<creator-id>33</creator-id>
+  </team>
+</teams>
