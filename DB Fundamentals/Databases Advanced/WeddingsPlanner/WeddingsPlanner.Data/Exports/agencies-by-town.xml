@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<towns>
+  <town name="Asenovgrad">
+    <agencies />
+  </town>
+  <town name="Blagoevgrad">
+    <agencies>
+      <agency name="Calluna Events" profit="22144.800">
+        <wedding cash="42849.00" presents="4">
+          <bride>Cindi B Duford</bride>
+          <bridegroom>Bess D Zheng</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Karlene</guest>
+            <guest family="Bride">Verlene</guest>
+            <guest family="Bride">Kitty</guest>
+            <guest family="Bridegroom">Dahlia</guest>
+            <guest family="Bride">Jarvis</guest>
+            <guest family="Bride">Vicente</guest>
+            <guest family="Bridegroom">Whitley</guest>
+            <guest family="Bridegroom">Cherri</guest>
+            <guest family="Bridegroom">Elidia</guest>
+            <guest family="Bride">Karan</guest>
+            <guest family="Bridegroom">Serina</guest>
+            <guest family="Bridegroom">Jaleesa</guest>
+            <guest family="Bride">Jenni</guest>
+          </guests>
+        </wedding>
+        <wedding cash="37088.00" presents="3">
+          <bride>Migdalia J Pray</bride>
+          <bridegroom>Theda D Hentges</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Luanne</guest>
+            <guest family="Bride">Erik</guest>
+            <guest family="Bride">Lecia</guest>
+            <guest family="Bride">Karan</guest>
+            <guest family="Bridegroom">Herma</guest>
+            <guest family="Bridegroom">Zachary</guest>
+            <guest family="Bride">Valeria</guest>
+            <guest family="Bridegroom">Willene</guest>
+            <guest family="Bride">Katherin</guest>
+            <guest family="Bride">Brand</guest>
+            <guest family="Bridegroom">Nathaniel</guest>
+            <guest family="Bridegroom">Lang</guest>
+            <guest family="Bride">Fredda</guest>
+            <guest family="Bride">Stewart</guest>
+          </guests>
+        </wedding>
+        <wedding cash="30787.00" presents="2">
+          <bride>Rachel C Wadlow</bride>
+          <bridegroom>Stewart P Raff</bridegroom>
+          <guests>
+            <guest family="Bride">Patrick</guest>
+            <guest family="Bride">Torie</guest>
+            <guest family="Bridegroom">Myriam</guest>
+            <guest family="Bride">Jocelyn</guest>
+            <guest family="Bridegroom">Shela</guest>
+            <guest family="Bridegroom">Jonathon</guest>
+            <guest family="Bride">Tyson</guest>
+            <guest family="Bride">Tennille</guest>
+            <guest family="Bridegroom">Shirl</guest>
+            <guest family="Bridegroom">Dorethea</guest>
+          </guests>
+        </wedding>
+      </agency>
+    </agencies>
+  </town>
+  <town name="Burgas">
+    <agencies />
+  </town>
+  <town name="Dobrich">
+    <agencies />
+  </town>
+  <town name="Gabrovo">
+    <agencies />
+  </town>
+  <town name="Karnobat">
+    <agencies />
+  </town>
+  <town name="Kiustendil">
+    <agencies />
+  </town>
+  <town name="Lovech">
+    <agencies />
+  </town>
+  <town name="Montana">
+    <agencies>
+      <agency name="Exceptional Events" profit="4124.200">
+        <wedding cash="19499.00" presents="4">
+          <bride>Anita F Linden</bride>
+          <bridegroom>Brenda R Bess</bridegroom>
+          <guests>
+            <guest family="Bride">Lesley</guest>
+            <guest family="Bridegroom">Amal</guest>
+            <guest family="Bridegroom">Christal</guest>
+            <guest family="Bride">Jenniffer</guest>
+            <guest family="Bridegroom">Katherin</guest>
+            <guest family="Bridegroom">Delm</guest>
+            <guest family="Bridegroom">Verlene</guest>
+            <guest family="Bridegroom">Keila</guest>
+            <guest family="Bride">Karl</guest>
+            <guest family="Bridegroom">Naoma</guest>
+            <guest family="Bride">Mohammed</guest>
+            <guest family="Bride">Antonetta</guest>
+            <guest family="Bride">Fredia</guest>
+          </guests>
+        </wedding>
+        <wedding cash="1122.00" presents="0">
+          <bride>Ona K Engram</bride>
+          <bridegroom>Chang S Wimberley</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Keith</guest>
+          </guests>
+        </wedding>
+      </agency>
+      <agency name="Festivities Catering &amp; Special Events" profit="13030.600">
+        <wedding cash="34916.00" presents="6">
+          <bride>Aleta Z Murtha</bride>
+          <bridegroom>Marc L Arno</bridegroom>
+          <guests>
+            <guest family="Bride">Alfred</guest>
+            <guest family="Bride">Leanne</guest>
+            <guest family="Bride">Raleigh</guest>
+            <guest family="Bride">Albertina</guest>
+            <guest family="Bridegroom">Kathrine</guest>
+            <guest family="Bride">Albina</guest>
+            <guest family="Bride">Zita</guest>
+            <guest family="Bridegroom">Ada</guest>
+            <guest family="Bride">Farrah</guest>
+            <guest family="Bridegroom">Iesha</guest>
+            <guest family="Bridegroom">Kimberely</guest>
+            <guest family="Bride">Jenni</guest>
+            <guest family="Bridegroom">Dorethea</guest>
+            <guest family="Bridegroom">Denyse</guest>
+          </guests>
+        </wedding>
+        <wedding cash="30237.00" presents="1">
+          <bride>Randa Q Anderton</bride>
+          <bridegroom>Bonny T Schoch</bridegroom>
+          <guests>
+            <guest family="Bride">Suzanne</guest>
+            <guest family="Bridegroom">Lavera</guest>
+            <guest family="Bride">Tennille</guest>
+            <guest family="Bridegroom">Lacresha</guest>
+            <guest family="Bridegroom">Bess</guest>
+            <guest family="Bridegroom">Elidia</guest>
+          </guests>
+        </wedding>
+      </agency>
+      <agency name="Little Bird Celebrations" profit="6835.600">
+        <wedding cash="17470.00" presents="7">
+          <bride>Julee U Pauley</bride>
+          <bridegroom>Jacqueline J Lamoureaux</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Venetta</guest>
+            <guest family="Bride">Ada</guest>
+            <guest family="Bride">Marc</guest>
+            <guest family="Bride">Jeanie</guest>
+            <guest family="Bridegroom">Shemeka</guest>
+            <guest family="Bridegroom">Venetta</guest>
+            <guest family="Bride">Marquita</guest>
+            <guest family="Bride">Deidra</guest>
+            <guest family="Bride">Ellyn</guest>
+            <guest family="Bride">Denese</guest>
+            <guest family="Bridegroom">Bob</guest>
+            <guest family="Bridegroom">Hermelinda</guest>
+          </guests>
+        </wedding>
+        <wedding cash="16708.00" presents="3">
+          <bride>Anneliese U Braverman</bride>
+          <bridegroom>Glayds K Alberti</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Nelia</guest>
+            <guest family="Bridegroom">Kathrine</guest>
+            <guest family="Bride">Agnes</guest>
+            <guest family="Bridegroom">Hedwig</guest>
+            <guest family="Bride">Anita</guest>
+            <guest family="Bridegroom">Brett</guest>
+          </guests>
+        </wedding>
+      </agency>
+      <agency name="Hannibals Catering &amp; Events" profit="9796.800">
+        <wedding cash="35830.00" presents="5">
+          <bride>Lynna Y Child</bride>
+          <bridegroom>Ariana V Thatcher</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Kassie</guest>
+            <guest family="Bride">Carmelo</guest>
+            <guest family="Bride">Serina</guest>
+            <guest family="Bridegroom">Zana</guest>
+            <guest family="Bridegroom">Geraldine</guest>
+            <guest family="Bride">Verlene</guest>
+            <guest family="Bride">Lakesha</guest>
+            <guest family="Bridegroom">Tatiana</guest>
+            <guest family="Bridegroom">Willette</guest>
+            <guest family="Bridegroom">Angelina</guest>
+            <guest family="Bride">Keila</guest>
+            <guest family="Bride">Cris</guest>
+            <guest family="Bride">Jonathon</guest>
+          </guests>
+        </wedding>
+        <wedding cash="13154.00" presents="3">
+          <bride>Awilda R Olague</bride>
+          <bridegroom>Maurine Q Meidinger</bridegroom>
+          <guests>
+            <guest family="Bride">Kimbra</guest>
+            <guest family="Bridegroom">Rosalia</guest>
+            <guest family="Bride">Chloe</guest>
+            <guest family="Bride">Hermelinda</guest>
+            <guest family="Bridegroom">Rolland</guest>
+            <guest family="Bride">Ellyn</guest>
+            <guest family="Bride">Dahlia</guest>
+            <guest family="Bride">Priscila</guest>
+          </guests>
+        </wedding>
+      </agency>
+    </agencies>
+  </town>
+  <town name="Nova Zagora">
+    <agencies />
+  </town>
+  <town name="Pazardzhik">
+    <agencies />
+  </town>
+  <town name="Pernik">
+    <agencies>
+      <agency name="One Sweet Slice" profit="7113.400">
+        <wedding cash="15275.00" presents="2">
+          <bride>Ellis S Slaybaugh</bride>
+          <bridegroom>Blake P Pitre</bridegroom>
+          <guests>
+            <guest family="Bride">Ramon</guest>
+            <guest family="Bridegroom">Yevette</guest>
+            <guest family="Bride">Elana</guest>
+            <guest family="Bridegroom">Stormy</guest>
+            <guest family="Bride">Fanny</guest>
+          </guests>
+        </wedding>
+        <wedding cash="20292.00" presents="0">
+          <bride>Rachel C Wadlow</bride>
+          <bridegroom>Fanny O Capone</bridegroom>
+          <guests>
+            <guest family="Bride">Serina</guest>
+            <guest family="Bride">Laquita</guest>
+            <guest family="Bridegroom">Isela</guest>
+            <guest family="Bridegroom">Madlyn</guest>
+            <guest family="Bride">Al</guest>
+            <guest family="Bride">Bailey</guest>
+          </guests>
+        </wedding>
+      </agency>
+    </agencies>
+  </town>
+  <town name="Pleven">
+    <agencies />
+  </town>
+  <town name="Plovdiv">
+    <agencies>
+      <agency name="Forevermore Events" profit="11428.200">
+        <wedding cash="13479.00" presents="2">
+          <bride>Jeanie P Sy</bride>
+          <bridegroom>Lang X Grams</bridegroom>
+          <guests>
+            <guest family="Bride">Shayne</guest>
+            <guest family="Bride">Herma</guest>
+            <guest family="Bridegroom">Treasa</guest>
+            <guest family="Bridegroom">Bailey</guest>
+            <guest family="Bride">Lanette</guest>
+            <guest family="Bridegroom">Hyo</guest>
+            <guest family="Bride">Danuta</guest>
+          </guests>
+        </wedding>
+        <wedding cash="43662.00" presents="6">
+          <bride>Alta L Mirabella</bride>
+          <bridegroom>Gonzalo U Sweeten</bridegroom>
+          <guests>
+            <guest family="Bride">Grace</guest>
+            <guest family="Bride">Stormy</guest>
+            <guest family="Bridegroom">Meg</guest>
+            <guest family="Bride">Shela</guest>
+            <guest family="Bridegroom">Yesenia</guest>
+            <guest family="Bride">Agnes</guest>
+            <guest family="Bridegroom">Kathrine</guest>
+            <guest family="Bride">Emerson</guest>
+            <guest family="Bridegroom">Randa</guest>
+            <guest family="Bride">Gillian</guest>
+            <guest family="Bride">Cherise</guest>
+            <guest family="Bride">Katherin</guest>
+            <guest family="Bridegroom">Dexter</guest>
+            <guest family="Bride">Jayme</guest>
+            <guest family="Bride">Santina</guest>
+            <guest family="Bridegroom">Tynisha</guest>
+          </guests>
+        </wedding>
+      </agency>
+      <agency name="Brown Brothers Catering" profit="8219.600">
+        <wedding cash="31976.00" presents="5">
+          <bride>Hedwig Q Coakley</bride>
+          <bridegroom>Alfred H Dabbs</bridegroom>
+          <guests>
+            <guest family="Bride">Lashunda</guest>
+            <guest family="Bridegroom">Tomoko</guest>
+            <guest family="Bridegroom">Jayme</guest>
+            <guest family="Bridegroom">Hermina</guest>
+            <guest family="Bride">Julee</guest>
+            <guest family="Bride">Emilio</guest>
+            <guest family="Bride">Cassidy</guest>
+            <guest family="Bride">Candi</guest>
+            <guest family="Bride">Avis</guest>
+            <guest family="Bridegroom">Contessa</guest>
+            <guest family="Bridegroom">Farrah</guest>
+            <guest family="Bride">Whitley</guest>
+            <guest family="Bride">Micaela</guest>
+            <guest family="Bridegroom">Rubi</guest>
+          </guests>
+        </wedding>
+        <wedding cash="9122.00" presents="6">
+          <bride>Venetta A Gundersen</bride>
+          <bridegroom>Beverly D Mettler</bridegroom>
+          <guests>
+            <guest family="Bridegroom">Mikel</guest>
+            <guest family="Bridegroom">Herma</guest>
+            <guest family="Bridegroom">Geraldine</guest>
+            <guest family="Bridegroom">Kellie</guest>
+            <guest family="Bridegroom">Mia</guest>
+            <guest family="Bridegroom">Gay</guest>
+            <guest family="Bridegroom">Serina</guest>
+            <guest family="Bridegroom">Mikel</guest>
+          </guests>
+        </wedding>
+      </agency>
+    </agencies>
+  </town>
+  <town name="Stara Zagora">
+    <agencies>
+      <agency name="Oh How Charming" profit="6573.400">
+        <wedding cash="28638.00" presents="2">
+          <bride>Yesenia M Ruddick</bride>
+          <bridegroom>Paz S Owens</bridegroom>
+          <guests>
+            <guest family="Bride">Hong</guest>
+            <guest family="Bride">Cassey</guest>
+            <guest family="Bridegroom">Luigi</guest>
+            <guest family="Bride">Mikel</guest>
+            <guest family="Bride">Albertina</guest>
+            <guest family="Bridegroom">Anneliese</guest>
+            <guest family="Bridegroom">Priscila</guest>
+            <guest family="Bride">Elana</guest>
+          </guests>
+        </wedding>
+        <wedding cash="4229.00" presents="6">
+          <bride>Romona E Stockdale</bride>
+          <bridegroom>Elana I Ifill</bridegroom>
+          <guests>
+            <guest family="Bride">Leilani</guest>
+            <guest family="Bride">Gil</guest>
+            <guest family="Bridegroom">Delisa</guest>
+            <guest family="Bridegroom">Serina</guest>
+            <guest family="Bridegroom">Willene</guest>
+            <guest family="Bride">Cherise</guest>
+            <guest family="Bridegroom">Aleshia</guest>
+            <guest family="Bride">Portia</guest>
+          </guests>
+        </wedding>
+      </agency>
+    </agencies>
+  </town>
+  <town name="Veliko Tarnovo">
+    <agencies />
+  </town>
+  <town name="Vratsa">
+    <agencies />
+  </town>
+</towns>

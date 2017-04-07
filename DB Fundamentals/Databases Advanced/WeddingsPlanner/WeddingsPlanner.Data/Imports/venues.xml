@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<venues>
+	<venue name="Glasshouse">
+		<capacity>300</capacity>
+		<town>Sofia</town>
+	</venue>
+		<venue name="Christ Community Church">
+		<capacity>50</capacity>
+		<town>Plovdiv</town>
+	</venue>
+	<venue name="Baku Crystal Hall">
+		<capacity>600</capacity>
+		<town>Burgas</town>
+	</venue>
+	<venue name="Boar">
+		<capacity>1300</capacity>
+		<town>Sofia</town>
+	</venue>
+	<venue name="Paradise Yard">
+		<capacity>100</capacity>
+		<town>Montana</town>
+	</venue>
+	<venue name="Silent Orchard">
+		<capacity>100</capacity>
+		<town>Dobrich</town>
+	</venue>
+	<venue name="Mountainview Bite">
+		<capacity>100</capacity>
+		<town>Blagoevgrad</town>
+	</venue>
+	<venue name="Proud Duke">
+		<capacity>100</capacity>
+		<town>Aitos</town>
+	</venue>
+	<venue name="Nightowl">
+		<capacity>100</capacity>
+		<town>Karnobat</town>
+	</venue>
+	<venue name="Bambino">
+		<capacity>100</capacity>
+		<town>Veliko Tarnovo</town>
+	</venue>
+	<venue name="Parlay">
+		<capacity>100</capacity>
+		<town>Kiustendil</town>
+	</venue>
+	<venue name="Gasometer">
+		<capacity>100</capacity>
+		<town>Gabrovo</town>
+	</venue>
+	<venue name="Happening">
+		<capacity>100</capacity>
+		<town>Lovech</town>
+	</venue>
+	<venue name="Hibiscus">
+		<capacity>100</capacity>
+		<town>Vidin</town>
+	</venue>
+	<venue name="Beehive">
+		<capacity>100</capacity>
+		<town>Pazardzhik</town>
+	</venue>
+	<venue name="Eclipse">
+		<capacity>100</capacity>
+		<town>Blagoevgrad</town>
+	</venue>
+	<venue name="Brimstone Lion">
+		<capacity>100</capacity>
+		<town>Dobrich</town>
+	</venue>
+	<venue name="Royal Oak">
+		<capacity>100</capacity>
+		<town>Dobrich</town>
+	</venue>
+	<venue name="Aqua Walk">
+		<capacity>100</capacity>
+		<town>Stara Zagora</town>
+	</venue>
+	<venue name="Abbey">
+		<capacity>100</capacity>
+		<town>Stara Zagora</town>
+	</venue>
+	<venue name="Zen 721">
+		<capacity>100</capacity>
+		<town>Burgas</town>
+	</venue>
+	<venue name="Furrs">
+		<capacity>100</capacity>
+		<town>Pazardzhik</town>
+	</venue>
+	<venue name="Gore Range">
+		<capacity>100</capacity>
+		<town>Blagoevgrad</town>
+	</venue>
+	<venue name="Delancey">
+		<capacity>100</capacity>
+		<town>Pazardzhik</town>
+	</venue>
+	<venue name="Gino Giannilli's">
+		<capacity>100</capacity>
+		<town>Varna</town>
+	</venue>
+	<venue name="Sand Spring Restaurant">
+		<capacity>500</capacity>
+		<town>Sofia</town>
+	</venue>
+	<venue name="Olazzo">
+		<capacity>100</capacity>
+		<town>Pleven</town>
+	</venue>
+	<venue name="Full Moon">
+		<capacity>100</capacity>
+		<town>Dobrich</town>
+	</venue>
+	<venue name="Chettinaad Palace">
+		<capacity>100</capacity>
+		<town>Nova Zagora</town>
+	</venue>
+	<venue name="Savanna's">
+		<capacity>100</capacity>
+		<town>Karnobat</town>
+	</venue>
+	<venue name="Bombay Spice">
+		<capacity>100</capacity>
+		<town>Pernik</town>
+	</venue>
+	<venue name="Antipasti">
+		<capacity>100</capacity>
+		<town>Gabrovo</town>
+	</venue>
+	<venue name="Waverly">
+		<capacity>100</capacity>
+		<town>Veliko Tarnovo</town>
+	</venue>
+	<venue name="1785">
+		<capacity>100</capacity>
+		<town>Vidin</town>
+	</venue>
+	<venue name="Hubbell">
+		<capacity>100</capacity>
+		<town>Blagoevgrad</town>
+	</venue>
+	<venue name="Library II">
+		<capacity>100</capacity>
+		<town>Pleven</town>
+	</venue>
+	<venue name="Waka House">
+		<capacity>100</capacity>
+		<town>Plovdiv</town>
+	</venue>
+	<venue name="Horse and Plow">
+		<capacity>100</capacity>
+		<town>Sofia</town>
+	</venue>
+	<venue name="Veni Vidi Vici">
+		<capacity>100</capacity>
+		<town>Plovdiv</town>
+	</venue>
+	<venue name="Fireworks Restaurant and Bar">
+		<capacity>100</capacity>
+		<town>Pazardzhik</town>
+	</venue>
+	<venue name="Showthyme Restaurant">
+		<capacity>100</capacity>
+		<town>Ruse</town>
+	</venue>
+	<venue name="Cotters">
+		<capacity>100</capacity>
+		<town>Montana</town>
+	</venue>
+	<venue name="5 O'Clock Club">
+		<capacity>100</capacity>
+		<town>Stara Zagora</town>
+	</venue>
+	<venue name="Lotus Of Siam">
+		<capacity>100</capacity>
+		<town>Karnobat</town>
+	</venue>
+	<venue name="Cafe LA Ruche">
+		<capacity>100</capacity>
+		<town>Stara Zagora</town>
+	</venue>
+	<venue name="Liquid Earth">
+		<capacity>100</capacity>
+		<town>Gabrovo</town>
+	</venue>
+	<venue name="Runyon's Tavern">
+		<capacity>100</capacity>
+		<town>Kiustendil</town>
+	</venue>
+	<venue name="Golden Dragon">
+		<capacity>100</capacity>
+		<town>Pernik</town>
+	</venue>
+	<venue name="Karoun Restaurant">
+		<capacity>100</capacity>
+		<town>Vratsa</town>
+	</venue>
+	<venue name="Piasa">
+		<capacity>100</capacity>
+		<town>Vratsa</town>
+	</venue>
+	<venue name="Anointed Tabernacle">
+		<capacity>100</capacity>
+		<town>Burgas</town>
+	</venue>
+	<venue name="Awaken Church">
+		<capacity>100</capacity>
+		<town>Pleven</town>
+	</venue>
+	<venue name="Christ Centered Fellowship">
+		<capacity>100</capacity>
+		<town>Blagoevgrad</town>
+	</venue>
+	<venue name="Christ’s Way Church">
+		<capacity>100</capacity>
+		<town>Plovdiv</town>
+	</venue>
+	<venue name="Community Baptist Church">
+		<capacity>100</capacity>
+		<town>Aitos</town>
+	</venue>
+	<venue name="Community of Faith Missionary Baptist Church">
+		<capacity>100</capacity>
+		<town>Ruse</town>
+	</venue>
+	<venue name="Divine Truth Church">
+		<capacity>100</capacity>
+		<town>Montana</town>
+	</venue>
+	<venue name="Genesis Baptist Church">
+		<capacity>100</capacity>
+		<town>Pleven</town>
+	</venue>
+	<venue name="Holy Spirit Episcopal Church">
+		<capacity>100</capacity>
+		<town>Blagoevgrad</town>
+	</venue>
+	<venue name="Hungry Church">
+		<capacity>100</capacity>
+		<town>Aitos</town>
+	</venue>
+	<venue name="Trinity Church">
+		<capacity>100</capacity>
+		<town>Vratsa</town>
+	</venue>
+	<venue name="Hartley Brook Church">
+		<capacity>100</capacity>
+		<town>Nova Zagora</town>
+	</venue>
+	<venue name="St Chad">
+		<capacity>100</capacity>
+		<town>Gabrovo</town>
+	</venue>
+	<venue name="St Anne">
+		<capacity>100</capacity>
+		<town>Kiustendil</town>
+	</venue>
+	<venue name="St Alban">
+		<capacity>100</capacity>
+		<town>Pernik</town>
+	</venue>
+	<venue name="St Mark">
+		<capacity>100</capacity>
+		<town>Karnobat</town>
+	</venue>
+	<venue name="St George">
+		<capacity>100</capacity>
+		<town>Vidin</town>
+	</venue>
+	<venue name="St Mary">
+		<capacity>100</capacity>
+		<town>Ruse</town>
+	</venue>
+	<venue name="St Mary and St Ethelburga">
+		<capacity>100</capacity>
+		<town>Vratsa</town>
+	</venue>
+	<venue name="St Martin">
+		<capacity>100</capacity>
+		<town>Asenovgrad</town>
+	</venue>
+	<venue name="St Peter">
+		<capacity>100</capacity>
+		<town>Karnobat</town>
+	</venue>
+	<venue name="St Thomas">
+		<capacity>100</capacity>
+		<town>Gabrovo</town>
+	</venue>
+	<venue name="St Peter and St Paul">
+		<capacity>100</capacity>
+		<town>Plovdiv</town>
+	</venue>
+	<venue name="St Vincent">
+		<capacity>100</capacity>
+		<town>Karnobat</town>
+	</venue>
+	<venue name="St Elisabeth">
+		<capacity>100</capacity>
+		<town>Pazardzhik</town>
+	</venue>
+	<venue name="St Margaret">
+		<capacity>100</capacity>
+		<town>Dobrich</town>
+	</venue>
+	<venue name="St John the Divine">
+		<capacity>4100</capacity>
+		<town>Sofia</town>
+	</venue>
+	<venue name="St Jude-on-the-Hill">
+		<capacity>100</capacity>
+		<town>Plovdiv</town>
+	</venue>
+	<venue name="St John the Baptist">
+		<capacity>4100</capacity>
+		<town>Sofia</town>
+	</venue>
+	<venue name="St John the Apostle">
+		<capacity>100</capacity>
+		<town>Burgas</town>
+	</venue>
+	<venue name="St John the Evangelist">
+		<capacity>100</capacity>
+		<town>Vratsa</town>
+	</venue>
+	<venue name="St James the Great">
+		<capacity>100</capacity>
+		<town>Lovech</town>
+	</venue>
+</venues>

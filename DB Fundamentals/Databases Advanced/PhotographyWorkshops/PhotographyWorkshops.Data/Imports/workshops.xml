@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workshops>
+  <workshop name="Wildlife Birds" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Rhodopes" price="120.00">
+      <trainer>Jared Polin</trainer>
+      <participants>
+         <participant first-name="Yan" last-name="Greenidge" />
+         <participant first-name="Odis" last-name="Borne" />
+         <participant first-name="Delta" last-name="Tiano" />
+      </participants>
+  </workshop>
+  <workshop start-date="2016-12-09T10:00:00" end-date="2016-12-09T18:00:00" location="Plovdiv" price="89.00">
+      <trainer>Jared Polin</trainer>
+      <participants>
+         <participant first-name="Turla" last-name="Cowger" />
+         <participant first-name="Kraig" last-name="Velarde" />
+      </participants>
+  </workshop>
+  <workshop name="Polar Lights" start-date="2016-12-05T00:00:00" end-date="2016-12-07T00:00:00" price="930.00"> 
+      <trainer>Alberto Korda</trainer>
+      <participants>
+         <participant first-name="Bong" last-name="Mungin" />
+      </participants>
+  </workshop>
+  <workshop name="Babies" start-date="2016-12-06T10:30:00" end-date="2016-12-06T14:30:00" location="Sofia" price="40.00">
+      <participants>
+         <participant first-name="Delorse" last-name="Bunge" />
+      </participants>
+  </workshop>
+<workshop name="Street Photography" location="Sofia" price="70.00">
+      <trainer>Samuel Fosso</trainer>
+      <participants>
+         <participant first-name="Amparo" last-name="Goers" />
+         <participant first-name="Leon" last-name="Recio" />
+         <participant first-name="Alica" last-name="Lacher" />
+         <participant first-name="Bunny" last-name="Nolan" />
+         <participant first-name="Lyle" last-name="Longworth" />
+      </participants>
+  </workshop>
+<workshop name="Street Photography Part 2" location="Sofia">
+      <trainer>Samuel Fosso</trainer>
+      <participants>
+         <participant first-name="Hungo" last-name="Poter" />
+         <participant first-name="Camaru" last-name="Kolya" />
+      </participants>
+  </workshop>
+<workshop name="Street Photography Part 3" location="Sofia" price="90.00">
+      <trainer>Samuel Fosso</trainer>
+  </workshop>
+    <workshop name="Norway's Trains and Fjords" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="400.00">
+      <trainer>Ola Straw</trainer>
+      <participants>
+         <participant first-name="Antonietta" last-name="Reza" />
+         <participant first-name="Cheri" last-name="Regina" />
+         <participant first-name="Tashia" last-name="Lunsford" />
+         <participant first-name="Johnathan" last-name="Vazguez" />
+         <participant first-name="Rita" last-name="Bucklew" />
+         <participant first-name="Adria" last-name="Mcquire" />
+         <participant first-name="Romona" last-name="Griffin" />
+      </participants>
+  </workshop>
+  <workshop name="Trans-Siberian Rail Odyssey" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Asia" price="18000.00">
+      <trainer>Betsey Oconner</trainer>
+      <participants>
+         <participant first-name="Leontine" last-name="Breitenbach" />
+         <participant first-name="Joan" last-name="Fife" />
+         <participant first-name="Denisha" last-name="Gatton" />
+         <participant first-name="Luciano" last-name="Brisker" />
+         <participant first-name="Tu" last-name="Aslinger" />
+         <participant first-name="Talitha" last-name="Jong" />
+         <participant first-name="Wilfredo" last-name="Finnegan" />
+         <participant first-name="Gena" last-name="Gering" />
+      </participants>
+  </workshop>
+  <workshop name="India by Rail Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Asia" price="5555.00">
+      <trainer>Ola Straw</trainer>
+      <participants>
+         <participant first-name="Leota" last-name="Eastep" />
+         <participant first-name="Beverley" last-name="Kirby" />
+         <participant first-name="Margarita" last-name="Sollers" />
+         <participant first-name="Benjamin" last-name="Lindblad" />
+         <participant first-name="Deetta" last-name="Beausoleil" />
+         <participant first-name="Helena" last-name="Cahn" />
+         <participant first-name="Opal" last-name="Blue" />
+         <participant first-name="Meggan" last-name="Danzy" />
+      </participants>
+  </workshop>
+  <workshop name="Swiss Trains and the Italian Lake District" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="4321.00">
+      <trainer>Dinah Mckenney</trainer>
+      <participants>
+         <participant first-name="Stephaine" last-name="Smidt" />
+         <participant first-name="Jamie" last-name="Mauger" />
+         <participant first-name="Antonietta" last-name="Reza" />
+      </participants>
+  </workshop>
+  <workshop name="Canadian Rockies by Rail and Trail" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="4312.00">
+      <trainer>Betsey Oconner</trainer>
+      <participants>
+         <participant first-name="Melodee" last-name="Shepler" />
+         <participant first-name="Gaston" last-name="Mclees" />
+         <participant first-name="Rosalba" last-name="Hane" />
+         <participant first-name="Freeda" last-name="Casimir" />
+         <participant first-name="Dante" last-name="Ketter" />
+         <participant first-name="Lajuana" last-name="Mcclean" />
+      </participants>
+  </workshop>
+  <workshop name="Peru: Amazon, Machu Picchu, and Lake Titicaca" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="South America" price="44435.00">
+      <trainer>Valery Pickens</trainer>
+      <participants>
+         <participant first-name="Jenna" last-name="Baize" />
+         <participant first-name="Carolee" last-name="Kuder" />
+         <participant first-name="Annabelle" last-name="Nimmo" />
+         <participant first-name="Mckenzie" last-name="Monteiro" />
+      </participants>
+  </workshop>
+  <workshop name="Morocco Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Africa" price="4353.00">
+      <trainer>Aurora Broadhurst</trainer>
+      <participants>
+         <participant first-name="Freeman" last-name="Dalby" />
+         <participant first-name="Krystin" last-name="Lindstedt" />
+         <participant first-name="Shiloh" last-name="Heckert" />
+         <participant first-name="Harley" last-name="Gerardo" />
+         <participant first-name="Rosalie" last-name="Ragsdale" />
+         <participant first-name="Beula" last-name="Zendejas" />
+         <participant first-name="Oma" last-name="Wechsler" />
+         <participant first-name="Jay" last-name="Stanforth" />
+         <participant first-name="Ralph" last-name="Rizer" />
+      </participants>
+  </workshop>
+  <workshop name="China Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Asia" price="7687.00">
+      <trainer>Antonietta Reza</trainer>
+      <participants>
+         <participant first-name="Fidel" last-name="Sato" />
+         <participant first-name="Dani" last-name="Vanness" />
+         <participant first-name="Azucena" last-name="Stclaire" />
+         <participant first-name="Tu" last-name="Aslinger" />
+         <participant first-name="Talitha" last-name="Jong" />
+      </participants>
+  </workshop>
+  <workshop name="Inside Japan Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Asia" price="3246.00">
+      <trainer>Aurora Broadhurst</trainer>
+      <participants>
+         <participant first-name="Danny" last-name="Nethery" />
+         <participant first-name="Wilfredo" last-name="Finnegan" />
+         <participant first-name="Allyson" last-name="Gayman" />
+         <participant first-name="Joane" last-name="Claflin" />
+      </participants>
+  </workshop>
+  <workshop name="Winter in Japan Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Asia" price="3243.00">
+      <trainer>Allyson Gayman</trainer>
+      <participants>
+         <participant first-name="Cheri" last-name="Regina" />
+         <participant first-name="Ola" last-name="Straw" />
+         <participant first-name="Tashia" last-name="Lunsford" />
+         <participant first-name="Johnathan" last-name="Vazguez" />
+         <participant first-name="Dinah" last-name="Mckenney" />
+         <participant first-name="Rita" last-name="Bucklew" />
+         <participant first-name="Adria" last-name="Mcquire" />
+         <participant first-name="Romona" last-name="Griffin" />
+         <participant first-name="Valery" last-name="Pickens" />
+      </participants>
+  </workshop>
+  <workshop name="Advanced Photography and Lighting Workshop: Saint Lucia" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Caribbean" price="6454.00">
+      <trainer>Cheri Regina</trainer>
+      <participants>
+         <participant first-name="Nam" last-name="Dinkins" />
+         <participant first-name="Cristopher" last-name="Brinkerhoff" />
+         <participant first-name="Kirstin" last-name="Whidbee" />
+         <participant first-name="Sharee" last-name="Rothchild" />
+         <participant first-name="Shon" last-name="Bjerke" />
+         <participant first-name="Keely" last-name="Futrell" />
+      </participants>
+  </workshop>
+  <workshop name="Cuba and Its People: A Photographic Exploration" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Cuba" price="2135.00">
+      <trainer>Tu Aslinger</trainer>
+      <participants>
+         <participant first-name="Aimee" last-name="Ochoa" />
+         <participant first-name="China" last-name="Horsey" />
+      </participants>
+  </workshop>
+  <workshop name="Cuba by Land and Sea: Cultural Heritage and Natural Wonders" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Cuba" price="542.00">
+      <trainer>Allyson Gayman</trainer>
+      <participants>
+         <participant first-name="Lucina" last-name="Jesse" />
+         <participant first-name="Shannon" last-name="Clendenin" />
+         <participant first-name="Federico" last-name="Arceo" />
+         <participant first-name="Heide" last-name="Plemmons" />
+         <participant first-name="Gena" last-name="Gering" />
+         <participant first-name="Leota" last-name="Eastep" />
+         <participant first-name="Romona" last-name="Kumm" />
+         <participant first-name="Beverley" last-name="Kirby" />
+         <participant first-name="Margarita" last-name="Sollers" />
+      </participants>
+  </workshop>
+  <workshop name="Photo Workshop: Switzerland" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="3467.00">
+      <trainer>Nam Dinkins</trainer>
+  </workshop>
+  <workshop name="Adventure Photography Workshop: Colorado" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="4222.00">
+      <participants>
+         <participant first-name="Benjamin" last-name="Lindblad" />
+         <participant first-name="Deetta" last-name="Beausoleil" />
+         <participant first-name="Helena" last-name="Cahn" />
+      </participants>
+  </workshop>
+  <workshop name="New York City Smartphone Photo Workshop" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="8895.00">
+      <trainer>Adria Mcquire</trainer>
+      <participants>
+         <participant first-name="Opal" last-name="Blue" />
+         <participant first-name="Joshua" last-name="Nolley" />
+         <participant first-name="Meggan" last-name="Danzy" />
+      </participants>
+  </workshop>
+  <workshop name="New York City Weekend Photo Workshop" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="New York" price="23567.00">
+      <trainer>Nam Dinkins</trainer>
+      <participants>
+         <participant first-name="Stephaine" last-name="Smidt" />
+         <participant first-name="Jamie" last-name="Mauger" />
+      </participants>
+  </workshop>
+  <workshop name="Photo Workshop: Wyoming's Cowboy Country" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="New York" price="452.00">
+      <trainer>Beverley Kirby</trainer>
+      <participants>
+         <participant first-name="Antonietta" last-name="Reza" />
+      </participants>
+  </workshop>
+  <workshop name="San Francisco Weekend Photo Workshop" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="231.00">
+      <trainer>Lucina Jesse</trainer>
+      <participants>
+         <participant first-name="Stephnie" last-name="Arciniega" />
+         <participant first-name="Melodee" last-name="Shepler" />
+         <participant first-name="Gaston" last-name="Mclees" />
+         <participant first-name="Rosalba" last-name="Hane" />
+         <participant first-name="Freeda" last-name="Casimir" />
+         <participant first-name="Dante" last-name="Ketter" />
+      </participants>
+  </workshop>
+  <workshop name="Weekend Photo Workshop: New Orleans" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="23.00">
+      <trainer>Gena Gering</trainer>
+  </workshop>
+  <workshop name="Weekend Photo Workshop: Austin" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="23.00">
+      <trainer>Luciano Brisker</trainer>
+      <participants>
+         <participant first-name="Lajuana" last-name="Mcclean" />
+         <participant first-name="Jenna" last-name="Baize" />
+         <participant first-name="Carolee" last-name="Kuder" />
+         <participant first-name="Annabelle" last-name="Nimmo" />
+         <participant first-name="Mckenzie" last-name="Monteiro" />
+         <participant first-name="Freeman" last-name="Dalby" />
+      </participants>
+  </workshop>
+  <workshop name="San Francisco Weekend Photo Workshop (Advanced)" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America">
+      <trainer>Joan Fife</trainer>
+      <participants>
+         <participant first-name="" last-name="" />
+      </participants>
+  </workshop>
+  <workshop name="Winter in Yellowstone Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="243.00">
+      <trainer>Kirstin Whidbee</trainer>
+      <participants>
+         <participant first-name="Opal" last-name="Blue" />
+         <participant first-name="Freeda" last-name="Casimir" />
+         <participant first-name="Jamie" last-name="Mauger" />
+         <participant first-name="Harley" last-name="Gerardo" />
+         <participant first-name="Rosalie" last-name="Ragsdale" />
+         <participant first-name="Beula" last-name="Zendejas" />
+      </participants>
+  </workshop>
+  <workshop name="Yosemite National Park Photo Expedition" start-date="2016-12-04T00:00:00"  price="321.00">
+      <trainer>Joan Fife</trainer>
+      <participants>
+         <participant first-name="Oma" last-name="Wechsler" />
+         <participant first-name="Jay" last-name="Stanforth" />
+         <participant first-name="Ralph" last-name="Rizer" />
+         <participant first-name="Fidel" last-name="Sato" />
+         <participant first-name="Dani" last-name="Vanness" />
+         <participant first-name="Azucena" last-name="Stclaire" />
+      </participants>
+  </workshop>
+  <workshop name="Weekend Photo Workshop: Washington, D.C." start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North America" price="3213.00">
+      <trainer>Kirstin Whidbee</trainer>
+      <participants>
+         <participant first-name="Tu" last-name="Aslinger" />
+         <participant first-name="Talitha" last-name="Jong" />
+         <participant first-name="Danny" last-name="Nethery" />
+         <participant first-name="Wilfredo" last-name="Finnegan" />
+      </participants>
+  </workshop>
+  <workshop name="Epic Galapagos Photography Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="South America" price="5531.00">
+      <trainer>Kirstin Whidbee</trainer>
+      <participants>
+         <participant first-name="Allyson" last-name="Gayman" />
+         <participant first-name="Joane" last-name="Claflin" />
+         <participant first-name="Betsey" last-name="Oconner" />
+         <participant first-name="Antonietta" last-name="Reza" />
+         <participant first-name="Aurora" last-name="Broadhurst" />
+         <participant first-name="Cheri" last-name="Regina" />
+      </participants>
+  </workshop>
+  <workshop name="Galapagos Photo Expedition" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="South America" price="66321.00">
+      <trainer>Aimee Ochoa</trainer>
+      <participants>
+         <participant first-name="Ola" last-name="Straw" />
+         <participant first-name="Tashia" last-name="Lunsford" />
+         <participant first-name="Johnathan" last-name="Vazguez" />
+         <participant first-name="Dinah" last-name="Mckenney" />
+         <participant first-name="Rita" last-name="Bucklew" />
+         <participant first-name="Adria" last-name="Mcquire" />
+      </participants>
+  </workshop>
+  <workshop name="Vietnam and Cambodia: Along the Mekong River" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Asia" price="321.00">
+      <trainer>Aimee Ochoa</trainer>
+      <participants>
+         <participant first-name="Romona" last-name="Griffin" />
+         <participant first-name="Leontine" last-name="Breitenbach" />
+         <participant first-name="Joan" last-name="Fife" />
+         <participant first-name="Luciano" last-name="Brisker" />
+         <participant first-name="Denisha" last-name="Gatton" />
+         <participant first-name="Valery" last-name="Pickens" />
+      </participants>
+  </workshop>
+  <workshop name="Reefs and Ruins: Belize to Tikal, Guatemala" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="South America" price="231.00">
+      <trainer>Leota Eastep</trainer>
+      <participants>
+         <participant first-name="Nam" last-name="Dinkins" />
+         <participant first-name="Cristopher" last-name="Brinkerhoff" />
+         <participant first-name="Kirstin" last-name="Whidbee" />
+         <participant first-name="Sharee" last-name="Rothchild" />
+         <participant first-name="Shon" last-name="Bjerke" />
+         <participant first-name="Keely" last-name="Futrell" />
+      </participants>
+  </workshop>
+  <workshop name="Nordic Passages: Shetlands, Orkneys, Faroes, and Iceland" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="332.00">
+      <trainer>Helena Cahn</trainer>
+      <participants>
+         <participant first-name="Aimee" last-name="Ochoa" />
+         <participant first-name="China" last-name="Horsey" />
+         <participant first-name="Lucina" last-name="Jesse" />
+         <participant first-name="Shannon" last-name="Clendenin" />
+         <participant first-name="Federico" last-name="Arceo" />
+         <participant first-name="Heide" last-name="Plemmons" />
+      </participants>
+  </workshop>
+    <workshop name="Land of the Polar Bears" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North Pole" price="123.00">
+      <trainer>Shon Bjerke</trainer>
+      <participants>
+         <participant first-name="Gena" last-name="Gering" />
+         <participant first-name="Leota" last-name="Eastep" />
+         <participant first-name="Romona" last-name="Kumm" />
+         <participant first-name="Beverley" last-name="Kirby" />
+         <participant first-name="Margarita" last-name="Sollers" />
+         <participant first-name="Benjamin" last-name="Lindblad" />
+      </participants>
+  </workshop>
+    <workshop name="Norway's Fjords and Arctic Svalbard" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="312.00">
+      <trainer>Helena Cahn</trainer>
+      <participants>
+         <participant first-name="Deetta" last-name="Beausoleil" />
+         <participant first-name="Opal" last-name="Blue" />
+         <participant first-name="Joshua" last-name="Nolley" />
+         <participant first-name="Meggan" last-name="Danzy" />
+         <participant first-name="Stephaine" last-name="Smidt" />
+         <participant first-name="Jamie" last-name="Mauger" />
+         <participant first-name="Antonietta" last-name="Reza" />
+         <participant first-name="Stephnie" last-name="Arciniega" />
+         <participant first-name="Melodee" last-name="Shepler" />
+      </participants>
+  </workshop>
+    <workshop name="Greek Isles" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="532.00">
+      <trainer>Romona Kumm</trainer>
+      <participants>
+         <participant first-name="Gaston" last-name="Mclees" />
+         <participant first-name="Rosalba" last-name="Hane" />
+         <participant first-name="Freeda" last-name="Casimir" />
+         <participant first-name="Dante" last-name="Ketter" />
+         <participant first-name="Lajuana" last-name="Mcclean" />
+         <participant first-name="Jenna" last-name="Baize" />
+         <participant first-name="Carolee" last-name="Kuder" />
+      </participants>
+  </workshop>
+    <workshop name="Scotland's Highlands and Islands" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="674.00">
+      <trainer>Rita Bucklew</trainer>
+      <participants>
+         <participant first-name="Annabelle" last-name="Nimmo" />
+         <participant first-name="Mckenzie" last-name="Monteiro" />
+         <participant first-name="Freeman" last-name="Dalby" />
+         <participant first-name="Krystin" last-name="Lindstedt" />
+         <participant first-name="Shiloh" last-name="Heckert" />
+         <participant first-name="Antonietta" last-name="Reza" />
+      </participants>
+  </workshop>
+    <workshop name="Svalbard, Iceland, and Greenland's East Coast" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North Pole" price="4322.00">
+      <trainer>Romona Kumm</trainer>
+      <participants>
+         <participant first-name="Harley" last-name="Gerardo" />
+         <participant first-name="Rosalie" last-name="Ragsdale" />
+         <participant first-name="Beula" last-name="Zendejas" />
+         <participant first-name="Oma" last-name="Wechsler" />
+         <participant first-name="Jay" last-name="Stanforth" />
+         <participant first-name="Ralph" last-name="Rizer" />
+         <participant first-name="Fidel" last-name="Sato" />
+      </participants>
+  </workshop>
+    <workshop name="Scandinavia by Sea: Denmark, Sweden, and Norway" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="Europe" price="34.00">
+      <trainer>Sharee Rothchild</trainer>
+      <participants>
+         <participant first-name="Dani" last-name="Vanness" />
+         <participant first-name="Azucena" last-name="Stclaire" />
+         <participant first-name="Tu" last-name="Aslinger" />
+         <participant first-name="Talitha" last-name="Jong" />
+         <participant first-name="Danny" last-name="Nethery" />
+         <participant first-name="Wilfredo" last-name="Finnegan" />
+         <participant first-name="Allyson" last-name="Gayman" />
+         <participant first-name="Joane" last-name="Claflin" />
+         <participant first-name="Betsey" last-name="Oconner" />
+      </participants>
+  </workshop>
+    <workshop name="Alaska Family Voyage" start-date="2016-12-04T00:00:00" location="North America" price="1202.00">
+      <trainer>Rita Bucklew</trainer>
+      <participants>
+         <participant first-name="Antonietta" last-name="Reza" />
+         <participant first-name="Aurora" last-name="Broadhurst" />
+         <participant first-name="Cheri" last-name="Regina" />
+         <participant first-name="Ola" last-name="Straw" />
+         <participant first-name="Tashia" last-name="Lunsford" />
+         <participant first-name="Johnathan" last-name="Vazguez" />
+      </participants>
+  </workshop>
+    <workshop name="Alaska's Inside Passage" end-date="2016-12-06T00:00:00" location="North America" price="2300.00">
+      <trainer>Sharee Rothchild</trainer>
+  </workshop>
+    <workshop name="Epic 80N" location="North Pole" price="17900.00">
+      <trainer>Shannon Clendenin</trainer>
+      <participants>
+         <participant first-name="Dinah" last-name="Mckenney" />
+         <participant first-name="Rita" last-name="Bucklew" />
+         <participant first-name="Adria" last-name="Mcquire" />
+         <participant first-name="Romona" last-name="Griffin" />
+         <participant first-name="Valery" last-name="Pickens" />
+         <participant first-name="Luciano" last-name="Brisker" />
+      </participants>
+  </workshop>
+    <workshop name="Exploring Greenland and the Canadian High Arctic" start-date="2016-12-04T00:00:00" end-date="2016-12-06T00:00:00" location="North Pole" price="344.00">
+      <trainer>Fidel Sato</trainer>
+      <participants>
+         <participant first-name="Denisha" last-name="Gatton" />
+         <participant first-name="Keely" last-name="Futrell" />
+         <participant first-name="Shon" last-name="Bjerke" />
+         <participant first-name="Sharee" last-name="Rothchild" />
+         <participant first-name="Kirstin" last-name="Whidbee" />
+         <participant first-name="Gena" last-name="Gering" />
+      </participants>
+  </workshop>
+</workshops>

@@ -1,0 +1,3037 @@
+[
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "500D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A55",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Sony",
+    "model": "A50",
+    "minISO" : 100
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Nikon",
+    "model": "D3100",
+    "minISO" : 100
+   },
+   {
+     "type" : "DSLR",
+    "make": "Canon",
+    "minISO" : 40
+   },
+  {
+    "type": "Mirrorless",
+    "model": "A55"
+
+  },
+  {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "70D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "80D",
+     "isFullFrame" : false,
+     "minISO" : 200, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "30D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "40D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "7D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "6D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 120800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk III",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "60D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 4000 
+   },
+   
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "760D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "550D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 3200, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "600D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 6000 
+   },
+  {
+    "type": "DSLR",
+    "make": "Canon",
+    "model": "7D Mk II",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 12800,
+    "MaxShutterSpeed": 8000
+  },
+  {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "70D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "80D",
+     "isFullFrame" : false,
+     "minISO" : 200, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "30D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "40D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "7D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "6D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 120800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk III",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "60D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 4000 
+   },
+   
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "760D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "550D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 3200, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "600D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 6000 
+   },
+  {
+    "type": "DSLR",
+    "make": "Canon",
+    "model": "7D Mk II",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 12800,
+    "MaxShutterSpeed": 8000
+  },
+  {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "70D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "80D",
+     "isFullFrame" : false,
+     "minISO" : 200, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "30D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "40D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "7D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "6D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 120800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk III",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "60D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 4000 
+   },
+   
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "760D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "550D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 3200, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "600D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 6000 
+   },
+  {
+    "type": "DSLR",
+    "make": "Canon",
+    "model": "7D Mk II",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 12800,
+    "MaxShutterSpeed": 8000
+  },
+  {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "70D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "80D",
+     "isFullFrame" : false,
+     "minISO" : 200, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "30D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "40D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "7D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "6D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 120800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon"
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "60D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 4000 
+   },
+   
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "760D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "550D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 3200, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "600D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 6000 
+   },
+  {
+    "type": "DSLR",
+    "make": "Canon",
+    "model": "7D Mk II",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 12800,
+    "MaxShutterSpeed": 8000
+  },
+  {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "70D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "80D",
+     "isFullFrame" : false,
+     "minISO" : 200, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "30D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "40D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "7D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "6D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 120800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk II",
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "5D Mk III",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "60D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 4000 
+   },
+   
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "760D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 6400, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "550D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 3200, 
+     "MaxShutterSpeed" : 4000 
+   },
+      {
+     "type" : "DSLR",
+     "make" : "Canon",
+     "model" : "600D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 6000 
+   },
+  {
+    "type": "DSLR",
+    "make": "Canon",
+    "model": "7D Mk II",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 12800,
+    "MaxShutterSpeed": 8000
+  },
+  	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7000",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D600",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D800",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D750",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D3X",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4S",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "D2Hs"
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2Xs",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2X",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300S",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+  {
+    "type": "DSLR",
+    "make": "Nikon",
+    "model": "D40",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25800,
+    "MaxShutterSpeed": 4000
+  },
+  	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7000",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D600",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D800",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D750",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D3X",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4S",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "D2Hs",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2Xs",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2X",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300S",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+  {
+    "type": "DSLR",
+    "make": "Nikon",
+    "model": "D40",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25800,
+    "MaxShutterSpeed": 4000
+  },
+  	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7000",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D600",
+     "isFullFrame" : false,
+     "minISO" : 100
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D800",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D750",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D3X",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4S",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2H",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2Xs",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2X",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300S",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+  {
+    "type": "DSLR",
+    "make": "Nikon",
+    "model": "D40",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25800,
+    "MaxShutterSpeed": 4000
+  },
+  	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7000",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D600",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D7200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D800",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D750",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D3X",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4S",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D4",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2Hs",
+     "isFullFrame" : false,
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2Xs",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D2X",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D300S",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+   	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D100",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+      	{
+     "type" : "DSLR",
+     "make" : "Nikon",
+     "model" : "D200",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25800, 
+     "MaxShutterSpeed" : 4000
+   },
+  {
+    "type": "DSLR",
+    "make": "Nikon",
+    "model": "D40",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25800,
+    "MaxShutterSpeed": 4000
+  },
+  {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K110D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K100D Super",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K10D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K200D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 6000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-m",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-7",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-x",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-r",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-01",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-30",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-5 II",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-50",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-3",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-3 II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-1",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-70",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K110D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K100D Super",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K10D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K200D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 6000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-m",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-7",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-x",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-r",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-01",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-30",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-5 II",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-50",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-3",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-3 II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-1",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-70",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K100D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K110D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K100D Super",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K10D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K200D",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 25600, 
+     "MaxShutterSpeed" : 6000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-m",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-7",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-x",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-r",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-5",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-01",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-30",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-5 II",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-50",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 8000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-500",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-3",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-3 II",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-1",
+     "isFullFrame" : false,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "DSLR",
+     "make" : "Pentax",
+     "model" : "K-70",
+     "isFullFrame" : true,
+     "minISO" : 100, 
+     "maxISO" : 12800, 
+     "MaxShutterSpeed" : 4000 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A900",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A850",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A560",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A300",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A450",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A390",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A35",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A65",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A77",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A33",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A580",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A290",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A230",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A300",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A100",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A900",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A850",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A560",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A300",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A450",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A390",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A35",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A65",
+     "isFullFrame" : false,
+     "minISO" : 100
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A77"
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A33",
+     "minISO" : 100
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A580",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A290",
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A230",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A300",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A100",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A900",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A850",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A560",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A300",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A450",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A390",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A35",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A65",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A77",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A33",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A580",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A290",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A230",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A300",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Sony", 
+     "model" : "A100",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X10",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XS1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XPro1",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XMount",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XF1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X20",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100S",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XM1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XA1",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XQ1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XA2",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XT10",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XE2s",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X70",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XT2",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },
+{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X10",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XS1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XPro1",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XMount",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XF1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X20",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100S",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XM1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XA1",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XQ1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XA2",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XT10",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XE2s",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X70",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XT2",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },
+{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },
+   {
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X10",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XS1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XPro1",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XMount",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XF1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X20",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 50 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100S",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XM1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XA1",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XQ1",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XA2",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XT10",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XE2s",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 30 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X70",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1280x720",
+     "maxFrameRate" : 60 
+   },{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "XT2",
+     "isFullFrame" : true,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 50 
+   },
+{
+     "type" : "Mirrorless", 
+     "make" : "Fuji", 
+     "model" : "X100",
+     "isFullFrame" : false,
+     "minISO" : 100,
+     "maxISO" : 25600,
+     "maxVideoResolution" : "1920x1080",
+     "maxFrameRate" : 60 
+   },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "X10",
+    "isFullFrame": true,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 50
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XS1",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 60
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XPro1",
+    "isFullFrame": true,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 50
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XMount",
+    "isFullFrame": true,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 60
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XF1",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 50
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "X20",
+    "isFullFrame": true,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 50
+  },
+  {
+    "type": "Mirrorless",
+    "model": "X100S",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 60
+  },
+  {
+    "isFullFrame": false,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 30
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XA1",
+    "isFullFrame": true,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 60
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XQ1",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 30
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XA2",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 60
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XT10",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 60
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XE2s",
+    "isFullFrame": true,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 30
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "X70",
+    "isFullFrame": false,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1280x720",
+    "maxFrameRate": 60
+  },
+  {
+    "type": "Mirrorless",
+    "make": "Fuji",
+    "model": "XT2",
+    "isFullFrame": true,
+    "minISO": 100,
+    "maxISO": 25600,
+    "maxVideoResolution": "1920x1080",
+    "maxFrameRate": 50
+  }
+]
