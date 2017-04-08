@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<anomalies>
+  <anomaly origin-planet="Kepler-3" teleport-planet="Voyager-10">
+    <victims>
+      <victim name="Eifell Sync" />
+	</victims>
+  </anomaly>
+  <anomaly origin-planet="Kepler-1">
+    <victims>
+	  <victim name="Eifell Sync" />
+	</victims>
+  </anomaly>
+  <anomaly origin-planet="Kepler-6" teleport-planet="Alpha-N20">
+    <victims>
+	  <victim name="Eifell Sync" />
+	  <victim name="Vox Populi" />
+	</victims>
+  </anomaly>
+  <anomaly origin-planet="Indigo-3" teleport-planet="Kepler-1">
+    <victims>
+      <victim name="Eifell Sync" />
+	  <victim name="Vox Populi" />
+	  <victim name="Moria Bane" />
+	  <victim name="Ixel Bane" />
+	</victims>
+  </anomaly>
+  <anomaly origin-planet="Voyager-11" teleport-planet="Indigo-3">
+    <victims>
+      <victim name="Antra Foul" />
+	</victims>
+  </anomaly>
+  <anomaly origin-planet="Voyager-10" teleport-planet="Voyager-11">
+    <victims>
+      <victim name="Moria Bane" />
+	  <victim name="Saine" />
+	</victims>
+  </anomaly>
+</anomalies>

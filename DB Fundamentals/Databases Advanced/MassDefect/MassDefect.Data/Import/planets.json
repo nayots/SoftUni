@@ -1,0 +1,12 @@
+[
+	{"name": "Kepler-1", "sun": "Visilus", "solarSystem": "Kepler-Epsilon"},
+	{"name": "Kepler-3", "sun": "Visilus", "solarSystem": "Kepler-Epsilon"},
+	{"name": "Voyager-10", "sun": "Indigo-Sentry", "solarSystem": "Voyager-Sentry"},
+	{"name": "Voyager-11", "sun": "Indigo-Sentry", "solarSystem": "Voyager-Sentry"},
+	{"name": "Alpha-N20", "sun": "Neb-X10", "solarSystem": "Alpha-Nebula"},
+	{"name": "Alpha-N45", "sun": "Neb-X10", "solarSystem": "Alpha-Nebula"},
+	{"name": "Voyager-23", "sun": "Indigo-Sentry"},
+	{"name": "Alpha-1", "solarSystem": "Alpha-Nebula"},
+	{"name": "Kepler-6", "sun": "Visilus", "solarSystem": "Kepler-Epsilon"},
+	{"name": "Indigo-3", "sun": "Indigo-Sentry", "solarSystem": "Voyager-Sentry"}
+]

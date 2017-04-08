@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A1B15E3-A366-4880-B544-6311E45BCC35}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>PhotographyWorkshops.Client</RootNamespace>
-    <AssemblyName>PhotographyWorkshops.Client</AssemblyName>
+    <ProjectGuid>{0895064D-303C-4861-A2D7-71208E0FC931}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MassDefect.Models</RootNamespace>
+    <AssemblyName>MassDefect.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -49,22 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startup.cs" />
+    <Compile Include="Anomaly.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Planet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolarSystem.cs" />
+    <Compile Include="Star.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PhotographyWorkshops.Data\PhotographyWorkshops.Data.csproj">
-      <Project>{95a8462f-8f7e-4b5a-a759-94abdef79401}</Project>
-      <Name>PhotographyWorkshops.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhotographyWorkshops.Models\PhotographyWorkshops.Models.csproj">
-      <Project>{80153cd2-276b-480f-8a43-44971e1cb0a2}</Project>
-      <Name>PhotographyWorkshops.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

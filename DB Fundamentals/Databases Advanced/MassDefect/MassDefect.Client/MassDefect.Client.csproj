@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A1B15E3-A366-4880-B544-6311E45BCC35}</ProjectGuid>
+    <ProjectGuid>{F29298FC-BC88-438D-AAF6-A91C70E499FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PhotographyWorkshops.Client</RootNamespace>
-    <AssemblyName>PhotographyWorkshops.Client</AssemblyName>
+    <RootNamespace>MassDefect.Client</RootNamespace>
+    <AssemblyName>MassDefect.Client</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -57,13 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhotographyWorkshops.Data\PhotographyWorkshops.Data.csproj">
-      <Project>{95a8462f-8f7e-4b5a-a759-94abdef79401}</Project>
-      <Name>PhotographyWorkshops.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhotographyWorkshops.Models\PhotographyWorkshops.Models.csproj">
-      <Project>{80153cd2-276b-480f-8a43-44971e1cb0a2}</Project>
-      <Name>PhotographyWorkshops.Models</Name>
+    <ProjectReference Include="..\MassDefect.Data\MassDefect.Data.csproj">
+      <Project>{63c93c72-8904-4f77-88a4-0edb2064edcb}</Project>
+      <Name>MassDefect.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

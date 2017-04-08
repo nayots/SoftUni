@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A1B15E3-A366-4880-B544-6311E45BCC35}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>PhotographyWorkshops.Client</RootNamespace>
-    <AssemblyName>PhotographyWorkshops.Client</AssemblyName>
+    <ProjectGuid>{63C93C72-8904-4F77-88A4-0EDB2064EDCB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MassDefect.Data</RootNamespace>
+    <AssemblyName>MassDefect.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -38,9 +36,14 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,22 +52,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Startup.cs" />
+    <Compile Include="DbInitializer.cs" />
+    <Compile Include="DTO\AnomalyDTO.cs" />
+    <Compile Include="DTO\AnomalyVictimDTO.cs" />
+    <Compile Include="DTO\PersonDTO.cs" />
+    <Compile Include="DTO\PlanetDTO.cs" />
+    <Compile Include="DTO\StarDTO.cs" />
+    <Compile Include="Exporter.cs" />
+    <Compile Include="Importer.cs" />
+    <Compile Include="MassDefectContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MassDefect.Models\MassDefect.Models.csproj">
+      <Project>{0895064d-303c-4861-a2d7-71208e0fc931}</Project>
+      <Name>MassDefect.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="App.config" />
+    <None Include="Import\anomalies.json" />
+    <None Include="Import\anomaly-victims.json" />
+    <None Include="Import\persons.json" />
+    <None Include="Import\planets.json" />
+    <None Include="Import\solar-systems.json" />
+    <None Include="Import\stars.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhotographyWorkshops.Data\PhotographyWorkshops.Data.csproj">
-      <Project>{95a8462f-8f7e-4b5a-a759-94abdef79401}</Project>
-      <Name>PhotographyWorkshops.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PhotographyWorkshops.Models\PhotographyWorkshops.Models.csproj">
-      <Project>{80153cd2-276b-480f-8a43-44971e1cb0a2}</Project>
-      <Name>PhotographyWorkshops.Models</Name>
-    </ProjectReference>
+    <Content Include="Import\new-anomalies.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Export\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

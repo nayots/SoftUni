@@ -1,0 +1,17 @@
+[
+	{"originPlanet": "Voyager-10", "teleportPlanet": "Kepler-1"},
+	{"originPlanet": "Alpha-N20", "teleportPlanet": "Kepler-3"},
+	{"originPlanet": "Kepler-6", "teleportPlanet": "Kepler-1"},
+	{"originPlanet": "Kepler-3", "teleportPlanet": "Kepler-6"},
+	{"originPlanet": "Indigo-3", "teleportPlanet": "Voyager-10"},
+	{"originPlanet": "Indigo-3", "teleportPlanet": "Alpha-N20"},
+	{"originPlanet": "Indigo-3", "teleportPlanet": "Voyager-10"},
+	{"originPlanet": "Kepler-3", "teleportPlanet": "Kepler-1"},
+	{"originPlanet": "Voyager-11", "teleportPlanet": "Alpha-N20"},
+	{"originPlanet": "Kepler-3", "teleportPlanet": "Kepler-6"},
+	{"originPlanet": "Alpha-N20", "teleportPlanet": "Indigo-3"},
+	{"originPlanet": "Alpha-N20", "teleportPlanet": "Kepler-3"},
+	{"originPlanet": "Alpha-N20", "teleportPlanet": "Indigo-3"},
+	{"originPlanet": "Kepler-1", "teleportPlanet": "Alpha-N20"},
+	{"originPlanet": "Alpha-N20", "teleportPlanet": "Kepler-1"}
+]
