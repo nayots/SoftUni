@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "TRAPPIST",
+    "Location": "Chile",
+    "MirrorDiameter": 0.6
+  },
+  {
+    "Name": "La Silla",
+    "Location": "Chile",
+    "MirrorDiameter": 3.6
+  },
+  {
+    "Name": "NIMBY",
+    "Location": "Oregon",
+    "MirrorDiameter": 0.0
+  },
+  {
+    "Name": "Heidelberg-Koenigstuhl State Observatory",
+    "Location": "Heidelberg",
+    "MirrorDiameter": 0.41
+  },
+  {
+    "Name": "Puducherry",
+    "Location": "India",
+    "MirrorDiameter": null
+  },
+  {
+    "Name": "Arecibo Observatory",
+	"Location": "Puerto Rico",
+	"MirrorDiameter": 305
+  },
+  {
+    "Name": "European Southern Observatory",
+    "Location": "Chile",
+    "MirrorDiameter": 8.2
+  },
+  {
+    "Name": "Union Observatory",
+    "Location": "Johannesburg",
+    "MirrorDiameter": 0.23
+  },
+  {
+    "Name": "Kepler",
+    "Location": "Earth-trailing orbit",
+    "MirrorDiameter": 0.95
+  }
+]

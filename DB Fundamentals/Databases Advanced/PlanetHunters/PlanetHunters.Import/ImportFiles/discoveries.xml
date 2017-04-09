@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Discoveries>
+  <Discovery DateMade="2000-04-26" Telescope="TRAPPIST">
+    <Stars>
+      <Star Temperature="2550">Trappist-1</Star>
+    </Stars>
+    <Planets />
+    <Pioneers>
+      <Astronomer>Gizis, John</Astronomer>
+      <Astronomer>Monet, David</Astronomer>
+      <Astronomer>Liebert, James</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+  <Discovery DateMade="2016-05-02" Telescope="TRAPPIST" >
+    <Stars />
+    <Planets>
+      <Planet>Trappist-1 b</Planet>
+      <Planet>Trappist-1 c</Planet>
+    </Planets>
+    <Pioneers>
+      <Astronomer>Gillon, Michael</Astronomer>
+      <Astronomer>Triaud, Amaury</Astronomer>
+      <Astronomer>Agol, Eric</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+  <Discovery DateMade="2009-12-18" Telescope="Fusion Camera System">
+    <Stars />
+    <Planets>
+	  <Planet>Polyphemus</Planet>
+      <Planet>Pandora</Planet>
+    </Planets>
+    <Pioneers>
+      <Astronomer>Cameron, James</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+  <Discovery DateMade="1915-10-12" Telescope="Union Observatory">
+    <Stars>
+      <Star>Proxima Centauri</Star>
+    </Stars>
+    <Planets />
+    <Pioneers>
+      <Astronomer>Innes, Robert</Astronomer>
+    </Pioneers>
+    <Observers>
+      <Astronomer>Voute, Joan</Astronomer>
+    </Observers>
+  </Discovery>
+  <Discovery DateMade="2016-08-25" Telescope="European Southern Observatory">
+    <Stars />
+    <Planets>
+      <Planet>Proxima Centauri b</Planet>
+    </Planets>
+    <Pioneers>
+      <Astronomer>Amado, Pedro</Astronomer>
+      <Astronomer>Barnes, John</Astronomer>
+      <Astronomer>Berdinos, Zaira</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+  <Discovery DateMade="1689-12-01" Telescope="Puducherry">
+    <Stars>
+      <Star>Rigil Kentaurus</Star>
+      <Star>Alpha Centauri B</Star>
+    </Stars>
+    <Planets />
+    <Pioneers>
+      <Astronomer>Richaud, Jean</Astronomer>
+    </Pioneers>
+    <Observers>
+      <Astronomer>de Lacaille, Nicolas</Astronomer>
+    </Observers>
+  </Discovery>
+  <Discovery DateMade="1919-01-01" Telescope="Heidelberg-Koenigstuhl State Observatory">
+    <Stars>
+      <Star>Wolf 1061</Star>
+    </Stars>
+    <Planets />
+    <Pioneers>
+      <Astronomer>Wolf, Max</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+  <Discovery DateMade="2015-12-17" Telescope="La Silla">
+    <Stars />
+    <Planets>
+      <Planet>Wolf 1061 c</Planet>
+    </Planets>
+    <Pioneers>
+      <Astronomer>Wright, Duncan</Astronomer>
+      <Astronomer>Zhao, Jinglin</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+  <Discovery DateMade="2014-01-28" Telescope="Kepler">
+    <Stars>
+      <Star>Kepler-413A</Star>
+      <Star>Kepler-413B</Star>
+    </Stars>
+    <Planets>
+      <Planet>Kepler-413 (AB)b</Planet>
+    </Planets>
+    <Pioneers>
+      <Astronomer>Kostov, Veselin</Astronomer>
+      <Astronomer>McCollough, Peter</Astronomer>
+      <Astronomer>Carter, Joshua</Astronomer>
+    </Pioneers>
+    <Observers />
+  </Discovery>
+</Discoveries>

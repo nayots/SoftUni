@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stars>
+  <Star>
+    <Name>Trappist-1</Name>
+    <Temperature>2550</Temperature>
+    <StarSystem>Trappist-1</StarSystem>
+    <DiscoveryInfo TelescopeName="TRAPPIST">
+      <Astronomer Pioneer="true">David Monet</Astronomer>
+      <Astronomer Pioneer="true">James Liebert</Astronomer>
+      <Astronomer Pioneer="true">John Gizis</Astronomer>
+    </DiscoveryInfo>
+  </Star>
+  <Star>
+    <Name>Proxima Centauri</Name>
+    <Temperature>3042</Temperature>
+    <StarSystem>Alpha Centauri</StarSystem>
+    <DiscoveryInfo TelescopeName="Union Observatory">
+      <Astronomer Pioneer="false">Joan Voute</Astronomer>
+      <Astronomer Pioneer="true">Robert Innes</Astronomer>
+    </DiscoveryInfo>
+  </Star>
+  <Star>
+    <Name>Wolf 1061</Name>
+    <Temperature>3305</Temperature>
+    <StarSystem>Wolf 1061</StarSystem>
+    <DiscoveryInfo TelescopeName="Heidelberg-Koenigstuhl State Observatory">
+      <Astronomer Pioneer="true">Max Wolf</Astronomer>
+    </DiscoveryInfo>
+  </Star>
+  <Star>
+    <Name>Kepler-413A</Name>
+    <Temperature>4700</Temperature>
+    <StarSystem>Kepler-413</StarSystem>
+    <DiscoveryInfo TelescopeName="Kepler">
+      <Astronomer Pioneer="true">Joshua Carter</Astronomer>
+      <Astronomer Pioneer="true">Peter McCollough</Astronomer>
+      <Astronomer Pioneer="true">Veselin Kostov</Astronomer>
+    </DiscoveryInfo>
+  </Star>
+  <Star>
+    <Name>Kepler-413B</Name>
+    <Temperature>3590</Temperature>
+    <StarSystem>Kepler-413</StarSystem>
+    <DiscoveryInfo TelescopeName="Kepler">
+      <Astronomer Pioneer="true">Joshua Carter</Astronomer>
+      <Astronomer Pioneer="true">Peter McCollough</Astronomer>
+      <Astronomer Pioneer="true">Veselin Kostov</Astronomer>
+    </DiscoveryInfo>
+  </Star>
+</Stars>

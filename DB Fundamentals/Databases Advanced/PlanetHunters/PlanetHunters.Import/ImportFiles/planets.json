@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Trappist-1 b",
+    "Mass": 0.85,
+    "StarSystem": "Trappist-1"
+  },
+  {
+    "Name": "Trappist-1 c",
+    "Mass": 1.38,
+    "StarSystem": "Trappist-1"
+  },
+  {
+    "Name": "Proxima Centauri b",
+    "Mass": 1.27,
+    "StarSystem": "Alpha Centauri"
+  },
+  {
+    "Name": "Vulcan b",
+    "Mass": -0.89,
+    "StarSystem": "Vulcan"
+  },
+  {
+    "Name": "Wolf 1061 c",
+    "Mass": 4.3,
+    "StarSystem": "Wolf 1061"
+  },
+  {
+    "Name": "Kepler-413 (AB)b",
+    "Mass": 67.0,
+    "StarSystem": "Kepler-413"
+  }
+]

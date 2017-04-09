@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stars>
+  <Star>
+    <Name>Trappist-1</Name>
+    <Temperature>2550</Temperature>
+    <StarSystem>Trappist-1</StarSystem>
+  </Star>
+  <Star>
+    <Name>Proxima Centauri</Name>
+    <Temperature>3042</Temperature>
+    <StarSystem>Alpha Centauri</StarSystem>
+  </Star>
+  <Star>
+    <Name>Rigil Kentaurus</Name>
+    <Temperature>5790</Temperature>
+    <StarSystem>Alpha Centauri</StarSystem>
+  </Star>
+  <Star>
+    <Name>Alpha Centauri B</Name>
+    <Temperature>5260</Temperature>
+    <StarSystem>Alpha Centauri</StarSystem>
+  </Star>
+  <Star>
+    <Name>Wolf 1061</Name>
+    <Temperature>3305</Temperature>
+    <StarSystem>Wolf 1061</StarSystem>
+  </Star>
+  <Star>
+    <Name>Tau 23</Name>
+    <Temperature>1800</Temperature>
+    <StarSystem>Tau 23</StarSystem>
+  </Star>
+  <Star>
+    <Name>Kepler-413A</Name>
+    <Temperature>4700</Temperature>
+    <StarSystem>Kepler-413</StarSystem>
+  </Star>
+  <Star>
+    <Name>Kepler-413B</Name>
+    <Temperature>3590</Temperature>
+    <StarSystem>Kepler-413</StarSystem>
+  </Star>
+</Stars>
