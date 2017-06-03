@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem10_TextEditor
 {
-    class TextEditor
+    internal class TextEditor
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -27,19 +25,23 @@ namespace Problem10_TextEditor
                         t = text.Peek();
                         text.Push(t + commandArgs[1]);
                         break;
+
                     case "2":
                         t = text.Peek();
                         int count = int.Parse(commandArgs[1]);
                         text.Push(t.Substring(0, t.Length - count));
                         break;
+
                     case "3":
                         int index = int.Parse(commandArgs[1]);
                         t = text.Peek();
-                        Console.WriteLine(t[index-1]);
+                        Console.WriteLine(t[index - 1]);
                         break;
+
                     case "4":
                         text.Pop();
                         break;
+
                     default:
                         break;
                 }

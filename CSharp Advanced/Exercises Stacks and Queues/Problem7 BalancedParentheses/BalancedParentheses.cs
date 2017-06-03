@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem7_BalancedParentheses
 {
-    class BalancedParentheses
+    internal class BalancedParentheses
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var input = Console.ReadLine();
 
@@ -18,7 +15,6 @@ namespace Problem7_BalancedParentheses
 
             for (int i = 0; i < input.Length; i++)
             {
-
                 if (input[i] == ')')
                 {
                     if (chars.Count < 1)
@@ -65,7 +61,6 @@ namespace Problem7_BalancedParentheses
                 {
                     chars.Push(input[i]);
                 }
-
             }
             if (input.Length < 2 || (!input.Contains(")") && !input.Contains("}") && !input.Contains("]")))
             {

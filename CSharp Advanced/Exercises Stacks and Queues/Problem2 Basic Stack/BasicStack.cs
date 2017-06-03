@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem2_Basic_Stack
 {
-    class BasicStack
+    internal class BasicStack
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var inputArgs = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int n = inputArgs[0];

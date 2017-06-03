@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem1_ReverseNumbers
 {
-    class ReverseNumbers
+    internal class ReverseNumbers
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Stack<long> nums = new Stack<long>(Console.ReadLine()
                 .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)

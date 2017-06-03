@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem14_Dragon_Army
 {
     class DragonArmy
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Dictionary<string, Dictionary<string, int[]>> dragonData = new Dictionary<string, Dictionary<string, int[]>>();
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < n; i++)
             {
-                string command = Console.ReadLine();//{type} {name} {damage} {health} {armor}. 
+                string command = Console.ReadLine();//{type} {name} {damage} {health} {armor}.
                 ManageInput(command, dragonData);
             }
             PrintResults(dragonData);
@@ -45,7 +43,7 @@ namespace Problem14_Dragon_Army
             string name = details[1];
 
             int dmg = 45;//Default damage 45,health 250, and armor 10
-            if (details[2] != "null")//Custom value  
+            if (details[2] != "null")//Custom value
             {
                 dmg = int.Parse(details[2]);
             }

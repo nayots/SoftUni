@@ -1,21 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem6_Truck_Tour
 {
-    class TruckTour
+    internal class TruckTour
     {
         private static Queue<Station> stations = new Queue<Station>();
         private static long stationsCount;
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             stationsCount = long.Parse(Console.ReadLine());
-
-
 
             for (int i = 0; i < stationsCount; i++)
             {
@@ -34,7 +30,6 @@ namespace Problem6_Truck_Tour
 
                 var st = stations.Dequeue();
                 stations.Enqueue(st);
-
             }
         }
 
@@ -57,7 +52,7 @@ namespace Problem6_Truck_Tour
         }
     }
 
-    class Station
+    internal class Station
     {
         public Station(long gas, long distance)
         {

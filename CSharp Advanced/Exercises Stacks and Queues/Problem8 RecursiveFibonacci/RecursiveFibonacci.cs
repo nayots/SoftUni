@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem8_RecursiveFibonacci
 {
-    class RecursiveFibonacci
+    internal class RecursiveFibonacci
     {
         private static long[] fibNums;
-        static void Main(string[] args)
+
+        private static void Main(string[] args)
         {
             var n = long.Parse(Console.ReadLine());
             fibNums = new long[n];

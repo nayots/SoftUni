@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem11_Plants
 {
-    class Plants
+    internal class Plants
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -25,7 +23,7 @@ namespace Problem11_Plants
                 for (int i = 0; i < count; i++)
                 {
                     var currentPlant = plants.Dequeue();
-                    if (i == count -1)
+                    if (i == count - 1)
                     {
                         plants.Enqueue(currentPlant);
                     }
@@ -36,7 +34,6 @@ namespace Problem11_Plants
                             plants.Enqueue(currentPlant);
                         }
                     }
-
                 }
 
                 if (count == plants.Count)
