@@ -2,7 +2,7 @@
 {
     class BashSoftProgram
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Exercise 1 Test
             //IOManager.TraverseDirectory(@"C:\Users\grigo\Pictures");
@@ -34,6 +34,7 @@
             //IOManager.ChangeCurrentDirectoryRelative("..");
             //IOManager.ChangeCurrentDirectoryRelative("..");
 
+            //InputReader.StartReadingCommands();
         }
     }
 }

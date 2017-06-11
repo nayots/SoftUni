@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BashSoftProgram.cs" />
+    <Compile Include="CommandInterpreter.cs" />
     <Compile Include="ExceptionMessages.cs" />
+    <Compile Include="InputReader.cs" />
     <Compile Include="IOManager.cs" />
     <Compile Include="OutputWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
