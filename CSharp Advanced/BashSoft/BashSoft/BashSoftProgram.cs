@@ -34,7 +34,7 @@
             //IOManager.ChangeCurrentDirectoryRelative("..");
             //IOManager.ChangeCurrentDirectoryRelative("..");
 
-            //InputReader.StartReadingCommands();
+            InputReader.StartReadingCommands();
         }
     }
 }
