@@ -35,7 +35,7 @@ namespace Problem1_CubicArtillery
                     }
                     else
                     {
-                        // Here we traverse out bunkers to see if we can fit the weapon and if not either fit it / print it / remove the bunker
+                        // Here we traverse our bunkers to see if we can fit the weapon and if not either fit it / print it / remove the bunker
                         for (int i = 0; i < bunkers.Count; i++)
                         {
                             if (bunkers[i].Load + weapon <= bunkers[i].Capacity)
