@@ -153,7 +153,7 @@ namespace Problem2_KnightGame
                     results.Add(currentHorse);
                 }
             }
-            if (horses.Count > 0)
+            if (results.Count > 0)
             {
                 results = results.OrderByDescending(x => x.KillCount).ToList();
             }
