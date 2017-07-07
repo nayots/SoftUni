@@ -14,6 +14,7 @@ namespace Problem1_Vehicles.Models
 
         public override void Refuel(double liters)
         {
+            base.Refuel(liters);
             this.FuelQuantity += (liters * 0.95);
         }
     }

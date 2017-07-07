@@ -29,21 +29,28 @@ namespace Problem1_Vehicles
 
             for (int i = 0; i < n; i++)
             {
-                var commandTokens = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                var currentVehicle = vehicles.FirstOrDefault(v => v.GetType().Name == commandTokens[1]);
-                var number = double.Parse(commandTokens[2]);
-                if (commandTokens[0] == "Drive")
+                try
                 {
-                    currentVehicle.Drive(number);
+                    var commandTokens = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    var currentVehicle = vehicles.FirstOrDefault(v => v.GetType().Name == commandTokens[1]);
+                    var number = double.Parse(commandTokens[2]);
+                    if (commandTokens[0] == "Drive")
+                    {
+                        currentVehicle.Drive(number);
+                    }
+                    else if (commandTokens[0] == "Refuel")
+                    {
+                        currentVehicle.Refuel(number);
+                    }
+                    else if (commandTokens[0] == "DriveEmpty")
+                    {
+                        //currentVehicle.GetType().GetMethod("DriveEmpty").Invoke(currentVehicle, new object[] { number });
+                        (currentVehicle as Bus).DriveEmpty(number);
+                    }
                 }
-                else if (commandTokens[0] == "Refuel")
+                catch (ArgumentException ae)
                 {
-                    currentVehicle.Refuel(number);
-                }
-                else if (commandTokens[0] == "DriveEmpty")
-                {
-                    //currentVehicle.GetType().GetMethod("DriveEmpty").Invoke(currentVehicle, new object[] { number });
-                    (currentVehicle as Bus).DriveEmpty(number);
+                    Console.WriteLine(ae.Message);
                 }
             }
 

@@ -14,6 +14,8 @@ namespace Problem1_Vehicles.Models
 
         public override void Refuel(double liters)
         {
+            base.Refuel(liters);
+
             double freeSpace = this.TankCapacity - this.FuelQuantity;
 
             if (liters > freeSpace)

@@ -45,7 +45,13 @@ namespace Problem1_Vehicles.Models
             }
         }
 
-        public abstract void Refuel(double liters);
+        public virtual void Refuel(double liters)
+        {
+            if (liters <= 0)
+            {
+                throw new ArgumentException("Fuel must be a positive number");
+            }
+        }
 
         public virtual void Drive(double km)
         {
