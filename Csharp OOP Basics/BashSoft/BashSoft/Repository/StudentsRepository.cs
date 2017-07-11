@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Linq;
+using BashSoft.Exceptions;
 
 namespace BashSoft
 {
@@ -108,7 +109,7 @@ namespace BashSoft
             }
             else
             {
-                throw new ArgumentException(ExceptionMessages.InvalidPath);
+                throw new InvalidPathException();
             }
 
             isDataInitialized = true;

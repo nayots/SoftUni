@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BashSoft.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -54,7 +55,7 @@ namespace BashSoft
             }
             catch (ArgumentException)
             {
-                throw new ArgumentException(ExceptionMessages.ForbiddenSymbolsContainedInName);
+                throw new InvalidFileNameException();
             }
         }
 
@@ -86,7 +87,7 @@ namespace BashSoft
         {
             if (!Directory.Exists(absolutePath))
             {
-                throw new DirectoryNotFoundException(ExceptionMessages.InvalidPath);
+                throw new InvalidPathException();
             }
 
             SessionsData.currentPath = absolutePath;

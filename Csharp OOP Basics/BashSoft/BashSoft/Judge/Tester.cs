@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BashSoft.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,7 +27,7 @@ namespace BashSoft
             }
             catch (IOException)
             {
-                throw new IOException(ExceptionMessages.InvalidPath);
+                throw new InvalidPathException();
             }
         }
 
