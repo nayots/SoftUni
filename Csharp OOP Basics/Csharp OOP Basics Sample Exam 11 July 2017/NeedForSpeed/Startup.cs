@@ -27,7 +27,14 @@ class Startup
                     break;
 
                 case "open":
-                    manager.Open(int.Parse(tokens[1]), tokens[2], int.Parse(tokens[3]), tokens[4], int.Parse(tokens[5]));
+                    if (tokens[2] == "TimeLimit" || tokens[2] == "Circuit")
+                    {
+                        manager.Open(int.Parse(tokens[1]), tokens[2], int.Parse(tokens[3]), tokens[4], int.Parse(tokens[5]), int.Parse(tokens[6]));
+                    }
+                    else
+                    {
+                        manager.Open(int.Parse(tokens[1]), tokens[2], int.Parse(tokens[3]), tokens[4], int.Parse(tokens[5]));
+                    }
                     break;
 
                 case "participate":

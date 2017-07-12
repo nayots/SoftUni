@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="CarManager.cs" />
+    <Compile Include="CircuitRace.cs" />
     <Compile Include="PerformanceCar.cs" />
     <Compile Include="ShowCar.cs" />
     <Compile Include="Garage.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Race.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeLimitRace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -58,13 +58,34 @@ public class CarManager
         }
     }
 
+    public void Open(int id, string type, int length, string route, int prizePool, int lapGold)
+    {
+        if (!races.ContainsKey(id))
+        {
+            switch (type)
+            {
+                case "TimeLimit":
+                    races[id] = new TimeLimitRace(length, route, prizePool, lapGold);
+                    break;
+
+                case "Circuit":
+                    races[id] = new CircuitRace(length, route, prizePool, lapGold);
+                    break;
+            }
+        }
+    }
+
     public void Participate(int carId, int raceId)
     {
         var car = cars[carId];
+        var race = races[raceId];
 
         if (!garage.ParkedCars.Contains(car))
         {
-            races[raceId].Participants.Add(car);
+            if ((race.GetType().Name == "TimeLimitRace" && race.Participants.Count == 0) || race.GetType().Name != "TimeLimitRace")
+            {
+                race.Participants.Add(car);
+            }
         }
     }
 
@@ -72,9 +93,14 @@ public class CarManager
     {
         var race = races[raceId];
 
-        races.Remove(raceId);
+        var result = race.ToString();
 
-        return race.ToString();
+        if (race.Participants.Count > 0)
+        {
+            races.Remove(raceId);
+        }
+
+        return result;
     }
 
     public void Park(int carId)
