@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public abstract class Harvester
+public abstract class Harvester : Machine
 {
-    private string id;
     private double oreOutput;
     private double energyRequirement;
 
-    public Harvester(string id, double oreOutput, double energyRequirement)
+    public Harvester(string id, double oreOutput, double energyRequirement) : base(id)
     {
-        this.Id = id;
         this.OreOutput = oreOutput;
         this.EnergyRequirement = energyRequirement;
     }
@@ -43,11 +41,5 @@ public abstract class Harvester
 
             this.oreOutput = value;
         }
-    }
-
-    public string Id
-    {
-        get { return this.id; }
-        protected set { this.id = value; }
     }
 }

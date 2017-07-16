@@ -49,6 +49,7 @@
     <Compile Include="Models\Harvesters\HammerHarvester.cs" />
     <Compile Include="Models\Harvesters\Harvester.cs" />
     <Compile Include="Models\Harvesters\SonicHarvester.cs" />
+    <Compile Include="Models\Machine.cs" />
     <Compile Include="Models\Providers\PressureProvider.cs" />
     <Compile Include="Models\Providers\Provider.cs" />
     <Compile Include="Models\Providers\SolarProvider.cs" />

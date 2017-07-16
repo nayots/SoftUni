@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public abstract class Provider
+public abstract class Provider : Machine
 {
-    private string id;
     private double energyOutput;
 
-    public Provider(string id, double energyOutput)
+    public Provider(string id, double energyOutput) : base(id)
     {
-        this.Id = id;
         this.EnergyOutput = energyOutput;
     }
 
@@ -27,11 +25,5 @@ public abstract class Provider
 
             this.energyOutput = value;
         }
-    }
-
-    public string Id
-    {
-        get { return this.id; }
-        protected set { this.id = value; }
     }
 }
