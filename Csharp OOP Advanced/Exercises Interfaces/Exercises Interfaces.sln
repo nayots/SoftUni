@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1 and 2 Person", "Problem1 Person\Problem1 and 2 Person.csproj", "{DF63D67A-4CA2-40E2-9554-9A75EEACEE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3 Ferrari", "Problem3 Ferrari\Problem3 Ferrari.csproj", "{49E73DAC-6470-4247-98FA-EEC70142A080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4 Telephony", "Problem4 Telephony\Problem4 Telephony.csproj", "{B359ACCF-7648-4F7B-803F-F621AD4B209F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem5 BorderControl", "Problem5 BorderControl\Problem5 BorderControl.csproj", "{35DCAF40-BE15-45E4-80E3-82BB5E2821C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem6 BirthdayCelebrations", "Problem6 BirthdayCelebrations\Problem6 BirthdayCelebrations.csproj", "{B2B87177-75E6-4906-936A-0D5DF9A7DA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem7 FoodShortage", "Problem7 FoodShortage\Problem7 FoodShortage.csproj", "{72DC99D1-66DC-4915-96B6-1AF469D5FA08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem8 MilitaryElite", "Problem8 MilitaryElite\Problem8 MilitaryElite.csproj", "{1820BF21-644F-4265-9A79-D2D00205B56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF63D67A-4CA2-40E2-9554-9A75EEACEE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF63D67A-4CA2-40E2-9554-9A75EEACEE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF63D67A-4CA2-40E2-9554-9A75EEACEE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF63D67A-4CA2-40E2-9554-9A75EEACEE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E73DAC-6470-4247-98FA-EEC70142A080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E73DAC-6470-4247-98FA-EEC70142A080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E73DAC-6470-4247-98FA-EEC70142A080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E73DAC-6470-4247-98FA-EEC70142A080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B359ACCF-7648-4F7B-803F-F621AD4B209F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B359ACCF-7648-4F7B-803F-F621AD4B209F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B359ACCF-7648-4F7B-803F-F621AD4B209F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B359ACCF-7648-4F7B-803F-F621AD4B209F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DCAF40-BE15-45E4-80E3-82BB5E2821C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DCAF40-BE15-45E4-80E3-82BB5E2821C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DCAF40-BE15-45E4-80E3-82BB5E2821C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DCAF40-BE15-45E4-80E3-82BB5E2821C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B87177-75E6-4906-936A-0D5DF9A7DA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B87177-75E6-4906-936A-0D5DF9A7DA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B87177-75E6-4906-936A-0D5DF9A7DA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B87177-75E6-4906-936A-0D5DF9A7DA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DC99D1-66DC-4915-96B6-1AF469D5FA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DC99D1-66DC-4915-96B6-1AF469D5FA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DC99D1-66DC-4915-96B6-1AF469D5FA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DC99D1-66DC-4915-96B6-1AF469D5FA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1820BF21-644F-4265-9A79-D2D00205B56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1820BF21-644F-4265-9A79-D2D00205B56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1820BF21-644F-4265-9A79-D2D00205B56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1820BF21-644F-4265-9A79-D2D00205B56F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
