@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem7 FoodShortage", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem8 MilitaryElite", "Problem8 MilitaryElite\Problem8 MilitaryElite.csproj", "{1820BF21-644F-4265-9A79-D2D00205B56F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem9 CollectionHierarchy", "Problem9 CollectionHierarchy\Problem9 CollectionHierarchy.csproj", "{816DCFFD-DA0F-49A2-82E1-E30837616C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem10 ExplicitInterfaces", "Problem10 ExplicitInterfaces\Problem10 ExplicitInterfaces.csproj", "{4C908BCC-06F2-4881-92D5-2AE8AFE39FE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{1820BF21-644F-4265-9A79-D2D00205B56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1820BF21-644F-4265-9A79-D2D00205B56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1820BF21-644F-4265-9A79-D2D00205B56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816DCFFD-DA0F-49A2-82E1-E30837616C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816DCFFD-DA0F-49A2-82E1-E30837616C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816DCFFD-DA0F-49A2-82E1-E30837616C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816DCFFD-DA0F-49A2-82E1-E30837616C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C908BCC-06F2-4881-92D5-2AE8AFE39FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C908BCC-06F2-4881-92D5-2AE8AFE39FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C908BCC-06F2-4881-92D5-2AE8AFE39FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C908BCC-06F2-4881-92D5-2AE8AFE39FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
