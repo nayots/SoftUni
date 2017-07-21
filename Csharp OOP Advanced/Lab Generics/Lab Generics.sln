@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1 Box", "Problem1 Box\Problem1 Box.csproj", "{1EA1AAF5-01F2-4287-B167-E2D0B2E1A019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2 ArrayCreator", "Problem2 ArrayCreator\Problem2 ArrayCreator.csproj", "{3C3C744D-2896-4951-9498-62BFF26BE465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3 Scale", "Problem3 Scale\Problem3 Scale.csproj", "{DA6670DC-7299-4B65-BD89-20CB13D3F631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EA1AAF5-01F2-4287-B167-E2D0B2E1A019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA1AAF5-01F2-4287-B167-E2D0B2E1A019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA1AAF5-01F2-4287-B167-E2D0B2E1A019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA1AAF5-01F2-4287-B167-E2D0B2E1A019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3C744D-2896-4951-9498-62BFF26BE465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3C744D-2896-4951-9498-62BFF26BE465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3C744D-2896-4951-9498-62BFF26BE465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3C744D-2896-4951-9498-62BFF26BE465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6670DC-7299-4B65-BD89-20CB13D3F631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6670DC-7299-4B65-BD89-20CB13D3F631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6670DC-7299-4B65-BD89-20CB13D3F631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6670DC-7299-4B65-BD89-20CB13D3F631}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
