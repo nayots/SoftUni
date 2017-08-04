@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BubbleTests.cs" />
     <Compile Include="DatabaseTests.cs" />
+    <Compile Include="DateTimeTests.cs" />
     <Compile Include="DynamicListTests.cs" />
     <Compile Include="ListIteratorTests.cs" />
     <Compile Include="PeopleDBTests.cs" />

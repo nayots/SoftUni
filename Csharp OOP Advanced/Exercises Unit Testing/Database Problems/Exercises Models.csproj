@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IClient.cs" />
+    <Compile Include="Interface\IClock.cs" />
     <Compile Include="Interface\ITweet.cs" />
     <Compile Include="Models\Bubble.cs" />
     <Compile Include="Models\Database.cs" />
