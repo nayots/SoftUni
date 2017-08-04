@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Dummy
+public class Dummy : ITarget
 {
     private int health;
     private int experience;
@@ -14,6 +14,7 @@ public class Dummy
     public int Health
     {
         get { return this.health; }
+        set { this.health = value; }
     }
 
     public void TakeAttack(int attackPoints)

@@ -7,8 +7,8 @@
     <ProjectGuid>{8EDF4429-251A-416D-BB68-93F227191BCF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Skeleton.Tests</RootNamespace>
-    <AssemblyName>Skeleton.Tests</AssemblyName>
+    <RootNamespace>Exercises_Models.Tests</RootNamespace>
+    <AssemblyName>Exercises Models.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -43,15 +43,18 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AxeTests.cs" />
-    <Compile Include="DummyTests.cs" />
-    <Compile Include="HeroTests.cs" />
+    <Compile Include="BubbleTests.cs" />
+    <Compile Include="DatabaseTests.cs" />
+    <Compile Include="DynamicListTests.cs" />
+    <Compile Include="ListIteratorTests.cs" />
+    <Compile Include="PeopleDBTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TweeterTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Skeleton\Skeleton.csproj">
-      <Project>{b7c13488-44a9-432d-a12c-ed88e9656144}</Project>
-      <Name>Skeleton</Name>
+    <ProjectReference Include="..\Database Problems\Exercises Models.csproj">
+      <Project>{1AA4D9F1-F3E4-4845-B177-62296C3616A3}</Project>
+      <Name>Exercises Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

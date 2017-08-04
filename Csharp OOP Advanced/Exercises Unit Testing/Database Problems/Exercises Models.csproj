@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7C13488-44A9-432D-A12C-ED88E9656144}</ProjectGuid>
+    <ProjectGuid>{1AA4D9F1-F3E4-4845-B177-62296C3616A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Skeleton</RootNamespace>
-    <AssemblyName>Skeleton</AssemblyName>
+    <RootNamespace>Exercises_Models</RootNamespace>
+    <AssemblyName>Exercises Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Axe.cs" />
-    <Compile Include="Dummy.cs" />
-    <Compile Include="Hero.cs" />
-    <Compile Include="Interfaces\IWeapon.cs" />
-    <Compile Include="Interfaces\ITarget.cs" />
-    <Compile Include="StartUp.cs" />
+    <Compile Include="Interface\IClient.cs" />
+    <Compile Include="Interface\ITweet.cs" />
+    <Compile Include="Models\Bubble.cs" />
+    <Compile Include="Models\Database.cs" />
+    <Compile Include="Models\DynamicList.cs" />
+    <Compile Include="Models\ListIterator.cs" />
+    <Compile Include="Models\PeopleDB.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Tweet.cs" />
+    <Compile Include="Models\TweeterClient.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
