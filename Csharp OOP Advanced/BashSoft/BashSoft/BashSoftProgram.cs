@@ -2,7 +2,7 @@
 
 namespace BashSoft
 {
-    class BashSoftProgram
+    public class BashSoftProgram
     {
         private static void Main(string[] args)
         {

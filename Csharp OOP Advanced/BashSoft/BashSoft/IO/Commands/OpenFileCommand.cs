@@ -1,17 +1,13 @@
-﻿using BashSoft.Contracts;
+﻿using BashSoft.Attributes;
 using BashSoft.Exceptions;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft.IO.Commands
 {
+    [Allias("open")]
     public class OpenFileCommand : Command
     {
-        public OpenFileCommand(string input, string[] data, IContentComparer judge, IDatabase repository, IDirectoryManager inputOutputManager) : base(input, data, judge, repository, inputOutputManager)
+        public OpenFileCommand(string input, string[] data) : base(input, data)
         {
         }
 

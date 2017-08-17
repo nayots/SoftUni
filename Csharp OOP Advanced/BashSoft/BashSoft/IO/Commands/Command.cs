@@ -1,49 +1,37 @@
-﻿using BashSoft.Contracts;
+﻿using BashSoft.Attributes;
+using BashSoft.Contracts;
 using BashSoft.Exceptions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft.IO.Commands
 {
     public abstract class Command : IExecutable
     {
-        private IContentComparer judge;
-        private IDatabase repository;
+        private string[] data;
+        private string input;
+
+        [Inject]
         private IDirectoryManager inputOutputManager;
 
-        private string input;
-        private string[] data;
+        [Inject]
+        private IContentComparer judge;
 
-        public Command(string input, string[] data, IContentComparer judge, IDatabase repository, IDirectoryManager inputOutputManager)
+        [Inject]
+        private IDatabase repository;
+
+        public Command(string input, string[] data)
         {
             this.Input = input;
             this.Data = data;
-            this.judge = judge;
-            this.repository = repository;
-            this.inputOutputManager = inputOutputManager;
-        }
-
-        protected IContentComparer Judge
-        {
-            get { return this.judge; }
-        }
-
-        protected IDatabase Repository
-        {
-            get { return this.repository; }
-        }
-
-        protected IDirectoryManager InputOutputManager
-        {
-            get { return this.inputOutputManager; }
         }
 
         public string[] Data
         {
-            get { return this.data; }
+            get
+            {
+                return this.data;
+            }
+
             protected set
             {
                 if (value == null || value.Length == 0)
@@ -57,7 +45,11 @@ namespace BashSoft.IO.Commands
 
         public string Input
         {
-            get { return this.input; }
+            get
+            {
+                return this.input;
+            }
+
             protected set
             {
                 if (string.IsNullOrEmpty(value))

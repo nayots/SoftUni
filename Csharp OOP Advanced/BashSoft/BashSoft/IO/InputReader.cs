@@ -1,15 +1,11 @@
 ﻿using BashSoft.Contracts;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft
 {
     public class InputReader : IInputReader
     {
-        private const string endCommand = "quit";
+        private const string EndCommand = "quit";
         private IInterpreter interpreter;
 
         public InputReader(IInterpreter interpreter)
@@ -24,11 +20,12 @@ namespace BashSoft
                 OutputWriter.WriteMessage($"{SessionsData.currentPath}> ");
                 string input = Console.ReadLine();
                 input = input.Trim();
-                if (input == endCommand)
+                if (input == EndCommand)
                 {
                     break;
                 }
-                interpreter.InterpredCommand(input);
+
+                this.interpreter.InterpredCommand(input);
             }
         }
     }

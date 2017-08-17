@@ -23,6 +23,7 @@ namespace BashSoft
                 {
                     break;
                 }
+
                 OutputWriter.WriteMessageOnNewLine(string.Format("{0}{1}", new string('-', indentation), currentPath));
 
                 try
@@ -49,7 +50,7 @@ namespace BashSoft
 
         public void CreateDirectoryInCurrentFolder(string name)
         {
-            string path = GetCurrentDirectoryPath() + "\\" + name;
+            string path = this.GetCurrentDirectoryPath() + "\\" + name;
             try
             {
                 Directory.CreateDirectory(path);
@@ -80,7 +81,7 @@ namespace BashSoft
             {
                 string currentPath = SessionsData.currentPath;
                 currentPath += "\\" + relativePath;
-                ChangeCurrentDirectoryAbsolute(currentPath);
+                this.ChangeCurrentDirectoryAbsolute(currentPath);
             }
         }
 

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft
 {
@@ -13,13 +11,13 @@ namespace BashSoft
             comparison = comparison.ToLower();
             if (comparison == "ascending")
             {
-                PrintStudents(studentsWithMarks.OrderBy(x => x.Value)
+                this.PrintStudents(studentsWithMarks.OrderBy(x => x.Value)
                     .Take(studentsToTake)
                     .ToDictionary(pair => pair.Key, pair => pair.Value));
             }
             else if (comparison == "descending")
             {
-                PrintStudents(studentsWithMarks.OrderByDescending(x => x.Value)
+                this.PrintStudents(studentsWithMarks.OrderByDescending(x => x.Value)
                     .Take(studentsToTake)
                     .ToDictionary(pair => pair.Key, pair => pair.Value));
             }

@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\AlliasAttribute.cs" />
+    <Compile Include="Attributes\InjectAttribute.cs" />
     <Compile Include="BashSoftProgram.cs" />
     <Compile Include="Contracts\IDirectoryChanger.cs" />
     <Compile Include="Contracts\IDirectoryCreator.cs" />

@@ -1,10 +1,6 @@
 ﻿using BashSoft.Contracts;
 using BashSoft.Exceptions;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft.Models
 {
@@ -28,6 +24,7 @@ namespace BashSoft.Models
             {
                 return this.name;
             }
+
             set
             {
                 if (string.IsNullOrEmpty(value))

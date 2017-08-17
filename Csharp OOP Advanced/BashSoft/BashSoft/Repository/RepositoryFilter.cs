@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft
 {
@@ -12,15 +9,15 @@ namespace BashSoft
         {
             if (wantedFilter == "excellent")
             {
-                FilterAndTake(studentsWithMarks, x => x >= 5, studentsTotTake);
+                this.FilterAndTake(studentsWithMarks, x => x >= 5, studentsTotTake);
             }
             else if (wantedFilter == "average")
             {
-                FilterAndTake(studentsWithMarks, x => x < 5 && x >= 3.5, studentsTotTake);
+                this.FilterAndTake(studentsWithMarks, x => x < 5 && x >= 3.5, studentsTotTake);
             }
             else if (wantedFilter == "poor")
             {
-                FilterAndTake(studentsWithMarks, x => x < 3.5, studentsTotTake);
+                this.FilterAndTake(studentsWithMarks, x => x < 3.5, studentsTotTake);
             }
             else
             {

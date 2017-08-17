@@ -1,11 +1,7 @@
 ﻿using BashSoft.Contracts;
 using BashSoft.Exceptions;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft
 {
@@ -16,14 +12,14 @@ namespace BashSoft
             OutputWriter.WriteMessageOnNewLine("Reading files...");
             try
             {
-                string mismatchPath = GetMismatchPath(expectedOutputPath);
+                string mismatchPath = this.GetMismatchPath(expectedOutputPath);
 
                 string[] actualOutputLines = File.ReadAllLines(userOutputPath);
                 string[] expectedOutputLines = File.ReadAllLines(expectedOutputPath);
 
                 bool hasMismatch;
-                string[] mismatches = GetLinesWithPossibleMismatches(actualOutputLines, expectedOutputLines, out hasMismatch);
-                PrintOutput(mismatches, hasMismatch, mismatchPath);
+                string[] mismatches = this.GetLinesWithPossibleMismatches(actualOutputLines, expectedOutputLines, out hasMismatch);
+                this.PrintOutput(mismatches, hasMismatch, mismatchPath);
                 OutputWriter.WriteMessageOnNewLine("Files read!");
             }
             catch (IOException)
@@ -83,8 +79,10 @@ namespace BashSoft
                     output = actualLine;
                     output += Environment.NewLine;
                 }
+
                 mismatches[index] = output;
             }
+
             return mismatches;
         }
 

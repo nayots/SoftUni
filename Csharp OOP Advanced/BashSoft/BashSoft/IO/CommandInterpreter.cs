@@ -1,21 +1,18 @@
-﻿using BashSoft.Contracts;
+﻿using BashSoft.Attributes;
+using BashSoft.Contracts;
 using BashSoft.Exceptions;
 using BashSoft.IO.Commands;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace BashSoft
 {
     public class CommandInterpreter : IInterpreter
     {
+        private IDirectoryManager inputOutputManager;
         private IContentComparer judge;
         private IDatabase repository;
-        private IDirectoryManager inputOutputManager;
 
         public CommandInterpreter(IContentComparer judge, IDatabase repository, IDirectoryManager inputOutputManager)
         {
@@ -41,60 +38,42 @@ namespace BashSoft
 
         private IExecutable ParseCommand(string input, string command, string[] data)
         {
-            switch (command)
+            object[] parametersForConstruction = new object[]
             {
-                case "open":
-                    return new OpenFileCommand(input, data, this.judge, this.repository, this.inputOutputManager);
+                input, data
+            };
 
-                case "mkdir":
-                    return new MakeDirectoryCommand(input, data, this.judge, this.repository, this.inputOutputManager);
+            Type typeOfCommand = Assembly.GetExecutingAssembly()
+                                .GetTypes()
+                                .FirstOrDefault(type => type.GetCustomAttributes(typeof(AlliasAttribute))
+                                .Where(atr => atr.Equals(command)).ToArray().Length > 0);
 
-                case "ls":
-                    return new TraverseFoldersCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "cmp":
-                    return new CompareFilesCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "cdRel":
-                    return new ChangeRelativePathCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "cdAbs":
-                    return new ChangeAbsolutePathCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "readdb":
-                    return new ReadDatabaseCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "help":
-                    return new GetHelpCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "filter":
-                    return new PrintFilteredStudentsCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "order":
-                    return new PrintOrderedStudentsCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "download":
-                    //TODO
-                    throw new InvalidCommandException(input);
-                    break;
-
-                case "downloadAsynch":
-                    //TODO
-                    throw new InvalidCommandException(input);
-                    break;
-
-                case "show":
-                    return new ShowCourseCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "dropdb":
-                    return new DropDatabaseCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                case "display":
-                    return new DisplayCommand(input, data, this.judge, this.repository, this.inputOutputManager);
-
-                default:
-                    throw new InvalidCommandException(input);
+            if (typeOfCommand is null)
+            {
+                throw new InvalidCommandException(command);
             }
+
+            Type typeOfInterpreter = typeof(CommandInterpreter);
+
+            Command exe = (Command)Activator.CreateInstance(typeOfCommand, parametersForConstruction);
+
+            FieldInfo[] fieldsOfCommand = typeOfCommand.GetFields(BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo[] fieldsOfInterpreter = typeOfInterpreter.GetFields(BindingFlags.NonPublic | BindingFlags.Instance);
+
+            foreach (var fieldOfCommand in fieldsOfCommand)
+            {
+                Attribute injAtr = fieldOfCommand.GetCustomAttribute(typeof(InjectAttribute));
+
+                if (injAtr != null)
+                {
+                    if (fieldsOfInterpreter.Any(x => x.FieldType == fieldOfCommand.FieldType))
+                    {
+                        fieldOfCommand.SetValue(exe, fieldsOfInterpreter.First(x => x.FieldType == fieldOfCommand.FieldType).GetValue(this));
+                    }
+                }
+            }
+
+            return exe;
         }
     }
 }

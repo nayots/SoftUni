@@ -1,16 +1,16 @@
-﻿using BashSoft.Contracts;
+﻿using BashSoft.Attributes;
+using BashSoft.Contracts;
 using BashSoft.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BashSoft.IO.Commands
 {
+    [Allias("filter")]
     public class PrintFilteredStudentsCommand : Command
     {
-        public PrintFilteredStudentsCommand(string input, string[] data, IContentComparer judge, IDatabase repository, IDirectoryManager inputOutputManager) : base(input, data, judge, repository, inputOutputManager)
+        [Inject]
+        private IDatabase repository;
+
+        public PrintFilteredStudentsCommand(string input, string[] data) : base(input, data)
         {
         }
 
@@ -23,7 +23,7 @@ namespace BashSoft.IO.Commands
                 string takeCommand = this.Data[3].ToLower();
                 string takeQuantity = this.Data[4].ToLower();
 
-                TryParseParametersForFilterAndTake(takeCommand, takeQuantity, courseName, filter);
+                this.TryParseParametersForFilterAndTake(takeCommand, takeQuantity, courseName, filter);
             }
             else
             {
@@ -37,7 +37,7 @@ namespace BashSoft.IO.Commands
             {
                 if (takeQuantity == "all")
                 {
-                    this.Repository.FilterAndTake(courseName, filter);
+                    this.repository.FilterAndTake(courseName, filter);
                 }
                 else
                 {
@@ -45,7 +45,7 @@ namespace BashSoft.IO.Commands
                     bool hasParsed = int.TryParse(takeQuantity, out studentsToTake);
                     if (hasParsed)
                     {
-                        this.Repository.FilterAndTake(courseName, filter, studentsToTake);
+                        this.repository.FilterAndTake(courseName, filter, studentsToTake);
                     }
                     else
                     {
