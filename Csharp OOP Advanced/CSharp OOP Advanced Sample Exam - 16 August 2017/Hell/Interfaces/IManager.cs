@@ -8,8 +8,6 @@ public interface IManager
 
     string AddRecipeToHero(List<string> arguments, IHero hero);
 
-    string CreateGame();
-
     string Inspect(List<string> arguments);
 
     string Quit();

@@ -188,4 +188,29 @@ public class InventoryTests
 
         Assert.Throws<ArgumentException>(() => this.sut.AddRecipeItem(recipe1));
     }
+
+    [Test]
+    public void DuplicatingCommonItemThrowsException()
+    {
+        IItem item = new CommonItemMock("BootsOfTravell", 100, 100, 100, 100, 100);
+
+        this.sut.AddCommonItem(item);
+
+        Assert.Throws<ArgumentException>(() => this.sut.AddCommonItem(item));
+    }
+
+    [Test]
+    public void CompleteRecipeForNewItem()
+    {
+        IItem relic = new CommonItemMock("SacredRelic", 0, 0, 0, 0, 60);
+        string[] recipeComponents = new string[] { "SacredRelic", "RadianceRecipe" };
+        IRecipe recipe = new RecipeItemMock("Radiance", 0, 0, 0, 0, 80, recipeComponents);
+        IItem radianceRecipe = new CommonItemMock("RadianceRecipe", 0, 0, 0, 0, 0);
+
+        this.sut.AddCommonItem(relic);
+        this.sut.AddRecipeItem(recipe);
+        this.sut.AddCommonItem(radianceRecipe);
+
+        Assert.AreEqual(80, this.sut.TotalDamageBonus);
+    }
 }

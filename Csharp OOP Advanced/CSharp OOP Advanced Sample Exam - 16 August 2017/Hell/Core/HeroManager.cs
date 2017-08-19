@@ -80,18 +80,6 @@ public class HeroManager : IManager
         return result;
     }
 
-    public string CreateGame()
-    {
-        StringBuilder result = new StringBuilder();
-
-        foreach (var hero in heroes)
-        {
-            result.AppendLine(hero.Key);
-        }
-
-        return result.ToString();
-    }
-
     public string Inspect(List<String> arguments)
     {
         string heroName = arguments[0];
