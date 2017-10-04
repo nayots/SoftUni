@@ -32,6 +32,8 @@ namespace MiniServer.Server.HTTP.Response
         public HttpStatusCode StatusCode { get; set; }
         public string StatusMessage => this.StatusCode.ToString();
 
+        public byte[] Data { get; private set; }
+
         public string Response
         {
             get

@@ -40,13 +40,12 @@ namespace MiniServer.Server.HTTP.Response
                     response.AppendLine($"HTTP/1.1 {(int)this.StatusCode} {StatusMessage}");
                     this.AddHeader("Content-Type", "image/png,image/jpg,image");
 
-                    string imageData = Convert.ToBase64String(File.ReadAllBytes(filepath));
+                    byte[] imageData = File.ReadAllBytes(filepath);
                     this.AddHeader("Content-Length", $"{imageData.Length}");
+                    this.Data = imageData;
 
                     response.AppendLine(this.HeaderCollection.ToString());
                     response.AppendLine();
-
-                    response.AppendLine(imageData);
                 }
                 else
                 {
@@ -61,6 +60,8 @@ namespace MiniServer.Server.HTTP.Response
                 return response.ToString();
             }
         }
+
+        public byte[] Data { get; private set; }
 
         public void AddHeader(string key, string value)
         {

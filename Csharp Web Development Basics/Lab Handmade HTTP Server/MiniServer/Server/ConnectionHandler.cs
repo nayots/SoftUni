@@ -1,6 +1,8 @@
-﻿using MiniServer.Server.Handlers;
+﻿using MiniServer.Server.Enums;
+using MiniServer.Server.Handlers;
 using MiniServer.Server.HTTP;
 using MiniServer.Server.HTTP.Contracts;
+using MiniServer.Server.HTTP.Response;
 using MiniServer.Server.Routing.Contracts;
 using System;
 using System.IO;
@@ -39,6 +41,10 @@ namespace MiniServer.Server
             ArraySegment<byte> toBytes = new ArraySegment<byte>(Encoding.ASCII.GetBytes(response.Response));
 
             await this.client.SendAsync(toBytes, SocketFlags.None);
+            if (response is ImageResponse && response.StatusCode == HttpStatusCode.OK)
+            {
+                await this.client.SendAsync(response.Data, SocketFlags.None);
+            }
 
             Console.WriteLine("-----REQUEST-----");
             Console.WriteLine(request);

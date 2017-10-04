@@ -12,6 +12,8 @@ namespace MiniServer.Server.HTTP.Contracts
 
         string Response { get; }
 
+        byte[] Data { get; }
+
         void AddHeader(string key, string value);
     }
 }
