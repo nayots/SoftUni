@@ -1,11 +1,7 @@
-﻿using MiniServer.Server.HTTP.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MiniServer.Server.Enums;
+﻿using MiniServer.Server.Enums;
+using MiniServer.Server.HTTP.Contracts;
 using System.IO;
+using System.Text;
 
 namespace MiniServer.Server.HTTP.Response
 {

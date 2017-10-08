@@ -58,6 +58,12 @@ namespace MiniServer.Application
                 @"/Images/{(?<imagePath>[a-zA-Z0-9_]+\.(jpg|png))}",
                 new GETHandler(httpContext => new HomeController()
                 .Image(httpContext.Request.UrlParameters["imagePath"])));
+
+            appRouteConfig.AddRoute("/test", new GETHandler(httpContext => new HomeController().SessionTest(httpContext.Request)));
+
+            appRouteConfig.AddRoute("/greeting", new GETHandler(httpContext => new HomeController().GreetingGet(httpContext.Request)));
+
+            appRouteConfig.AddRoute("/greeting", new POSTHandler(httpContext => new HomeController().GreetingPost(httpContext.Request)));
         }
     }
 }

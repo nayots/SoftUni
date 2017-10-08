@@ -1,6 +1,7 @@
 ﻿using MiniServer.Application.Models;
 using MiniServer.Application.Views;
 using MiniServer.Server.Enums;
+using MiniServer.Server.HTTP;
 using MiniServer.Server.HTTP.Contracts;
 using MiniServer.Server.HTTP.Response;
 using System;
@@ -19,7 +20,11 @@ namespace MiniServer.Application.Controllers
 
         public IHttpResponse Index()
         {
-            return new ViewResponse(HttpStatusCode.OK, new HomeIndexView());
+            var response = new ViewResponse(HttpStatusCode.OK, new HomeIndexView());
+
+            response.CookieCollection.Add(new HttpCookie("lang", "en"));
+
+            return response;
         }
 
         public IHttpResponse Image(string imagePath)
@@ -134,7 +139,6 @@ namespace MiniServer.Application.Controllers
 
                 LoginView.emailSent = true;
 
-                //TODO CHECK VALIDITY
                 if (CheckEmail(recipient, subject, message))
                 {
                     LoginView.emailIsValid = true;
@@ -142,6 +146,37 @@ namespace MiniServer.Application.Controllers
             }
 
             return new RedirectResponse("/login");
+        }
+
+        public IHttpResponse GreetingGet(IHttpRequest req)
+        {
+            return new ViewResponse(HttpStatusCode.OK, new GreetingView(req.Session));
+        }
+
+        public IHttpResponse GreetingPost(IHttpRequest req)
+        {
+            if (req.Session.Get("firstName") != null)
+            {
+                if (req.Session.Get("lastName") != null)
+                {
+                    if (req.Session.Get("age") == null)
+                    {
+                        req.Session.Add("age", req.FormData["age"]);
+                    }
+                }
+                else
+                {
+                    string lastNameValue = req.FormData["lastName"];
+                    req.Session.Add("lastName", lastNameValue);
+                }
+            }
+            else
+            {
+                string firstNameValue = req.FormData["firstName"];
+                req.Session.Add("firstName", firstNameValue);
+            }
+
+            return new RedirectResponse("/greeting");
         }
 
         private bool CheckEmail(string recipient, string subject, string message)
@@ -163,6 +198,22 @@ namespace MiniServer.Application.Controllers
         public IHttpResponse LoginGet()
         {
             return new ViewResponse(HttpStatusCode.OK, new LoginView());
+        }
+
+        public IHttpResponse SessionTest(IHttpRequest req)
+        {
+            var session = req.Session;
+
+            const string sessionDateKey = "saved_date";
+
+            if (session.Get(sessionDateKey) == null)
+            {
+                session.Add(sessionDateKey, DateTime.UtcNow);
+            }
+
+            return new ViewResponse(
+                HttpStatusCode.OK,
+                new SessionTestView(session.Get<DateTime>(sessionDateKey)));
         }
     }
 }
