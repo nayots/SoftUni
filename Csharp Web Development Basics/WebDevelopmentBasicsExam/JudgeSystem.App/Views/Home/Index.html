@@ -1,0 +1,22 @@
+﻿<main>
+    <div class="row justify-content-center">
+        <div class="container text-center">
+            <br />
+            <div class="jumbotron">
+                <h1 class="display-3">{{{user-name}}}</h1>
+                <p class="lead">{{{welcome-message}}}</p>
+                <p style="display: {{{userDisplay}}}">
+                    <a class="btn btn-primary btn-lg" href="/contests/all" role="button">Contests</a>
+                    <a class="btn btn-primary btn-lg" href="/submissions/all" role="button">Submissions</a>
+                </p>
+                <hr style="display: {{{line}}}"/>
+                <p style="display: {{{anonymousDisplay}}}">
+                    If you don't have a registration yet, you can register&nbsp;<a href="/users/register" role="button">here</a>
+                </p>
+                <br />
+                    <a style="display: {{{anonymousDisplay}}}" class="btn btn-primary btn-lg" href="/users/login" role="button">Login</a>
+
+            </div>
+        </div>
+    </div>
+</main>
