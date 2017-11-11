@@ -1,0 +1,26 @@
+﻿@model AllCustomersModel
+@{
+    this.ViewData["Title"] = "All Customers";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Birthday</th>
+            <th>Young driver</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model.AllCustomers)
+        {
+            <tr>
+                <td>@customer.Name</td>
+                <td>@customer.Birthday.Value.ToShortDateString()</td>
+                <td>@(customer.IsYoungDriver ? "Yes" : "No")</td>
+                <td><a class="btn btn-warning" asp-controller="Customers" asp-action="Edit" asp-route-id="@customer.Id">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

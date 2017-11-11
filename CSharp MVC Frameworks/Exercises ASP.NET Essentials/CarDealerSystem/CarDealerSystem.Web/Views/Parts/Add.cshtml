@@ -1,0 +1,29 @@
+﻿@model AddPartModel
+@{
+    this.ViewData["Title"] = "Add a part";
+}
+
+<form asp-action="Add" method="post">
+    <label asp-for="@Model.Name"></label>
+    <input asp-for="@Model.Name" />
+    <span asp-validation-for="@Model.Name"></span>
+    <br />
+    <label asp-for="@Model.Price"></label>
+    <input asp-for="@Model.Price" />
+    <span asp-validation-for="@Model.Price"></span>
+    <br />
+    <label asp-for="@Model.Quantity"></label>
+    <input asp-for="@Model.Quantity" />
+    <span asp-validation-for="@Model.Quantity"></span>
+    <br />
+    <label asp-for="@Model.SupplierId"></label>
+    <select asp-for="@Model.SupplierId">
+        @foreach (var supp in Model.Suppliers)
+        {
+            <option value="@supp.Id">@supp.Name</option>
+        }
+    </select>
+    <span asp-validation-for="@Model.SupplierId"></span>
+    <br />
+    <input type="submit" value="Submit" />
+</form>

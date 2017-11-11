@@ -1,0 +1,41 @@
+﻿@model AddSaleModel
+@{
+    this.ViewData["Title"] = "Add sale";
+}
+
+<div class="col-md-8 col-md-offset-2">
+    <form asp-controller="Sales" method="post">
+        <div class="form-group">
+            <label asp-for="@Model.CustomerId"></label>
+            <select asp-for="@Model.CustomerId" class="form-control">
+                @foreach (var cinfo in Model.Customers)
+                {
+                    <option value="@cinfo.Id">@cinfo.Name</option>
+                }
+            </select>
+            <br />
+            <span asp-validation-for="@Model.CustomerId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.CarId"></label>
+            <select asp-for="@Model.CarId" class="form-control">
+                @foreach (var carInfo in Model.Cars)
+                {
+                    <option value="@carInfo.Id">@carInfo.Name</option>
+                }
+            </select>
+            <br />
+            <span asp-validation-for="@Model.CarId" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.Discount"></label>
+            <input asp-for="@Model.Discount" min="0.00" max="100.00" class="form-control" />
+            <br />
+            <span asp-validation-for="@Model.Discount" class="text-danger"></span>
+        </div>
+        <div>
+            <br />
+            <input type="submit" class="btn btn-info" />
+        </div>
+    </form>
+</div>

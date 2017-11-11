@@ -1,0 +1,28 @@
+﻿@model AddCarModel
+@{
+    this.ViewData["Title"] = "Add car";
+}
+
+<form asp-controller="cars" asp-action="add" method="post">
+    <label asp-for="@Model.Make"></label>
+    <input asp-for="@Model.Make" />
+    <span asp-validation-for="@Model.Make"></span>
+    <br />
+    <label asp-for="@Model.Model"></label>
+    <input asp-for="@Model.Model" />
+    <span asp-validation-for="@Model.Model"></span>
+    <br />
+    <label asp-for="@Model.TravelledDistance"></label>
+    <input asp-for="@Model.TravelledDistance" />
+    <span asp-validation-for="@Model.TravelledDistance"></span>
+    <br />
+    <label asp-for="@Model.Parts"></label>
+    <select asp-for="@Model.Parts">
+        @foreach (var part in Model.AvailableParts)
+        {
+            <option value="@part.Id">@part.Name</option>
+        }
+    </select>
+    <br />
+    <input type="submit" value="Add" />
+</form>

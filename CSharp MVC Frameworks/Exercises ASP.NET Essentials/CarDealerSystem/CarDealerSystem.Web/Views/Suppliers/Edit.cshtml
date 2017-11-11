@@ -1,0 +1,19 @@
+﻿@model SupplierModifyModel
+@{
+    this.ViewData["Title"] = "Edit Supplier";
+}
+
+<div class="col-md-4 col-md-offset-4">
+    <form class="form-group" method="post">
+        <input asp-for="@Model.Id" type="hidden" />
+        <label asp-for="@Model.Name"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name"></span>
+        <br />
+        <label asp-for="@Model.Importer"></label>
+        <input asp-for="@Model.Importer" type="checkbox" class="checkbox" />
+        <span asp-validation-for="@Model.Importer"></span>
+        <br />
+        <input type="submit" value="Save" class="btn btn-warning" />
+    </form>
+</div>

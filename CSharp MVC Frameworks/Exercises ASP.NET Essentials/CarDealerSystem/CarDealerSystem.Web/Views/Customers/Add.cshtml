@@ -1,0 +1,16 @@
+﻿@model AddCustomerModel
+@{
+    this.ViewData["Title"] = "Add customer";
+}
+
+<form asp-action="Add" method="post">
+    <label asp-for="@Model.Name"></label>
+    <input asp-for="@Model.Name" />
+    <span asp-validation-for="@Model.Name"></span>
+    <br />
+    <label asp-for="@Model.Birthday"></label>
+    <input asp-for="@Model.Birthday" />
+    <span asp-validation-for="@Model.Birthday"></span>
+    <br />
+    <button type="submit">Add Customer</button>
+</form>

@@ -1,0 +1,18 @@
+﻿@model EditDeletePartModel
+@{
+    this.ViewData["Title"] = "Delete part";
+}
+
+<form asp-controller="Parts" method="post">
+    <input asp-for="@Model.Id" type="hidden" />
+    <label asp-for="@Model.Name"></label>
+    <input asp-for="@Model.Name" disabled />
+    <br />
+    <label asp-for="@Model.Price"></label>
+    <input asp-for="@Model.Price" disabled />
+    <br />
+    <label asp-for="@Model.Quantity"></label>
+    <input asp-for="@Model.Quantity" disabled />
+    <br />
+    <input type="submit" value="Delete" />
+</form>

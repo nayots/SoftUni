@@ -1,0 +1,32 @@
+﻿@model DiscountedSalesModel
+@{
+    this.ViewData["Title"] = "Discounted Sales";
+}
+
+@if ((this.ViewData["Percent"] as double?) > 0)
+{
+    <h2>@this.ViewData["Percent"]% discount</h2>
+}
+else
+{
+    <h2>Discounted sales</h2>
+}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Car Make</th>
+            <th>Car Model</th>
+            <th>Customer Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sale in Model.Sales)
+        {
+            <tr>
+                <td>@sale.CarMake</td>
+                <td>@sale.CarModel</td>
+                <td>@sale.CustomerName</td>
+            </tr>
+        }
+    </tbody>
+</table>

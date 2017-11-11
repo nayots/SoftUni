@@ -1,0 +1,48 @@
+﻿@model AllSuppliersModel
+@{
+    this.ViewData["Title"] = "All suppliers";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <br />
+    <div class="form-group">
+        <a href="/suppliers/add" class="btn-lg btn-info">New Supplier</a>
+    </div>
+    @if (this.TempData.ContainsKey("Success"))
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> @this.TempData["Success"]
+        </div>
+    }
+    @if (this.TempData.ContainsKey("Error"))
+    {
+        <div class="alert alert-danger alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Warning!</strong> @this.TempData["Error"]
+        </div>
+    }
+}
+<br />
+<table class="table-striped table-bordered">
+    <tr>
+        <th><strong>Name</strong></th>
+        <th><strong>Importer</strong></th>
+        <th><strong>Actions</strong></th>
+    </tr>
+    @foreach (var sup in Model.Suppliers)
+    {
+        <tr>
+            <td>@sup.Name</td>
+            <td>@(sup.Importer ? "Yes" : "No")</td>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <td>
+                    <a href="/suppliers/edit/@sup.Id">Edit</a>
+                    <a href="/suppliers/delete/@sup.Id">Delete</a>
+                </td>
+            }
+        </tr>
+    }
+</table>

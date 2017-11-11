@@ -1,0 +1,18 @@
+﻿@model AddSupplierModel
+@{
+    this.ViewData["Title"] = "Add Supplier";
+}
+
+<div class="col-md-4 col-md-offset-4">
+    <form class="form-group" method="post">
+        <label asp-for="@Model.Name"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name"></span>
+        <br />
+        <label asp-for="@Model.Importer"></label>
+        <input asp-for="@Model.Importer" type="checkbox" class="checkbox" />
+        <span asp-validation-for="@Model.Importer"></span>
+        <br />
+        <input type="submit" value="Add" class="btn btn-success" />
+    </form>
+</div>

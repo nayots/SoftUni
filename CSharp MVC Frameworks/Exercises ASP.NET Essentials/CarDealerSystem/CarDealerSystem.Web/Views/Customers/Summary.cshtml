@@ -1,0 +1,7 @@
+﻿@model CustomerSummaryModel
+@{
+    this.ViewData["Title"] = "Customer Summary";
+}
+
+<h2>Customer: @Model.Name</h2>
+<p>Cars bought: @Model.CarsCount, money spent: @Model.MoneySpent.ToString("F2")</p>

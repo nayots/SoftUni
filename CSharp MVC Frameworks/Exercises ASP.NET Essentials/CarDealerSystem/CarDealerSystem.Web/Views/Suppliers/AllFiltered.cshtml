@@ -1,0 +1,24 @@
+﻿@model AllFilteredSuppliersModel
+@{
+    this.ViewData["Title"] = "All Suppliers";
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#Id</th>
+            <th>Name</th>
+            <th>Parts</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var supplier in Model.Suppliers)
+        {
+            <tr>
+                <td>@supplier.Id</td>
+                <td>@supplier.Name</td>
+                <td>@supplier.PartsCount</td>
+            </tr>
+        }
+    </tbody>
+</table>

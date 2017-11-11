@@ -1,0 +1,80 @@
+﻿@model MainLogsViewModel
+@{
+    this.ViewData["Title"] = "Logs";
+}
+<br />
+<div class="form-group row">
+    <form class="form-horizontal">
+        <div class="col-md-3">
+            <input type="text" name="username" placeholder="@this.ViewData["Username"]" class="form-control" />
+        </div>
+
+        <div class="col-md-2">
+            <input type="submit" value="Search Logs" class="form-control" />
+        </div>
+    </form>
+    <form action="Clear" method="post">
+        <div>
+            <input type="hidden" name="username" value="@this.ViewData["Username"]" />
+            <input type="submit" value="Clear Logs" class="btn btn-warning pull-right" />
+        </div>
+    </form>
+</div>
+<div>
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Operation
+            </th>
+            <th>
+                Modified Table
+            </th>
+            <th>
+                Time
+            </th>
+        </tr>
+        @foreach (var log in Model.Logs)
+        {
+            var time = DateTime.SpecifyKind(@log.Time, DateTimeKind.Utc).ToLocalTime();
+
+            <tr>
+                <td>
+                    @log.Username
+                </td>
+                <td>
+                    @log.Operation
+                </td>
+                <td>
+                    @log.Table
+                </td>
+                <td>
+                    @time
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+@if (this.ViewData.ContainsKey("Pagination") && (bool)this.ViewData["Pagination"])
+{
+    var currentPageNumber = (int)this.ViewData["CurrentPage"] <= 0 ? 1 : (int)this.ViewData["CurrentPage"];
+    <div>
+        <div><small>Page @currentPageNumber of @this.ViewData["MaxPages"]</small></div>
+        <ul class="pagination">
+            @for (int i = 0; i < (int)this.ViewData["MaxPages"]; i++)
+            {
+                if ((int)this.ViewData["CurrentPage"] == @i)
+                {
+                    <li class="active"><a href="?page=@i">@(i + 1)</a></li>
+                }
+                else
+                {
+                    <li><a href="?page=@i">@(i + 1)</a></li>
+                }
+            }
+        </ul>
+    </div>
+}

@@ -1,0 +1,42 @@
+﻿@model FinalizeSaleModel
+@{
+    this.ViewData["Title"] = "Review sale";
+}
+
+<div class="col-md-8 col-md-offset-2">
+    <form asp-controller="Sales" asp-action="Finalize">
+        <div class="form-group">
+            <label asp-for="@Model.CustomerId"></label>
+            <input asp-for="@Model.CustomerId" type="hidden" />
+            <input asp-for="@Model.CustomerName" readonly class="form-control" />
+            <br />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.CarId"></label>
+            <input asp-for="@Model.CarId" type="hidden" />
+            <input asp-for="@Model.CarName" readonly class="form-control" />
+            <br />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Discount"></label>
+            <input asp-for="@Model.Discount" type="hidden" />
+            <input value="@Model.Discount % @(Model.IsYoungDriver ? "(+5%)" : string.Empty)" readonly class="form-control" />
+            <br />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.NormalPrice"></label>
+            <input value="@Model.NormalPrice.ToString("F2")" readonly class="form-control" />
+            <br />
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.DiscountPrice"></label>
+            <input value="@Model.DiscountPrice.ToString("F2")" readonly class="form-control" />
+            <br />
+        </div>
+        <div>
+            <br />
+            <a href="/sales/add" class="btn">Cancel</a>
+            <input type="submit" class="btn btn-info" />
+        </div>
+    </form>
+</div>

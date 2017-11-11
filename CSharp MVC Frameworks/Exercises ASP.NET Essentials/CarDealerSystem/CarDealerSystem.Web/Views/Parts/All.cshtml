@@ -1,0 +1,27 @@
+﻿@model AllPartsModel
+@{
+    this.ViewData["Title"] = "All parts";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var part in Model.Parts)
+        {
+            <tr>
+                <td>@part.Name</td>
+                <td>@part.Price.ToString("F2")</td>
+                <td>
+                    <a class="btn btn-warning" asp-controller="Parts" asp-action="Edit" asp-route-id="@part.Id">Edit</a>
+                    <a class="btn btn-danger" asp-controller="Parts" asp-action="Delete" asp-route-id="@part.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,22 @@
+﻿@model AllSalesModel
+@{
+    this.ViewData["Title"] = "All Sales Details";
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Discount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sale in Model.Sales)
+        {
+            <tr>
+                <td>@sale.Id</td>
+                <td>@(sale.Discount * 100)%</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,18 @@
+﻿@model CarWithPartsModel
+@{
+    this.ViewData["Title"] = $"Car and Parts";
+}
+
+<div class="card">
+    <div class="card-block">
+        <h4 class="card-title">Car # @this.ViewData["CarId"]</h4>
+        <p class="card-text">Make: @Model.Make, model: @Model.TravelledDistance, distance: @Model.TravelledDistance</p>
+        <p>Parts:</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach (var part in Model.Parts)
+        {
+            <li class="list-group-item">Name: @part.Name, price: @part.Price</li>
+        }
+    </ul>
+</div>
