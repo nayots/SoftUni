@@ -6,7 +6,7 @@
 <div class="form-group row">
     <form class="form-horizontal">
         <div class="col-md-3">
-            <input type="text" name="username" placeholder="@this.ViewData["Username"]" class="form-control" />
+            <input type="text" name="Search" placeholder="Username" class="form-control" value="@Model.Search" />
         </div>
 
         <div class="col-md-2">
@@ -15,7 +15,7 @@
     </form>
     <form action="Clear" method="post">
         <div>
-            <input type="hidden" name="username" value="@this.ViewData["Username"]" />
+            <input type="hidden" name="Search" value="@Model.Search" />
             <input type="submit" value="Clear Logs" class="btn btn-warning pull-right" />
         </div>
     </form>
@@ -57,22 +57,25 @@
         }
     </table>
 </div>
-
+@{
+    var queryString = Model.Search != null ? $"&search={Model.Search}" : string.Empty;
+}
 @if (this.ViewData.ContainsKey("Pagination") && (bool)this.ViewData["Pagination"])
 {
-    var currentPageNumber = (int)this.ViewData["CurrentPage"] <= 0 ? 1 : (int)this.ViewData["CurrentPage"];
+    var currentPageNumber = (int)this.ViewData["CurrentPage"] <= 0 ? 1 : (int)this.ViewData["CurrentPage"] + 1;
     <div>
         <div><small>Page @currentPageNumber of @this.ViewData["MaxPages"]</small></div>
         <ul class="pagination">
+
             @for (int i = 0; i < (int)this.ViewData["MaxPages"]; i++)
             {
                 if ((int)this.ViewData["CurrentPage"] == @i)
                 {
-                    <li class="active"><a href="?page=@i">@(i + 1)</a></li>
+                    <li class="active"><a href="?page=@i@queryString">@(i + 1)</a></li>
                 }
                 else
                 {
-                    <li><a href="?page=@i">@(i + 1)</a></li>
+                    <li><a href="?page=@i@queryString">@(i + 1)</a></li>
                 }
             }
         </ul>

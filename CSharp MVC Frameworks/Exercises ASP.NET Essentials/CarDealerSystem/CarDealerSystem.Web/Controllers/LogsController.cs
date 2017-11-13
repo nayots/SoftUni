@@ -1,4 +1,5 @@
 ﻿using CarDealerSystem.Services.Contracts;
+using CarDealerSystem.Services.Models.Logs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -8,7 +9,7 @@ namespace CarDealerSystem.Web.Controllers
 {
     public class LogsController : Controller
     {
-        private const int MaxItemsPerPage = 20;
+        private const int MaxItemsPerPage = 3;
         private readonly ISimpleLoggerService simpleLoggerService;
 
         public LogsController(ISimpleLoggerService simpleLoggerService)
@@ -17,35 +18,23 @@ namespace CarDealerSystem.Web.Controllers
         }
 
         [Authorize]
-        public IActionResult All(string username, int page)
+        public IActionResult All(MainLogsViewModel mainLogsViewModel)
         {
-            var model = this.simpleLoggerService.GetLogs(username);
+            mainLogsViewModel.Logs = this.simpleLoggerService.GetLogs(mainLogsViewModel.Search);
 
-            bool enablePagination = model.Logs.Count() > MaxItemsPerPage;
+            bool enablePagination = mainLogsViewModel.Logs.Count() > MaxItemsPerPage;
 
             this.ViewData["Pagination"] = enablePagination;
-            this.ViewData["Username"] = username;
-
-            if (username != null && username.Length > 0)
-            {
-                this.TempData["Username"] = username;
-            }
-            else
-            {
-                if (this.TempData.ContainsKey("Username"))
-                {
-                    username = this.TempData["Username"] as string;
-                    this.TempData["Username"] = username;
-                }
-            }
 
             if (enablePagination)
             {
-                var maxPages = (int)(Math.Ceiling(model.Logs.Count() / (double)MaxItemsPerPage));
+                var page = mainLogsViewModel.Page;
+
+                var maxPages = (int)(Math.Ceiling(mainLogsViewModel.Logs.Count() / (double)MaxItemsPerPage));
                 var currentPage = page < 0 ? 0 : page;
                 currentPage = currentPage > maxPages ? maxPages - 1 : currentPage;
 
-                model.Logs = model.Logs
+                mainLogsViewModel.Logs = mainLogsViewModel.Logs
                     .Skip((currentPage < 0 ? 0 : currentPage) * MaxItemsPerPage)
                     .Take((currentPage == 0 ? 1 : currentPage) * MaxItemsPerPage)
                     .ToList();
@@ -54,21 +43,19 @@ namespace CarDealerSystem.Web.Controllers
                 this.ViewData["CurrentPage"] = currentPage;
             }
 
-            return this.View(model);
+            return this.View(mainLogsViewModel);
         }
 
         [Authorize]
         [HttpPost]
-        public IActionResult Clear(string username)
+        public IActionResult Clear(MainLogsViewModel mainLogsViewModel)
         {
-            if (username is null && this.TempData.ContainsKey("Username"))
-            {
-                username = this.TempData["Username"] as string;
-            }
+            this.simpleLoggerService.ClearLogs(mainLogsViewModel.Search);
 
-            this.simpleLoggerService.ClearLogs(username);
+            mainLogsViewModel.Search = string.Empty;
+            mainLogsViewModel.Page = 0;
 
-            return RedirectToAction(nameof(All), new { username = "", page = 0 });
+            return RedirectToAction(nameof(All), mainLogsViewModel);
         }
     }
 }

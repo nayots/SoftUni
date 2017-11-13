@@ -3,6 +3,7 @@ using CarDealerSystem.Services.Contracts;
 using CarDealerSystem.Services.Models.Logs;
 using CarDealerSystem.Web.Data;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CarDealerSystem.Services
@@ -22,7 +23,7 @@ namespace CarDealerSystem.Services
 
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrWhiteSpace(username))
             {
-                query = query.Where(l => l.Username == username).AsQueryable();
+                query = query.Where(l => l.Username.ToLower() == username.Trim().ToLower()).AsQueryable();
             }
 
             var logs = query.ToList();
@@ -31,27 +32,24 @@ namespace CarDealerSystem.Services
             this.db.SaveChanges();
         }
 
-        public MainLogsViewModel GetLogs(string username)
+        public IEnumerable<LogDetailsModel> GetLogs(string username)
         {
             var query = this.db.Logs.AsQueryable();
 
             if (username != null && !string.IsNullOrWhiteSpace(username))
             {
-                query = query.Where(l => l.Username == username.ToLower()).AsQueryable();
+                query = query.Where(l => l.Username.ToLower() == username.Trim().ToLower()).AsQueryable();
             }
 
-            MainLogsViewModel model = new MainLogsViewModel()
+            IEnumerable<LogDetailsModel> logs = query.Select(l => new LogDetailsModel()
             {
-                Logs = query.Select(l => new LogDetailsModel()
-                {
-                    Username = l.Username,
-                    Operation = l.LogType,
-                    Table = l.Table,
-                    Time = l.Time
-                }).OrderByDescending(l => l.Time).ToList()
-            };
+                Username = l.Username,
+                Operation = l.LogType,
+                Table = l.Table,
+                Time = l.Time
+            }).OrderByDescending(l => l.Time).ToList();
 
-            return model;
+            return logs;
         }
 
         public void LogToDb(string username, LogType operation, string table)

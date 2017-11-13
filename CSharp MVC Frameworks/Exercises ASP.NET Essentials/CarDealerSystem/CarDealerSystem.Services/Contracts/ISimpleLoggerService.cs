@@ -1,5 +1,6 @@
 ﻿using CarDealerSystem.Data.Models;
 using CarDealerSystem.Services.Models.Logs;
+using System.Collections.Generic;
 
 namespace CarDealerSystem.Services.Contracts
 {
@@ -7,7 +8,7 @@ namespace CarDealerSystem.Services.Contracts
     {
         void LogToDb(string username, LogType operation, string table);
 
-        MainLogsViewModel GetLogs(string username);
+        IEnumerable<LogDetailsModel> GetLogs(string username);
 
         void ClearLogs(string username);
     }
