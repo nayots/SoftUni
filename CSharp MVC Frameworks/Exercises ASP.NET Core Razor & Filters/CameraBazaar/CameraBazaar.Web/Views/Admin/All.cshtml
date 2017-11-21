@@ -1,0 +1,20 @@
+﻿@model IEnumerable<UserSellerStatusModel>
+@{
+    this.ViewData["Title"] = "Admin Panel";
+}
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Username</th>
+        <th>Is Banned</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Username</td>
+            <td><input disabled type="checkbox" asp-for="@user.IsBanned" /></td>
+            <td><a asp-action="ChangeStatus" asp-route-username="@user.Username" class="btn btn-default">Change Status</a></td>
+        </tr>
+    }
+</table>

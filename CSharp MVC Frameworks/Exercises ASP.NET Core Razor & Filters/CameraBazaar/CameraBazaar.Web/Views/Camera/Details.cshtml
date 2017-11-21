@@ -1,0 +1,62 @@
+﻿@model CameraFullDetailsModel
+<div class="col-md-12">
+    @{
+        var stockMessage = Model.InStock ? "IN STOCK" : "OUT OF STOCK";
+        var stockStyle = Model.IsFullFrame ? "text-success" : "text-danger";
+    }
+    <h1 class="col-md-12">@($"{Model.Make} {Model.Model} - ${Model.Price.ToString("F2")} - ")<span class="@stockStyle">@stockMessage</span></h1>
+    <h2 class="col-md-12"><a asp-action="Details" asp-controller="Profiles" asp-route-id="@Model.SellerId">@Model.SellerUsername</a></h2>
+    <div class="col-md-3">
+        <img src="@Model.ImgUrl" class="img-responsive" alt="@Model.Model" />
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <label asp-for="@Model.IsFullFrame" class="col-md-3"></label>
+            <div class="col-md-9">
+                @(Model.IsFullFrame ? "Yes" : "No")
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.MinShutterSpeed" class="col-md-3"></label>
+            <div class="col-md-9">
+                @(Model.MinShutterSpeed)"
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.MaxShutterSpeed" class="col-md-3"></label>
+            <div class="col-md-9">
+                @(Model.MaxShutterSpeed)
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.MinISO" class="col-md-3"></label>
+            <div class="col-md-9">
+                @(Model.MinISO)"
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.MaxISO" class="col-md-3"></label>
+            <div class="col-md-9">
+                @(Model.MaxISO)"
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.VideoResolution" class="col-md-3"></label>
+            <div class="col-md-9">
+                @(Model.VideoResolution)
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.LightMetering" class="col-md-3"></label>
+            <div class="col-md-9">
+                @string.Join(", ", Model.LightMetering)
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="@Model.Description" class="col-md-3"></label>
+            <div class="col-md-9">
+                @Model.Description
+            </div>
+        </div>
+    </div>
+</div>

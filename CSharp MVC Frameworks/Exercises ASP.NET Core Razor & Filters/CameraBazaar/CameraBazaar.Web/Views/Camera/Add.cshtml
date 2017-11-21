@@ -1,0 +1,142 @@
+﻿@model AddCameraModel
+@{
+    this.ViewData["Title"] = "Add a camera";
+}
+<h2 class="text-center">Add Camera</h2>
+<div class="col-md-12">
+    <div class="col-md-8 col-md-offset-2">
+        <form method="post" class="form-horizontal">
+            <div class="form-group">
+                <label asp-for="@Model.Make" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <select asp-for="@Model.Make" class="form-control">
+
+                        @{
+                            var hasSelected = Model.Make.HasValue;
+                        }
+                        @foreach (var item in Model.AvailableMakesValues)
+                        {
+                            if (Model.Make.HasValue && (int)Model.Make.Value == item.Value)
+                            {
+                                <option value="@item.Value" selected>@item.Key</option>
+                                hasSelected = true;
+                            }
+                            <option value="@item.Value">@item.Key</option>
+                        }
+                        @if (hasSelected)
+                        {
+                            <option value="" disabled>Chose a make...</option>
+                        }
+                        else
+                        {
+                            <option value="" disabled selected>Chose a make...</option>
+                        }
+                    </select>
+                </div>
+                <span asp-validation-for="@Model.Make" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Model" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.Model" class="form-control" placeholder="D3300" value="@Model.Model" />
+                </div>
+                <span asp-validation-for="@Model.Model" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Price" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.Price" min="0" class="form-control" value="@(Model.Price.GetValueOrDefault())" />
+                </div>
+                <span asp-validation-for="@Model.Price" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Quantity" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.Quantity" min="0" class="form-control" placeholder="0-100" value="@Model.Quantity" />
+                </div>
+                <span asp-validation-for="@Model.Quantity" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MinShutterSpeed" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.MinShutterSpeed" class="form-control" placeholder="1-30s" value="@Model.MinShutterSpeed" />
+                </div>
+                <span asp-validation-for="@Model.MinShutterSpeed" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MaxShutterSPeed" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.MaxShutterSPeed" class="form-control" placeholder="2000-8000" value="@Model.MaxShutterSPeed" />
+                </div>
+                <span asp-validation-for="@Model.MaxShutterSPeed" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MinISO" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.MinISO" class="form-control" placeholder="50-100" value="@Model.MinISO" />
+                </div>
+                <span asp-validation-for="@Model.MinISO" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MaxISO" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.MaxISO" class="form-control" placeholder="200-409600" value="@Model.MaxISO" />
+                </div>
+                <span asp-validation-for="@Model.MaxISO" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.IsFullFrame" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <label>@Html.RadioButtonFor(f => f.IsFullFrame, "true", Model.IsFullFrame) YES</label>
+                    <label>@Html.RadioButtonFor(f => f.IsFullFrame, "false", Model.IsFullFrame) NO</label>
+                </div>
+                <span asp-validation-for="@Model.IsFullFrame" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.VideoResolution" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.VideoResolution" class="form-control" placeholder="1920x1080" value="@Model.VideoResolution" />
+                </div>
+                <span asp-validation-for="@Model.VideoResolution" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.LightMetering" class="col-md-3"></label>
+                <div class="col-md-9">
+                    @{
+                        var test = Model.LightMetering;
+                    }
+                    @foreach (var item in Model.AvailableMeteringValues)
+                    {
+                        if (Model.LightMetering.Any(i => (int)i == item.Value))
+                        {
+                            <input type="checkbox" name="LightMetering" value="@item.Value" checked /> @item.Key
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="LightMetering" value="@item.Value" /> @item.Key
+                        }
+                    }
+                </div>
+                <span asp-validation-for="@Model.LightMetering" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Description" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <textarea asp-for="@Model.Description" class="form-control" placeholder="This camera...">@Model.Description</textarea>
+                </div>
+                <span asp-validation-for="@Model.Description" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.ImageUrl" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input asp-for="@Model.ImageUrl" class="form-control" placeholder="http://mysite.com/myImage.png" value="@Model.ImageUrl" />
+                </div>
+                <span asp-validation-for="@Model.ImageUrl" class="col-md-9 col-md-offset-3 text-danger"></span>
+            </div>
+            <div class="text-right">
+                <input type="submit" value="Add" class="btn btn-info" />
+            </div>
+        </form>
+        <div asp-validation-summary="All" class="col-md-9 col-md-offset-3 text-danger"></div>
+    </div>
+</div>

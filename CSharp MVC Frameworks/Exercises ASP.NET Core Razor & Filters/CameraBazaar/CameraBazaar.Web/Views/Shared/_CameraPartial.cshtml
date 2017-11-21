@@ -1,0 +1,43 @@
+﻿@model CameraShortDetailsModel
+<div class="col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="col-md-2">
+                <img src="@Model.ImageUrl" alt="@Model.Model" class="img-responsive" />
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <h3>@Model.Make/@Model.Model</h3>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <h3>$@Model.Price.ToString("F2")</h3>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <a asp-action="Details" asp-controller="Camera" asp-route-id="@Model.CameraId">Details</a>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        @if (Model.InStock)
+                        {
+                            <span class="text-success"><strong>IN STOCK</strong></span>
+                        }
+                        else
+                        {
+                            <span class="text-danger"><strong>OUT OF STOCK</strong></span>
+                        }
+                    </div>
+                </div>
+            </div>
+            @if (this.User.GetUserId() != null && this.User.GetUserId() == Model.SellerId)
+            {
+                <div class="col-md-2">
+                    <a class="btn btn-info form-control" asp-action="Edit" asp-controller="Camera" asp-route-id="@Model.CameraId">Edit</a>
+                    <br />
+                    <a class="btn btn-warning form-control" asp-action="Delete" asp-controller="Camera" asp-route-id="@Model.CameraId">Delete</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

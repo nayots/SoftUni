@@ -1,0 +1,40 @@
+﻿@model ProfileViewModel
+@{
+    this.ViewData["Title"] = $"{Model.UserDetails.Username}'s profile";
+}
+
+<div class="col-md-12">
+    <h2 class="col-md-12">
+        @Model.UserDetails.Username   @if (this.User.GetUserId() == Model.UserDetails.UserId)
+        {<span><a asp-action="Edit" asp-controller="Profiles" asp-route-id="@this.User.GetUserId()" class="btn btn-info">Edit Profile</a></span>} @if (Model.UserDetails.LastLogin != null)
+        {<span><small>Last login: @Model.UserDetails.LastLogin.Value.ToLocalTime()</small></span> }
+    </h2>
+    <div class="col-md-9">
+        <label class="col-md-1">Email:</label>
+        <div class="col-md-11">@Model.UserDetails.Email</div>
+    </div>
+    <div class="col-md-9">
+        <label class="col-md-1">Phone:</label>
+        <div class="col-md-11">@Model.UserDetails.Phone</div>
+    </div>
+    <div class="col-md-9">
+        <label class="col-md-1">Cameras:</label>
+        <div class="col-md-11">@($"{Model.UserDetails.InStockCameras} in stock/{Model.UserDetails.OutOfStockCameras} out of stock")</div>
+    </div>
+    <h2 class="col-md-12">
+        Cameras:
+    </h2>
+    @if (Model.Cameras.Any())
+    {
+        @foreach (var cam in Model.Cameras)
+        {
+            @Html.Partial("_CameraPartial", cam)
+        }
+    }
+    else
+    {
+        <div class="col-md-12">
+            The user is not selling any cameras. Go to <a asp-controller="Home" asp-action="Index">home page</a> to find more offers of other users.
+        </div>
+    }
+</div>

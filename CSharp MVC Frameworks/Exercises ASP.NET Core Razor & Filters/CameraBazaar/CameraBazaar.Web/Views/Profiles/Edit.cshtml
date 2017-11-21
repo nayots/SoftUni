@@ -1,0 +1,46 @@
+﻿@model EditProfileModel
+
+<div class="col-md-8 col-md-offset-2">
+    <h2 class="col-md-12">Edit Profile</h2>
+    <form class="form-group" method="post">
+        <input asp-for="@Model.UserId" type="hidden" />
+        <div class="col-md-12 form-group">
+            <label asp-for="@Model.Email" class="col-md-3"></label>
+            <div class="col-md-9">
+                <input asp-for="@Model.Email" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="@Model.Email"></span>
+        </div>
+        <div class="col-md-12 form-group">
+            <label asp-for="@Model.Password" class="col-md-3"></label>
+            <div class="col-md-9">
+                <input asp-for="@Model.Password" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="@Model.Password"></span>
+        </div>
+        <div class="col-md-12 form-group">
+            <label asp-for="@Model.Phone" class="col-md-3"></label>
+            <div class="col-md-9">
+                <input asp-for="@Model.Phone" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="@Model.Phone"></span>
+        </div>
+        <div class="col-md-12 form-group">
+            <label asp-for="@Model.CurrentPassword" class="col-md-3"></label>
+            <div class="col-md-9">
+                <input asp-for="@Model.CurrentPassword" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="@Model.CurrentPassword"></span>
+        </div>
+
+        <div class="col-md-12 text-right  form-group">
+            <div class="col-md-9 col-md-offset-3">
+                <a asp-action="Index" asp-controller="Home" class="btn btn-default">Cancel</a>
+                <input type="submit" class="btn btn-info" value="Edit" />
+            </div>
+        </div>
+    </form>
+    <div class="text-center">
+        <span><small>Last login: @Model.LastLogin.Value.ToLocalTime()</small></span>
+    </div>
+</div>

@@ -1,0 +1,120 @@
+﻿@model EditCameraModel
+@{
+    this.ViewData["Title"] = "Add a camera";
+}
+<h2 class="text-center">Add Camera</h2>
+<div class="col-md-12">
+    <div class="col-md-8 col-md-offset-2">
+        <form method="post" asp-action="Destroy" class="form-horizontal">
+            <input asp-for="@Model.CameraId" type="hidden" />
+            <div class="form-group">
+                <label asp-for="@Model.Make" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <select asp-for="@Model.Make" class="form-control">
+
+                        @{
+                            var hasSelected = Model.Make.HasValue;
+                        }
+                        @foreach (var item in Model.AvailableMakesValues)
+                        {
+                            if (Model.Make.HasValue && (int)Model.Make.Value == item.Value)
+                            {
+                                <option disabled value="@item.Value" selected>@item.Key</option>
+                                hasSelected = true;
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Model" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.Model" class="form-control" placeholder="D3300" value="@Model.Model" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Price" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.Price" min="0" class="form-control" value="@(Model.Price.GetValueOrDefault())" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Quantity" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.Quantity" min="0" class="form-control" placeholder="0-100" value="@Model.Quantity" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MinShutterSpeed" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.MinShutterSpeed" class="form-control" placeholder="1-30s" value="@Model.MinShutterSpeed" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MaxShutterSPeed" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.MaxShutterSPeed" class="form-control" placeholder="2000-8000" value="@Model.MaxShutterSPeed" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MinISO" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.MinISO" class="form-control" placeholder="50-100" value="@Model.MinISO" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.MaxISO" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.MaxISO" class="form-control" placeholder="200-409600" value="@Model.MaxISO" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.IsFullFrame" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <label>@Html.RadioButtonFor(f => f.IsFullFrame, "true", new { disabled = "disabled" }) YES</label>
+                    <label>@Html.RadioButtonFor(f => f.IsFullFrame, "false", new { disabled = "disabled" }) NO</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.VideoResolution" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.VideoResolution" class="form-control" placeholder="1920x1080" value="@Model.VideoResolution" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.LightMetering" class="col-md-3"></label>
+                <div class="col-md-9">
+                    @{
+                        var test = Model.LightMetering;
+                    }
+                    @foreach (var item in Model.AvailableMeteringValues)
+                    {
+                        if (Model.LightMetering.Any(i => (int)i == item.Value))
+                        {
+                            <input disabled type="checkbox" name="LightMetering" value="@item.Value" checked /> @item.Key
+                        }
+                        else
+                        {
+                            <input disabled type="checkbox" name="LightMetering" value="@item.Value" /> @item.Key
+                        }
+                    }
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Description" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <textarea readonly asp-for="@Model.Description" class="form-control" placeholder="This camera...">@Model.Description</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.ImageUrl" class="col-md-3"></label>
+                <div class="col-md-9">
+                    <input readonly asp-for="@Model.ImageUrl" class="form-control" placeholder="http://mysite.com/myImage.png" value="@Model.ImageUrl" />
+                </div>
+            </div>
+            <div class="text-right">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+        </form>
+    </div>
+</div>
