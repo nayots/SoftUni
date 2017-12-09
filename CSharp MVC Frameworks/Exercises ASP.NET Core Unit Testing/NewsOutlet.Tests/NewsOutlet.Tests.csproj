@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="FluentAssertions" Version="5.0.0-beta0004" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="Moq" Version="4.8.0-rc1" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewsOutlet.Common\NewsOutlet.Common.csproj" />
+    <ProjectReference Include="..\NewsOutlet.Data.Models\NewsOutlet.Data.Models.csproj" />
+    <ProjectReference Include="..\NewsOutlet.Data\NewsOutlet.Data.csproj" />
+    <ProjectReference Include="..\NewsOutlet.Services\NewsOutlet.Services.csproj" />
+    <ProjectReference Include="..\NewsOutlet.Web\NewsOutlet.Web.csproj" />
+  </ItemGroup>
+
+</Project>

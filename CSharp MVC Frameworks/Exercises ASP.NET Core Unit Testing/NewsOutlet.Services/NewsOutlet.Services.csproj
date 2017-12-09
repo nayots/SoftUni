@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewsOutlet.Common\NewsOutlet.Common.csproj" />
+    <ProjectReference Include="..\NewsOutlet.Data.Models\NewsOutlet.Data.Models.csproj" />
+    <ProjectReference Include="..\NewsOutlet.Data\NewsOutlet.Data.csproj" />
+  </ItemGroup>
+
+</Project>

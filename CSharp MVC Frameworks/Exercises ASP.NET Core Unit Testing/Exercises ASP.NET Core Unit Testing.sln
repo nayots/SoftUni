@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsOutlet.Web", "NewsOutlet.Web\NewsOutlet.Web.csproj", "{371BED88-52B2-4C7D-9DBE-97A3646078F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsOutlet.Data", "NewsOutlet.Data\NewsOutlet.Data.csproj", "{B5EC5767-5FA7-421C-8DF4-1D2DCC35D424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsOutlet.Data.Models", "NewsOutlet.Data.Models\NewsOutlet.Data.Models.csproj", "{C0082A66-A75E-4D58-B485-5306D4778694}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsOutlet.Services", "NewsOutlet.Services\NewsOutlet.Services.csproj", "{8CBE8C3B-7082-4C44-BE56-625138006CDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsOutlet.Common", "NewsOutlet.Common\NewsOutlet.Common.csproj", "{EED16E87-68C5-4D46-B262-1EBCC005645E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsOutlet.Tests", "NewsOutlet.Tests\NewsOutlet.Tests.csproj", "{B3586971-1380-44ED-81FC-9AE31E0CB9FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{371BED88-52B2-4C7D-9DBE-97A3646078F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371BED88-52B2-4C7D-9DBE-97A3646078F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371BED88-52B2-4C7D-9DBE-97A3646078F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371BED88-52B2-4C7D-9DBE-97A3646078F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EC5767-5FA7-421C-8DF4-1D2DCC35D424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EC5767-5FA7-421C-8DF4-1D2DCC35D424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EC5767-5FA7-421C-8DF4-1D2DCC35D424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EC5767-5FA7-421C-8DF4-1D2DCC35D424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0082A66-A75E-4D58-B485-5306D4778694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0082A66-A75E-4D58-B485-5306D4778694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0082A66-A75E-4D58-B485-5306D4778694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0082A66-A75E-4D58-B485-5306D4778694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBE8C3B-7082-4C44-BE56-625138006CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBE8C3B-7082-4C44-BE56-625138006CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBE8C3B-7082-4C44-BE56-625138006CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBE8C3B-7082-4C44-BE56-625138006CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED16E87-68C5-4D46-B262-1EBCC005645E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED16E87-68C5-4D46-B262-1EBCC005645E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED16E87-68C5-4D46-B262-1EBCC005645E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED16E87-68C5-4D46-B262-1EBCC005645E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3586971-1380-44ED-81FC-9AE31E0CB9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3586971-1380-44ED-81FC-9AE31E0CB9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3586971-1380-44ED-81FC-9AE31E0CB9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3586971-1380-44ED-81FC-9AE31E0CB9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A59C62-D1D6-411C-BA7E-629ACA5CD178}
+	EndGlobalSection
+EndGlobal
