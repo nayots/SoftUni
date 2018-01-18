@@ -2,7 +2,7 @@ function primerChecker(n) {
     let primeCheck = true;
     if (n === 0 || n === 1)
     {
-        primeCheck === false;
+        primeCheck = false;
     }
     else
     {
@@ -11,12 +11,13 @@ function primerChecker(n) {
             if (n % i === 0)
             {
                 primeCheck = false;
+                break;
             }
         }
-        console.log(primeCheck);
     }
+    console.log(primeCheck && (n > 0));
 }
 
-// primerChecker(7);
+primerChecker(0);
 // primerChecker(8);
 // primerChecker(81);

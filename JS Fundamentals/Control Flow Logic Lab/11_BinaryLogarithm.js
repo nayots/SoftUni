@@ -5,11 +5,11 @@ function binaryLogarithm(numbers) {
     }
 
     function calculateAndPrint(n) {
-        let z = 2;
-        let x = n;
-        let y = Math.log(x)/Math.log(z);
-        y = ((Math.round(y*1000000))/1000000);
-        console.log(y);
+        // let z = 2;
+        // let x = n;
+        // let y = Math.log(x)/Math.log(z);
+        // y = ((Math.round(y*1000000))/1000000);
+        console.log(Math.log2(n));
     }
 }
 
