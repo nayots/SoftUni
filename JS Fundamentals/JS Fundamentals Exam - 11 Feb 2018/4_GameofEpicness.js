@@ -57,7 +57,6 @@ function solve(kingdomsData, battleData) {
         }
 
         return a[0].localeCompare(b[0]);
-        console.log();
     });
 
     console.log(`Winner: ${results[0][0]}`);
