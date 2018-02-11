@@ -38,8 +38,6 @@ function solve(kingdomsData, battleData) {
                 generalStatsB.army = parseInt((generalStatsB.army * 1.1));
                 generalStatsB.wins += 1;
                 generalStatsA.loses += 1;
-            } else {
-
             }
         }
     });
