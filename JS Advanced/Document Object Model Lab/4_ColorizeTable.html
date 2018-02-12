@@ -1,0 +1,34 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Town</th>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Sofia</td>
+    </tr>
+    <tr>
+        <td>Nick</td>
+        <td>Varna</td>
+    </tr>
+    <tr>
+        <td>Didi</td>
+        <td>Ruse</td>
+    </tr>
+    <tr>
+        <td>Tedy</td>
+        <td>Varna</td>
+    </tr>
+</table>
+<button onclick="colorize()">Colorize</button>
+<script>
+    function colorize() {
+        let rows = document.querySelectorAll("table tr");
+        for (let i = 0; i < rows.length; i++) {
+            let element = rows[i];
+            if ((i + 1) % 2 === 0) {
+                element.style.backgroundColor = "Teal";
+            }
+        }
+    }
+</script>
