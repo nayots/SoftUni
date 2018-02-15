@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Focus</title>
+    <style>
+        .error {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body onload="validate()">
+    <label for="email">Enter email:</label>
+    <input id="email" type="text" />
+    <script>
+        function validate() {
+            document.querySelector('input')
+                .addEventListener('change', onChange);
+            let regex = /^([\w\-.]+)@([a-z]+)(\.[a-z]+)+$/;
+
+            function onChange(event) {
+                if (!regex.test(event.target.value))
+                    event.target.className = 'error';
+                else
+                    event.target.removeAttribute('class');
+            }
+        }
+    </script>
+</body>
+
+</html>

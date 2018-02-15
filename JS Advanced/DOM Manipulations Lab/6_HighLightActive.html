@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Focus</title>
+    <style>
+        div {
+            width: 470px;
+        }
+
+        div div {
+            text-align: center;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 15px;
+            border: 1px solid #999;
+        }
+
+        .focused {
+            background: #999999;
+        }
+    </style>
+</head>
+
+<body onload="focus()">
+    <div>
+        <div>
+            <h1>Section 1</h1>
+            <input type="text" />
+        </div>
+        <div>
+            <h1>Section 2</h1>
+            <input type="text" />
+        </div>
+        <div>
+            <h1>Section 3</h1>
+            <input type="text" />
+        </div>
+        <div>
+            <h1>Section 4</h1>
+            <input type="text" />
+        </div>
+    </div>
+    <script>
+        function focus() {
+            let inputs = document.getElementsByTagName('input');
+            Array.from(inputs).forEach(i => {
+                i.addEventListener('focus', (event) => {
+                    event.target.parentNode.className = 'focused';
+                });
+                i.addEventListener('blur', (event) => {
+                    event.target.parentNode.removeAttribute('class');
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
