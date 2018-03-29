@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .country:hover {
+            color: rgb(24, 78, 196);
+            text-shadow: 1px;
+            cursor: pointer;
+            font-style: italic
+        }
+
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            padding: 10px;
+            border: 1px solid #888;
+            width: 30%;
+            text-align: center;
+            /* Could be more or less, depending on screen size */
+        }
+
+        #towns {
+            width: 100%;
+        }
+
+        #countryId {
+            display: none;
+        }
+
+        .newCountryFiels {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .newCountryFiels input {
+            border-radius: 10px;
+            height: 25px;
+            font-size: 18px;
+        }
+
+        .newCountryFiels button {
+            border-radius: 10px;
+            height: 30px;
+        }
+
+        #countries {
+            width: 100%;
+        }
+
+        #countries tr {
+            background-color: #AAAAAA;
+            padding: 5vh;
+            font-size: 1.5vw;
+            text-align: center;
+        }
+
+        #countries tr:nth-child(odd) {
+            background-color: #808080;
+        }
+
+        #countries tr:first-child {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 2vw;
+        }
+
+        #countries tr th {
+            padding: 1vw;
+        }
+
+        #countries tr td {
+            padding: 1vw;
+            transition: font-size 0.2s;
+        }
+
+        #countries tr:not(:first-child):hover {
+            background-color: #F0F8FF;
+            color: #000000;
+            font-size: 2.25vw;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/scripts/5_Countries.js"></script>
+</head>
+
+<body>
+    <div class="newCountryFiels">
+        <label for="newCountry">Country</label>
+        <input id="newCountry" placeholder="Country name" />
+        <button id="addCountryBtn">Add</button>
+    </div>
+    <table id="countries">
+        <tr>
+            <th>Name</th>
+        </tr>
+    </table>
+
+    <div id="countryModal" class="modal">
+        <div class="modal-content">
+            <h4>Country Info</h4>
+            <input id="countryId" />
+            <label for="countryName">Country</label>
+            <input id="countryName" />
+            <button id="updateCountry">Update</button>
+            <button id="deleteCountry">Delete</button>
+            <button id="closeCountryView">Close</button>
+            <hr>
+            <h4>Towns Info</h4>
+            <table id="towns">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Actions</th>
+                </tr>
+            </table>
+            <fieldset>
+                <input id="newTown" />
+                <button id="addTown">Add</button>
+            </fieldset>
+        </div>
+    </div>
+    <script>
+        attachEvents();
+    </script>
+</body>
+
+</html>
