@@ -1,0 +1,23 @@
+{{> header}}
+<section id="all-receipt-view">
+    <h1>All Receipts</h1>
+    <div class="table">
+        <div class="table-head">
+            <div class="col wide">Creation Date</div>
+            <div class="col wide">Items</div>
+            <div class="col">Total</div>
+            <div class="col">Actions</div>
+        </div>
+        {{#each receipts}}
+        <div class="row">
+            <div class="col wide">{{created}}</div>
+            <div class="col wide">{{productCount}}</div>
+            <div class="col">{{total}}</div>
+            <div class="col">
+                <a href="#/receipts/details/{{_id}}">Details</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>
+{{> footer}}
