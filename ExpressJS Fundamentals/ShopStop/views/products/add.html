@@ -19,7 +19,7 @@
     </nav>
   </header>
   <main>
-    <form class="form center-form" method="post">
+    <form class="form center-form" method="post" enctype="multipart/form-data">
       <div class="form-group">
         <label for="name">Name</label>
         <input id="name" name="name" type="text" class="input-field" />
@@ -27,16 +27,16 @@
 
       <div class="form-group">
         <label for="description">Description</label>
-        <textarea id="description" name="description" type="text"           class="input-field"></textarea>
+        <textarea id="description" name="description" type="text" class="input-field"></textarea>
       </div>
       <div class="form-group">
         <label for="price">Price</label>
-        <input id="price" name="price" type="number" step="0.01"           class="input-field" />
+        <input id="price" name="price" type="number" step="0.01" class="input-field" />
       </div>
 
       <div class="form-group">
         <label for="image">Image</label>
-        <input id="image" name="image" type="text" class="input-field" />
+        <input id="image" name="image" type="file" class="input-field" accept=".png, .jpg, .jpeg" />
       </div>
 
       <div class="form-group">
