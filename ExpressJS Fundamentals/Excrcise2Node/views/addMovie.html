@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css" />
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <nav>
+                <a href="/" class="logo"><img class="logo" src="/public/images/nodeLogo.png" alt="nodeLogo"></a>
+                <input type="checkbox" id="nav" /><label for="nav"></label>
+                <ul>
+                    <li><a href="/addMovie">Add Movie</a></li>
+                    <li><a href="/viewAllMovies">View All Movies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Add New Movie</h1>
+    <div class="container">
+        <form action="/addMovie" method="POST" enctype="multipart/form-data">
+            <label for="movieTitle">Title</label>
+            <input type="text" id="movieTitle" name="movieTitle" placeholder="The title of the movie">
+
+            <label for="movieYear">Year</label>
+            <input type="text" id="movieYear" name="movieYear" placeholder="Year of release">
+
+            <label for="moviePoster">Poster URL</label>
+            <input type="text" id="moviePoster" name="moviePoster" placeholder="Link to a poster">
+
+            <label for="movieDescription">Movie description</label>
+            <textarea id="movieDescription" name="movieDescription" placeholder="Movie description" rows="10" cols="10"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <div id="replaceMe">{{replaceMe}}</div>
+</body>
+
+</html>
