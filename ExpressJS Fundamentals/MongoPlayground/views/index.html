@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/public/css/css.css">
+    
+</head>
+
+<body>
+    <a href="/"><h1>Hello to your MongoDB playground</h1></a>
+    <div id='success/error'></div>
+    <form action="/generateTag" method="post">
+        <fieldset>
+            <legend>Add new tag:</legend>
+            Tag name:<br>
+            <input type="text" name="tagName" value="Your tag"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <form action="/addImage" method="post">
+        <fieldset>
+            <legend>Add new Image:</legend>
+            Image url:<br>
+            <input type="text" name="imageUrl" value="Your URL">
+            <br>Title:<br>
+            <input type="text" name="imageTitle" value="Title"><br> Description:
+            <br>
+            <input type="text" name="description" value="Description"><br> Tags:
+            <br>
+            <input type="text" id='tagField' name="tags" value="" readonly><br><br>
+            <input type="text" id='tagsId' style='display:none' name="tagsID" >
+            <input type="submit" value="Submit">
+            <br><br>
+    </form>
+    <div class='replaceMe'></div>
+    </fieldset>
+
+    <form action="/search" >
+        <fieldset>
+            <legend>Search:</legend>
+            Tag name:<br>
+            <input type="text" name="tagName" value="Write tags separted by ,"><br> Posted after:<br>
+            <input type="date" name="afterDate"><br> Posted before:<br>
+            <input type="date" name="beforeDate"><br>
+            Limit:<br>
+            <input type="text" name="Limit"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <script src="public/js/home.js"></script>
+</body>
+
+</html>

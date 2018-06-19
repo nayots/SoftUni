@@ -1,0 +1,10 @@
+extends ../layout.pug
+
+block content
+  form.form.center-form(method='post', id="add-category-form")
+    h2 Add Category
+    .form-group
+      label(for='name') Name
+      input#name.input-field(name='name', type='text')
+    .form-group
+      input.form-btn.btn(type='submit', value='Add', id="add-category-btn")

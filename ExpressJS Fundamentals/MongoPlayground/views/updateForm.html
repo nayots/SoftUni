@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <form action="/updateImg" method="post">
+        <fieldset>
+            <legend>Add new Image:</legend>
+            Image url:<br>
+            <input type="text" name="imageUrl" value="Your URLF">
+            <br>Title:<br>
+            <input type="text" name="imageTitle" value="TitleF"><br> Description:
+            <br>
+            <input type="text" name="description" value="DescriptionF"><br> Tags:
+            <br>
+            <input type="text" id='tagField' name="tags" value=""><br><br>
+            <input type="text" id='tagsId' style='display:none' name="tagsID" value="tagsF">
+            <input type="submit" value="Submit">
+            <br><br>
+    </form>
+    <div class='replaceMe'></div>
+    </fieldset>
+</body>
+
+
+<script>
+    let tagElements = document.querySelectorAll('.tag')
+    let tagField = document.querySelector('#tagField')
+    let tagsId = document.querySelector('#tagsId')
+
+    for(let t of tagElements){
+       t.addEventListener('click',function(){
+           tagField.value+= this.innerText+','
+           tagsId.value += this.getAttribute('id')+','
+       })
+   }
+</script>
+</html>

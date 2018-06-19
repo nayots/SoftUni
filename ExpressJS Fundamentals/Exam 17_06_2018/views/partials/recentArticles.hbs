@@ -1,0 +1,10 @@
+<section id="recent">
+    <h2>Recently added articles</h2>
+    <ul>
+        {{#each latestEntries}}
+            <li>
+                <a href="/article/details/{{id}}">{{title}}</a>
+            </li>
+        {{/each}}
+    </ul>
+</section>

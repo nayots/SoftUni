@@ -1,0 +1,27 @@
+{
+  "name": "expressExam",
+  "version": "0.0.1",
+  "description": "Express Exam",
+  "main": "index.js",
+  "keywords": [
+    "exam",
+    "system"
+  ],
+  "author": "LV",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.3.3",
+    "body-parser": "1.17.2",
+    "cookie-parser": "1.4.3",
+    "express": "4.15.3",
+    "express-handlebars": "3.0.0",
+    "express-session": "1.15.3",
+    "mongoose": "4.10.4",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.9.1"
+  }
+}

@@ -1,0 +1,21 @@
+<div class="spacer">
+    <h2>{{title}}
+        <div class="controls">
+            {{#if currentUser}}
+                {{#if notHistoryView}}
+                    {{#if locked}}
+                        {{#if isAdmin}}
+                            <a href="/article/edit/{{_id}}">[edit]</a>
+                        {{/if}}
+                    {{else}}
+                        <a href="/article/edit/{{_id}}">[edit]</a>
+                    {{/if}}
+                    <a href="/article/history/{{_id}}">[history]</a>
+                {{/if}}
+            {{/if}}
+        </div>
+    </h2>
+    <article>
+        {{{content}}}
+    </article>
+</div>

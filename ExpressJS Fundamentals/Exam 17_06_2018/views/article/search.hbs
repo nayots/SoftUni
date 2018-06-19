@@ -1,0 +1,12 @@
+<section>
+    <h2>Search results for: "{{queryTerm}}"</h2>
+    <div class="spacer">
+        <ul>
+            {{#each searchResults}}
+                {{> articleLink}}
+            {{else}}
+            <h2>No results :(</h2>
+            {{/each}}
+        </ul>
+    </div>
+</section>

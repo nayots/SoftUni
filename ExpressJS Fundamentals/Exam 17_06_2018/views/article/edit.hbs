@@ -1,0 +1,23 @@
+<section>
+    <h2>Edit article
+        <div class="controls">
+            {{#if isAdmin}}
+                {{#if locked}}
+                    <a href="/article/unlock/{{_id}}">Unlock article</a>
+                {{else}}
+                    <a href="/article/lock/{{_id}}">Lock article</a>
+                {{/if}}
+            {{/if}}
+        </div>
+    </h2>
+    <div class="spacer">
+        <form action="/article/edit" method="POST">
+            <input style="display:none" name="articleId" value="{{_id}}">
+            <label>Article title</label>
+            <h3>{{title}}</h3>
+            <label>Content</label>
+            <textarea name="content" required>{{{content}}}</textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>

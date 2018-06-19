@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "registry:npm/express#4.14.0+20170217205433",
     "mongodb": "registry:npm/mongodb#2.1.0+20170211100415"
   }
 }
