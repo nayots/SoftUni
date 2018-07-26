@@ -1,0 +1,66 @@
+body {
+  background-color: #222;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+.container section {
+    margin: 10px 0;
+    position: relative;
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+    height: 240px;
+    display: flex;
+}
+
+#slider > .image-container {
+    flex-grow: 10;
+    height:230px;
+    text-align: center;
+}
+
+img {
+    height: 100%;
+}
+
+.roster-image-container {
+    flex-grow: 1;
+    text-align: center;
+    padding: 1px;
+}
+
+.button {
+    flex-grow: 1;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#bio .image {
+    flex-grow: 1;
+}
+
+#bio .info {
+    flex-grow: 2;
+    padding: 10px 30px;
+}
+#bio .info p:last-child {
+    text-indent: 20px;
+}
+
+

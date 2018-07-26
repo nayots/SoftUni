@@ -1,0 +1,24 @@
+.warper{
+    display: inline-block;
+    position: relative;
+  }
+  
+  .warper .sliderImg{
+    max-height: 400px;
+  }
+  
+  .warper .slider-button{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width: 150px;
+    height: 150px;
+  }
+  
+  .warper .case-left {
+    left: 0;
+  }
+  .warper .case-right {
+    right: 0;
+  }
+  
