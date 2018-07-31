@@ -16,6 +16,7 @@ export class MoviesService {
   bestDrama = `discover/movie?with_genres=18&sort_by=vote_average.desc&vote_count.gte=10`;
   kidsPopular = `discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc`;
   movie = `movie/`;
+  search = `search/movie?&query=`;
   authentication = "&api_key=";
   authenticationForMovie = "?api_key=";
   constructor(private http: HttpClient) {
@@ -39,5 +40,9 @@ export class MoviesService {
 
   public getMovie(id: string) {
     return this.http.get(this.path + this.movie + id + this.authenticationForMovie + apiKey);
+  }
+
+  public findAMovide(searchQuery: string) {
+    return this.http.get(this.path + this.search + searchQuery + this.authentication + apiKey);
   }
 }

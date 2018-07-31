@@ -11,7 +11,18 @@ export class MoviesComponent implements OnInit {
   private theaters: any;
   private kidsPopular: any;
   private bestDrama: any;
+  private searchResults: any;
   constructor(private moviesService: MoviesService) { }
+
+  search(searchQuery) {
+    const searchTerm = searchQuery.search;
+    if (searchTerm) {
+      this.moviesService.findAMovide(searchTerm).subscribe(data => {
+        this.searchResults = data;
+        console.log(this.searchResults);
+      });
+    }
+  }
 
   ngOnInit() {
     this.moviesService.getPopular().subscribe(data => {

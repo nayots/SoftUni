@@ -1,0 +1,40 @@
+<h1>Registration Form</h1>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  Value: {{registerForm.value | json}} Valid: {{registerForm.status | json}}
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" id="username" formControlName="username" required>
+    <div class="alert alert-danger" *ngIf="username.errors?.pattern">Username must start with a capital letter and must contain only letters and digits.</div>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" formControlName="password" required>
+    <div class="alert alert-danger" *ngIf="password.errors?.pattern">Password must contain only letters and digits and must be between 4 and 16 symbols.</div>
+  </div>
+  <div class="form-group">
+    <label for="confirmPassword">Confirm Password</label>
+    <input type="password" class="form-control" id="confirmPassword" formControlName="confirmPassword" required>
+    <div class="alert alert-danger" *ngIf="confirmPassword.errors?.MatchPassword">Passwords don't match</div>
+  </div>
+  <div class="form-group">
+    <label for="firstName">First Name</label>
+    <input type="text" class="form-control" id="firstName" formControlName="firstName" required>
+    <div class="alert alert-danger" *ngIf="firstName.errors?.pattern">First Name must contain only letters and start with a capital letter.</div>
+  </div>
+  <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input type="text" class="form-control" id="lastName" formControlName="lastName" required>
+    <div class="alert alert-danger" *ngIf="lastName.errors?.pattern">Last Name must contain only letters and start with a capital letter.</div>
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="text" class="form-control" id="email" formControlName="email" required>
+    <div class="alert alert-danger" *ngIf="email.errors?.pattern">A valid email is required.</div>
+  </div>
+  <div class="form-group">
+    <label for="age">Age</label>
+    <input type="number" class="form-control" id="age" formControlName="age">
+  </div>
+
+  <button type="submit" [disabled]="registerForm.invalid" class="btn btn-success">Register</button>
+</form>

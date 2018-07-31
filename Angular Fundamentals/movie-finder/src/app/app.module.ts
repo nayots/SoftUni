@@ -1,8 +1,8 @@
-import { RouterModule } from "@angular/router";
 import { MoviesService } from "./service/movies.service";
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './movies/movies.component';
@@ -18,7 +18,8 @@ import { AppRoutes } from "./app.routing";
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutes
+    AppRoutes,
+    FormsModule
   ],
   providers: [MoviesService],
   bootstrap: [AppComponent]
