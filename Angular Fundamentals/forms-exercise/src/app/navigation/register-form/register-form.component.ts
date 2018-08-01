@@ -2,6 +2,8 @@ import { PasswordValidation } from "./../../../customValidation/passwordValidati
 import { RegisterModel } from "./../../../models/registerModel";
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
+import { AuthenticationService } from "../../authentication/authentication.service";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-register-form",
@@ -11,8 +13,13 @@ import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 export class RegisterFormComponent implements OnInit {
   private registerFormModel: RegisterModel;
   private registerForm: FormGroup;
+  private errorMessage: string;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(
+    private fb: FormBuilder,
+    private auth: AuthenticationService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
     this.registerForm = this.fb.group(
@@ -33,6 +40,30 @@ export class RegisterFormComponent implements OnInit {
 
   onSubmit() {
     console.log(this.registerForm);
+    this.registerFormModel = new RegisterModel(
+      this.username.value,
+      this.password.value,
+      this.firstName.value,
+      this.lastName.value,
+      this.email.value,
+      this.age.value
+    );
+    this.auth.register(this.registerFormModel).subscribe(
+      data => {
+        this.successfulRegister(data);
+      },
+      error => {
+        console.log(error);
+        this.errorMessage = error.description || error.message;
+      }
+    );
+  }
+
+  private successfulRegister(data) {
+    this.auth.authtoken = data["_kmd"]["authtoken"];
+    localStorage.setItem("authtoken", data["_kmd"]["authtoken"]);
+    localStorage.setItem("username", data["username"]);
+    this.router.navigate(["/"]);
   }
 
   get username() {
@@ -57,5 +88,9 @@ export class RegisterFormComponent implements OnInit {
 
   get email() {
     return this.registerForm.get("email");
+  }
+
+  get age() {
+    return this.registerForm.get("age");
   }
 }
