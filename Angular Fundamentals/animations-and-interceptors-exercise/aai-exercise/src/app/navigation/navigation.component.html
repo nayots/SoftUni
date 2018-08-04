@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" routerLink="/home">Furniture Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li *ngIf="!authService.isAuthenticated()" class="nav-item">
+        <a class="nav-link" routerLink="/signin">Sign In</a>
+      </li>
+      <li *ngIf="!authService.isAuthenticated()" class="nav-item">
+        <a class="nav-link" routerLink="/signup">Sign Up</a>
+      </li>
+      <li *ngIf="authService.isAuthenticated()" class="nav-item">
+        <a class="nav-link" (click)="logout()">Logout</a>
+      </li>
+      <li (click)="expand()" [class]="dropdownLi">
+        <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
+        <div [class]="dropdownMenu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" routerLink="/furniture/all">All Furniture</a>
+          <a class="dropdown-item" routerLink="/furniture/my">My Furniture</a>
+          <a class="dropdown-item" routerLink="/furniture/create">Create</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,51 @@
+<div class="row space-top">
+  <div class="col-md-12">
+    <h1>Create New Furniture</h1>
+    <p>Please fill all fields.</p>
+  </div>
+</div>
+Value: {{createForm.value | json}}
+<br> Status: {{createForm.status | json}}
+<form [formGroup]="createForm" (ngSubmit)="onSubmit()">
+  <div class="row space-top">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label class="form-control-label" for="new-make">Make</label>
+        <input class="form-control" id="new-make" type="text" formControlName="make">
+        <div class="alert alert-danger" *ngIf="make.errors?.minlength || (make.invalid && make.touched)">Make must be at least 4 symbols.</div>
+      </div>
+      <div class="form-group has-success">
+        <label class="form-control-label" for="new-model">Model</label>
+        <input class="form-control is-valid" id="new-model" type="text" formControlName="model">
+        <div class="alert alert-danger" *ngIf="model.errors?.minlength || (model.invalid && model.touched)">Model must be at least 4 symbols.</div>
+      </div>
+      <div class="form-group has-danger">
+        <label class="form-control-label" for="new-year">Year</label>
+        <input class="form-control is-invalid" id="new-year" type="number" formControlName="year">
+        <div class="alert alert-danger" *ngIf="year.errors?.min ||  year.errors?.max ||(year.invalid && year.touched)">Year must be between 1950-2050.</div>
+      </div>
+      <div class="form-group">
+        <label class="form-control-label" for="new-description">Description</label>
+        <input class="form-control" id="new-description" type="text" formControlName="description">
+        <div class="alert alert-danger" *ngIf="description.errors?.minlength || (description.invalid && description.touched)">Description must be at least 10 symbols.</div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label class="form-control-label" for="new-price">Price</label>
+        <input class="form-control" id="new-price" type="number" formControlName="price">
+        <div class="alert alert-danger" *ngIf="price.errors?.min || (price.invalid && price.touched)">Price must be above 0.</div>
+      </div>
+      <div class="form-group">
+        <label class="form-control-label" for="new-image">Image</label>
+        <input class="form-control" id="new-image" type="text" formControlName="imageUrl">
+        <div class="alert alert-danger" *ngIf="imageUrl.errors?.required && imageUrl.touched">A image url is required.</div>
+      </div>
+      <div class="form-group">
+        <label class="form-control-label" for="new-material">Material (optional)</label>
+        <input class="form-control" id="new-material" type="text" formControlName="material">
+      </div>
+      <input type="submit" [disabled]="createForm.invalid" class="btn btn-primary" value="Create" />
+    </div>
+  </div>
+</form>

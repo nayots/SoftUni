@@ -1,0 +1,24 @@
+<div class="row space-top">
+  <div class="col-md-12">
+    <h1>Profile Page</h1>
+    <p>Listing your furniture.</p>
+  </div>
+</div>
+<div class="row space-top" *ngIf="userFurnitures">
+  <div class="col-md-4" *ngFor="let furn of userFurnitures">
+    <div class="card text-white bg-primary">userFurnitures
+      <div class="card-body">
+        <blockquote class="card-blockquote">
+          <img src="{{furn.image}}" class="listingImage" />
+          <p>{{furn.description}}</p>
+          <footer>{{furn.make}}
+            <cite title="Source Title">{{furn.model}}</cite>
+          </footer>
+          <div class="pull-right">
+            <a routerLink="/furniture/details/{{furn.id}}" class="btn btn-info">Details</a>
+            <a (click)="onDelete(furn.id)" class="btn btn-danger">Delete Item</a>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </div>

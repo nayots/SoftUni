@@ -1,0 +1,32 @@
+<div class="container">
+  <h1>Sign In</h1>
+  <form (ngSubmit)="signIn()" #loginForm="ngForm">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" class="form-control" id="email" 
+      required
+      email
+      [(ngModel)]="model.email"
+      #email="ngModel"
+      name="email">
+
+      <div [hidden]="email.valid || email.pristine" class="alert alert-dark">
+        Please provide a correct email address
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" 
+      required
+      [(ngModel)]="model.password"
+      #password="ngModel"
+      name="password"
+      minlength="4">
+
+      <div [hidden]="password.valid || password.pristine" class="alert alert-dark">
+        Password must have at least 4 characters
+      </div>
+    </div>
+    <button type="submit" class="btn btn-dark" [disabled]="loginForm.form.invalid">Sign In</button>
+  </form>
+</div>
